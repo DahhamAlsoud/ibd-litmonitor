@@ -1,29 +1,5 @@
-# ── Secrets & credentials ────────────────────────────────────────────────────
-.Renviron
-.env
-*.key
-*.pem
+# This public repo contains only the rendered docs/ output.
+# Source code lives in a separate private repository.
 
-# ── R runtime artefacts ───────────────────────────────────────────────────────
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
-
-# ── Cache — regenerated on every run by GitHub Actions ───────────────────────
-data_cache/
-
-# ── Quarto build artefacts ────────────────────────────────────────────────────
-/.quarto/
-*_files/
-
-# ── Shiny dashboard (local dev only, not used by GH Actions or Pages) ─────────
-dashboard/
-
-# ── renv (optional reproducibility layer, not required for GH Actions) ────────
-renv/
-renv.lock
-
-# ── OS junk ───────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
