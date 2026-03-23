@@ -1,12 +1,15 @@
-/* IBD LitMonitor — Stanford-inspired color palette */
-/* Primary: Cardinal #8C1515 | Dark: #2e2d29 | Sand: #d2c295 | Fog: #f4f4f4 */
+/* IBD LitMonitor — Stanford color palette (verified from aimi.stanford.edu) */
+/* Cardinal #8C1515 | Bright Cardinal #B1040E | Black #2e2d29 | Link blue #006CB8 */
 
 :root {
-  --brand-primary:   #8C1515;   /* Stanford Cardinal */
+  --brand-primary:   #8C1515;   /* Stanford Cardinal (brand bar) */
+  --brand-hover:     #B1040E;   /* Stanford Bright Cardinal (hover/active) */
   --brand-dark:      #2e2d29;   /* Stanford Black */
   --brand-light:     #f9f6f6;   /* Warm off-white */
+  --brand-fog:       #f4f4f4;   /* Stanford Fog */
   --brand-sand:      #d2c295;   /* Stanford Sandstone */
   --brand-secondary: #175E54;   /* Stanford Palo Alto (teal) */
+  --brand-link:      #006CB8;   /* AIMI link blue */
   --text-dark:       #2e2d29;
   --text-muted:      #6b6b6b;
 }
@@ -75,7 +78,7 @@ a {
 }
 
 a:hover {
-  color: #5a0f0f;
+  color: var(--brand-hover);
 }
 
 /* Buttons */
@@ -85,8 +88,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #5a0f0f;
-  border-color: #5a0f0f;
+  background-color: var(--brand-hover);
+  border-color: var(--brand-hover);
 }
 
 /* DataTables download buttons */
@@ -101,7 +104,7 @@ a:hover {
 }
 
 .dt-button:hover {
-  background: #5a0f0f !important;
+  background: var(--brand-hover) !important;
 }
 
 /* Category filters */
@@ -153,8 +156,128 @@ a:hover {
   display: none;
 }
 
+/* ── Dashboard filter bar ──────────────────────────────────────────────── */
+
+.ibd-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+  background: var(--brand-fog);
+  border: 1px solid #e0ddd8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 18px;
+}
+
+.ibd-filter-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.ibd-filter-group.ibd-filter-dates {
+  min-width: 260px;
+}
+
+.ibd-filter-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.ibd-filter-select {
+  height: 36px;
+  padding: 4px 10px;
+  border: 1px solid #c8c4be;
+  border-radius: 5px;
+  background: white;
+  font-size: 0.88rem;
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.ibd-filter-select:focus,
+.ibd-filter-select:hover {
+  border-color: var(--brand-primary);
+  outline: none;
+}
+
+.ibd-date-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ibd-filter-date {
+  height: 36px;
+  padding: 4px 8px;
+  border: 1px solid #c8c4be;
+  border-radius: 5px;
+  background: white;
+  font-size: 0.86rem;
+  color: var(--text-dark);
+  width: 130px;
+  transition: border-color 0.15s;
+}
+
+.ibd-filter-date:focus,
+.ibd-filter-date:hover {
+  border-color: var(--brand-primary);
+  outline: none;
+}
+
+.ibd-date-sep {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.ibd-flagship-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  color: var(--text-dark);
+  cursor: pointer;
+  height: 36px;
+}
+
+.ibd-flagship-label input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--brand-primary);
+  cursor: pointer;
+}
+
+.ibd-clear-btn {
+  height: 36px;
+  padding: 0 16px;
+  background: white;
+  border: 1px solid #c8c4be;
+  border-radius: 5px;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.ibd-clear-btn:hover {
+  border-color: var(--brand-hover);
+  color: var(--brand-hover);
+  background: #fff5f5;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .paper-card { padding: 1rem; }
   .stat-number { font-size: 2rem; }
+  .ibd-filter-bar { flex-direction: column; }
+  .ibd-filter-group { min-width: 100%; }
+  .ibd-filter-date { width: 100%; }
 }

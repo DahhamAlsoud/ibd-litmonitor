@@ -319,14 +319,7 @@
     "href": "dashboard.html",
     "title": "Interactive Dashboard",
     "section": "",
-    "text": "Search, filter, and sort all IBD papers from the past 30 days. Click any column header to sort; use the filter boxes under each header to narrow by category, journal, or keyword. Downloads include PMID and PubMed URL for every paper."
-  },
-  {
-    "objectID": "dashboard.html#explore-filter-papers",
-    "href": "dashboard.html#explore-filter-papers",
-    "title": "Interactive Dashboard",
-    "section": "",
-    "text": "Search, filter, and sort all IBD papers from the past 30 days. Click any column header to sort; use the filter boxes under each header to narrow by category, journal, or keyword. Downloads include PMID and PubMed URL for every paper."
+    "text": "606 papers from the past 30 days — search, filter, and download below."
   },
   {
     "objectID": "dashboard.html#papers-by-category",
