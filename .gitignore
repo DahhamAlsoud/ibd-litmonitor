@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Cache — regenerated on each run
+data_cache/
+
+# Quarto
+/.quarto/
+*_files/
+
+# Environment / secrets
+.Renviron
+.env
+
+# OS
+.DS_Store
+Thumbs.db

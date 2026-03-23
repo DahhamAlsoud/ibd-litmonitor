@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "IBD LitMonitor"
+  site-url: "https://dahhamalsoud.github.io/ibd-litmonitor"
+  description: "Systematic literature monitoring for IBD researchers"
+  
+  navbar:
+    background: "#8b3a1e"
+    foreground: "#ffffff"
+    title: "IBD LitMonitor"
+    left:
+      - text: "Latest Report"
+        href: index.qmd
+      - text: "Archive"
+        href: archive.qmd
+      - text: "Interactive Dashboard"
+        href: dashboard.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: rss
+        href: rss.xml
+        text: "Subscribe"
+      - icon: github
+        href: https://github.com/dahhamalsoud
+        text: "GitHub"
+  
+  page-footer:
+    center: |
+      Created by **Dahham Alsoud** | © 2026
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: false
+    page-layout: full

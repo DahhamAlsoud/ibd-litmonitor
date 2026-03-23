@@ -1,0 +1,41 @@
+---
+title: "About IBD LitMonitor"
+---
+
+## What is IBD LitMonitor?
+
+IBD LitMonitor provides comprehensive weekly coverage of IBD literature, organized by clinical subfield so you can quickly find what's relevant to your work.
+
+---
+
+## Why Not Just Use PubMed Alerts?
+
+PubMed alerts are a reasonable starting point, but they have a key limitation: they give you a flat, unsorted list. If you set up an alert for "inflammatory bowel disease," every matching paper arrives in the same inbox pile — therapeutics next to epidemiology next to basic science — and you still have to read through everything to find what's relevant to your work.
+
+IBD LitMonitor takes a different approach. Instead of delivering a raw feed, it organizes papers into clinical subfields so you can go straight to the domain you care about — therapeutics, biomarkers, pediatric IBD, surgery, microbiome — and skip the rest. Each category is collapsible, so browsing the week's literature takes minutes rather than a lengthy inbox triage.
+
+It also handles the query design for you. Comprehensive IBD coverage requires searching across multiple drug classes, imaging modalities, study types, and patient populations. IBD LitMonitor maintains that search strategy and runs it weekly so you don't have to.
+
+---
+
+## How It Works
+
+**Weekly Process (Every Friday):**
+
+1. Search PubMed (27 queries across 11 domains)
+2. Deduplicate results
+3. Categorize into clinical subfields
+4. Sort by publication date (newest first within each category)
+5. Publish updated website and RSS feed
+
+---
+
+## About the Creator
+
+**Dahham Alsoud**
+
+---
+
+## Citation
+
+> Alsoud D. (2026). IBD LitMonitor: Systematic literature monitoring for inflammatory bowel disease research. https://dahhamalsoud.github.io/ibd-litmonitor
