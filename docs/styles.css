@@ -1,11 +1,14 @@
-/* IBD LitMonitor Custom Styles */
+/* IBD LitMonitor — Stanford-inspired color palette */
+/* Primary: Cardinal #8C1515 | Dark: #2e2d29 | Sand: #d2c295 | Fog: #f4f4f4 */
 
 :root {
-  --brand-primary: #8b3a1e;
-  --brand-secondary: #2c5f7c;
-  --brand-accent: #e8927c;
-  --text-dark: #2c3e50;
-  --text-light: #7f8c8d;
+  --brand-primary:   #8C1515;   /* Stanford Cardinal */
+  --brand-dark:      #2e2d29;   /* Stanford Black */
+  --brand-light:     #f9f6f6;   /* Warm off-white */
+  --brand-sand:      #d2c295;   /* Stanford Sandstone */
+  --brand-secondary: #175E54;   /* Stanford Palo Alto (teal) */
+  --text-dark:       #2e2d29;
+  --text-muted:      #6b6b6b;
 }
 
 /* Navbar */
@@ -17,89 +20,18 @@
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
-/* Paper Cards */
-.paper-card {
-  background: white;
-  border-left: 4px solid var(--brand-primary);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
-
-.paper-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
-
-.paper-title {
-  color: var(--text-dark);
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.paper-meta {
-  color: var(--text-light);
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
-
-.paper-journal {
-  font-style: italic;
-  color: var(--brand-secondary);
-}
-
-.badge-q1 {
-  background-color: #27ae60;
-  color: white;
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-
-.badge-rct {
-  background-color: var(--brand-primary);
-  color: white;
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  margin-left: 0.5rem;
-}
-
-.score-badge {
-  background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.9rem;
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
-/* Buttons */
-.btn-primary {
-  background-color: var(--brand-primary);
-  border-color: var(--brand-primary);
-}
-
-.btn-primary:hover {
-  background-color: #6d2e17;
-  border-color: #6d2e17;
-}
-
-/* Stats boxes */
+/* Stat boxes */
 .stat-box {
-  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  background: linear-gradient(135deg, var(--brand-primary) 0%, #5a0f0f 100%);
   color: white;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 10px;
   text-align: center;
   margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(140, 21, 21, 0.2);
 }
 
 .stat-number {
@@ -109,27 +41,78 @@
 }
 
 .stat-label {
-  font-size: 1rem;
+  font-size: 0.95rem;
   opacity: 0.9;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Paper expand cards */
+.paper-card {
+  background: white;
+  border-left: 4px solid var(--brand-primary);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.paper-card:hover {
+  box-shadow: 0 3px 12px rgba(140, 21, 21, 0.12);
+}
+
+/* Abstract panels */
+details > div {
+  border-left-color: var(--brand-primary) !important;
+  background: var(--brand-light) !important;
+}
+
+/* Links */
+a {
+  color: var(--brand-primary);
+}
+
+a:hover {
+  color: #5a0f0f;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.btn-primary:hover {
+  background-color: #5a0f0f;
+  border-color: #5a0f0f;
+}
+
+/* DataTables download buttons */
+.dt-button {
+  background: var(--brand-primary) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  padding: 5px 14px !important;
+  margin-right: 6px !important;
+}
+
+.dt-button:hover {
+  background: #5a0f0f !important;
 }
 
 /* Category filters */
-.category-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-}
-
 .category-btn {
   background: white;
   border: 2px solid var(--brand-primary);
   color: var(--brand-primary);
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   border-radius: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .category-btn:hover,
@@ -140,33 +123,38 @@
 
 /* Footer */
 .page-footer {
-  background-color: #f8f9fa;
+  background-color: var(--brand-light);
   padding: 2rem 0;
   margin-top: 4rem;
-  border-top: 3px solid var(--brand-primary);
+  border-top: 3px solid var(--brand-sand);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .paper-card {
-    padding: 1rem;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
-  }
+/* Callout accent */
+.callout-note {
+  border-left-color: var(--brand-primary) !important;
 }
 
-/* Hide code by default */
+.callout-tip {
+  border-left-color: var(--brand-secondary) !important;
+}
+
+/* Badges */
+.badge-rct {
+  background-color: var(--brand-primary);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+}
+
+/* Hide code blocks */
 .cell-code {
   display: none;
 }
 
-/* Shiny iframe */
-.shiny-app-frame {
-  width: 100%;
-  height: 800px;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+/* Responsive */
+@media (max-width: 768px) {
+  .paper-card { padding: 1rem; }
+  .stat-number { font-size: 2rem; }
 }
