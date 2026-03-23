@@ -1,20 +1,29 @@
-# R
+# ── Secrets & credentials ────────────────────────────────────────────────────
+.Renviron
+.env
+*.key
+*.pem
+
+# ── R runtime artefacts ───────────────────────────────────────────────────────
 .Rhistory
 .RData
-.Rproj.user
+.Rproj.user/
 *.Rproj
 
-# Cache — regenerated on each run
+# ── Cache — regenerated on every run by GitHub Actions ───────────────────────
 data_cache/
 
-# Quarto
+# ── Quarto build artefacts ────────────────────────────────────────────────────
 /.quarto/
 *_files/
 
-# Environment / secrets
-.Renviron
-.env
+# ── Shiny dashboard (local dev only, not used by GH Actions or Pages) ─────────
+dashboard/
 
-# OS
+# ── renv (optional reproducibility layer, not required for GH Actions) ────────
+renv/
+renv.lock
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db

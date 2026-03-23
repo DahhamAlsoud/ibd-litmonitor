@@ -22,17 +22,17 @@ It also handles the query design for you. Comprehensive IBD coverage requires se
 
 **Weekly Process (Every Friday):**
 
-1. Search PubMed (27 queries across 11 domains)
-2. Deduplicate results
-3. Categorize into clinical subfields
+1. Search PubMed (47 queries across 17 categories)
+2. Deduplicate results by PMID
+3. Categorize into clinical subfields using keyword scoring
 4. Sort by publication date (newest first within each category)
-5. Publish updated website and RSS feed
+5. Publish updated website, RSS feed, and per-category RSS feeds
 
 ---
 
 ## About the Creator
 
-**Dahham Alsoud**
+**[Dahham Alsoud](https://github.com/dahhamalsoud)**
 
 ---
 
