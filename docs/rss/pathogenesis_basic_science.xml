@@ -1,73 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor — Pathogenesis & Basic Science</title>
+    <title>IBD LitMonitor - Pathogenesis & Basic Science</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Weekly IBD literature: Pathogenesis & Basic Science</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Mechanistic insights into nicardipine's anti-colitic action: inhibition of pro-inflammatory cytokines, attenuation of oxidative stress, and protection of the mucosal barrier.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41860738/</link>
-  <description><![CDATA[Molecular biology reports — Ulcerative colitis (UC) is a chronic inflammatory bowel disease characterized by excessive immune activation and oxidative stress. UC is characterized by elevated inflammatory cytokine levels. Nica...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Molecular biology reports - Ulcerative colitis (UC) is a chronic inflammatory bowel disease characterized by excessive immune activation and oxidative stress. UC is characterized by elevated inflammatory cytokine levels. Nica...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[Mechanistic Study of HDAC6 Regulation of Iron Death in Ulcerative Colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41857350/</link>
-  <description><![CDATA[Biological trace element research — ]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Biological trace element research - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[Loss of Pum2 exacerbates colitis by disrupting macrophage-epithelial crosstalk and promoting epithelial necroptosis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41856997/</link>
-  <description><![CDATA[Cell death discovery — Ulcerative colitis (UC) is a chronic, relapsing inflammatory disorder characterized by persistent mucosal immune activation and compromised epithelial barrier function. In this study, we identify t...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Cell death discovery - Ulcerative colitis (UC) is a chronic, relapsing inflammatory disorder characterized by persistent mucosal immune activation and compromised epithelial barrier function. In this study, we identify t...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[The cGAS-STING signaling pathway mediates pyroptosis in colonic epithelial cells and accelerates the progression of CAC.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41864258/</link>
-  <description><![CDATA[Experimental cell research — Colitis-associated cancer (CAC) is a minor subtype of CRC, accounting for 2% of CRC cases. It is also one of the most common and severe complications in patients with chronic IBD. The exact pathoge...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Experimental cell research - Colitis-associated cancer (CAC) is a minor subtype of CRC, accounting for 2% of CRC cases. It is also one of the most common and severe complications in patients with chronic IBD. The exact pathoge...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[Dauricine ameliorates intestinal inflammation and oxidative stress in DSS-induced colitis through TLR4/NLRP3/GSDMD-mediated pyroptosis and Nrf2 pathway.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41854860/</link>
-  <description><![CDATA[Naunyn-Schmiedeberg's archives of pharmacology — Dauricine (DAU), a natural bisbenzyltetrahydroisoquinoline alkaloid extracted from the medicinal herb Menispermi rhizoma, has therapeutic potential in ulcerative colitis (UC). This investigation wa...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Naunyn-Schmiedeberg's archives of pharmacology - Dauricine (DAU), a natural bisbenzyltetrahydroisoquinoline alkaloid extracted from the medicinal herb Menispermi rhizoma, has therapeutic potential in ulcerative colitis (UC). This investigation wa...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[Polysaccharides from edible macroalgae: their extraction, purification, and therapeutic potentials in inflammation and oxidative stress-related diseases.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41849247/</link>
-  <description><![CDATA[Critical reviews in food science and nutrition — Review - Chronic inflammation and oxidative stress are two interconnected biological processes, which have critical roles in onset or pathogenesis of diverse health disorders, such as rheumatoid arthritis, ...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Critical reviews in food science and nutrition - Review - Chronic inflammation and oxidative stress are two interconnected biological processes, which have critical roles in onset or pathogenesis of diverse health disorders, such as rheumatoid arthritis, ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Epi-Berberine Alleviates Ulcerative Colitis, Protects the Intestinal Mucosal Barrier, and Inhibits Colonic Inflammation via Glutaminyl-Peptide Cyclotransferase in a Mouse Model of DSS-Induced Colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41816944/</link>
+  <description><![CDATA[Phytotherapy research : PTR - The global incidence of ulcerative colitis (UC), a chronic inflammatory bowel disease, is rising. Epi-berberine (EPI), an alkaloid from Coptidis Rhizoma, shows potential for UC treatment. This stud...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Investigate sodium orthovanadate molecular mechanisms in diabetes-aggravated ulcerative colitis, focusing on Nrf2/Keap1 antioxidant and NF-κB/IL-6 inflammatory pathways.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41817858/</link>
+  <description><![CDATA[Journal of molecular histology - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Constructing a protein-protein interaction network for autoimmune liver diseases by integrating pQTL, rQTL, and mediation analyses.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41814035/</link>
+  <description><![CDATA[Naunyn-Schmiedeberg's archives of pharmacology - Autoimmune liver diseases (AILDs), including primary biliary cholangitis (PBC), primary sclerosing cholangitis (PSC), and autoimmune hepatitis (AIH), pose significant diagnostic and therapeutic cha...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Electroacupuncture Attenuates Colitis in Mice Through Activation of Vagus Cholinergic Antiinflammatory Pathways.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41847427/</link>
+  <description><![CDATA[Journal of inflammation research - Colitis impairs life quality, and treatments are limited. Acupuncture may engage vagal anti-inflammatory pathways, but the precise circuits are unclear. This study aimed to examine the effects of e...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Effects of black garlic on acetic acid-induced ulcerative colitis model in rats.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41844021/</link>
+  <description><![CDATA[Tissue & cell - This study aimed to evaluate the effectiveness of black garlic in an acute experimental colitis model induced by 5% acetic acid. Twenty-one Sprague Dawley rats, weighing between 250 and 300 g, were...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[6-Shogaol ameliorates experimental colitis and colitis-associated colorectal cancer in mice through the Nrf2-Keap1 signaling pathway.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41825712/</link>
+  <description><![CDATA[European journal of pharmacology - The progression from ulcerative colitis to colitis-associated colorectal cancer (CAC) represents a significant clinical challenge. 6-Shogaol, a bioactive phenolic compound of ginger, exhibits anti-...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Synthetic Antibody Mimetics with ROS-Gated Saccharide Release for Targeted Colitis Therapy.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41804655/</link>
+  <description><![CDATA[Advanced healthcare materials - Conventional targeted therapies for inflammatory bowel disease (IBD) often rely on unstable biological recognition elements. While molecularly imprinted polymers (MIP) offer robust synthetic altern...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Optimized hookworm-derived biologic, AIP-2NTQ48 restores mucosal tolerance and down-regulates colon cancer-associated gene expression in TNBS-induced colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41806940/</link>
+  <description><![CDATA[Mucosal immunology - The development of treatments for ulcerative colitis (UC) has seen significant advancements over recent years, focusing on new drugs, innovative approaches, and a deeper understanding of the diseas...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Mechanistic study of swertiamarin in treating ulcerative colitis by regulating YAP-mediated Wnt and Notch pathways for intestinal stem cell repair.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41806558/</link>
+  <description><![CDATA[Molecular immunology - Ulcerative colitis (UC) is a chronic immune-mediated inflammatory disease. In 2024, the American Gastroenterological Association updated its guidelines for UC patients, shifting the treatment goal ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[A Proposed Standardized Scoring Equation for Murine Models of Colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41795744/</link>
+  <description><![CDATA[Digestive diseases and sciences - Within the inflammatory bowel disease (IBD) research community, histological scoring of colitis is an important grading system to determine colitis severity in pre-clinical mouse models of IBD. How...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Suramin directly targets PI3K to alleviate experimental colitis by restoring intestinal barrier and activating autophagy.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41795370/</link>
+  <description><![CDATA[Biochemical and biophysical research communications - Ulcerative colitis (UC) is a chronic inflammatory gastrointestinal disorder marked by a compromised intestinal epithelial barrier and deficient autophagic activity. Suramin, a known antiparasitic m...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[CD73 Blockade Aggravate Dextran-Sodium-Sulfate-Induced Colitis via Down Regulating Inosine.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41809767/</link>
+  <description><![CDATA[Journal of inflammation research - CD73, a pivotal enzyme in the purinergic signaling cascade, modulates the concentrations of adenosine and inosine. These metabolites are involved in immune responses and inflammatory processes. Thi...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Anti-inflammatory effects of oridonin on an in vitro model using LPS-treated human intestinal Caco-2 cells.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41858762/</link>
+  <description><![CDATA[Experimental and therapeutic medicine - Oridonin (Ori) attenuates dextran sulfate sodium-induced ulcerative colitis (UC) in mice, and its underlying mechanism involves the sirtuin 1 (SIRT1)/NF-κB/p53 pathway. In the present study, lipopo...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Bridging the gap: Prevotella/Segatella's impact on gut barrier function and advanced cultivation strategies to realize the uses in gut health.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41771790/</link>
+  <description><![CDATA[Gut microbes - Review - Prevotella and Segatella are important, keystone genera in the gut microbiota, renowned for their exceptional fiber-degrading capacity. These genera critically modulate gut microbial composition, i...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[The Porcine Colitis Model Recapitulates the Visceral Adipose Metabolic Reprogramming of Human Ulcerative Colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41790436/</link>
-  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology — Adipose tissue dysfunction is integral to the pathophysiology of ulcerative colitis (UC), yet the conservation of adipose immunometabolic responses across species remains unclear. Here, we employed...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - Adipose tissue dysfunction is integral to the pathophysiology of ulcerative colitis (UC), yet the conservation of adipose immunometabolic responses across species remains unclear. Here, we employed...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Atractylodis Rhizoma-Atractylodis Macrocephala Rhizoma herbal pair restores intestinal mucosal barrier function in ulcerative colitis via activating Epac1/Rap1 pathway and inhibiting PI3K/AKT pathway.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41781119/</link>
+  <description><![CDATA[Chinese journal of natural medicines - Ulcerative colitis (UC) is a persistent, diffuse intestinal inflammation and ranks among the most challenging chronic diseases worldwide. Atractylodes lancea (Thunb.) DC. and Atractylodis macroceph...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[When phages fuel gut inflammation.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41819083/</link>
+  <description><![CDATA[Cell host & microbe - Inflammatory bowel disease is associated with the gut microbiome, with many of its mechanistic underpinnings yet to be unraveled. In this issue of Cell Host & Microbe, Wen and colleagues show that ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Oleic Acid Promotes Treg Cell Differentiation via Autophagy Induction and Ameliorates DSS-Induced Colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41830088/</link>
+  <description><![CDATA[European journal of immunology - Oleic acid (OA), a monounsaturated fatty acid (FA) prevalent in olive oil and key component of Mediterranean diet, exhibits anti-inflammatory effects in ulcerative colitis (UC), but its immunomodul...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
   <title><![CDATA[Regional and Sex-Dependent Immune Profiling Across the Colon in A Mouse Model of Ulcerative Colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41757736/</link>
-  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology — Ulcerative colitis (UC), an incurable inflammatory bowel disease, is characterized by a dysregulated immune system leading to mucosal damage along the large intestine. Sex-related differences in im...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - Ulcerative colitis (UC), an incurable inflammatory bowel disease, is characterized by a dysregulated immune system leading to mucosal damage along the large intestine. Sex-related differences in im...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 <item>
-  <title><![CDATA[Surface charge behavior of mezalazine-loaded chitosan-alginate nanoparticles in a 3D multi-layered intestinal in vitro model.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41611433/</link>
-  <description><![CDATA[Carbohydrate polymers — Inflammatory bowel diseases (IBD) are chronic conditions characterized by inflammation in the gastrointestinal tract (GIT), primarily the colon, requiring targeted and effective drug delivery syste...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[The Role of Autophagy in Inflammatory Diseases: Challenges and Therapeutic Potential.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41500505/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Review - Autophagy is a crucial cellular process involved in the degradation of cytoplasmic components through lysosomal machinery. It is essential for maintaining cellular homeostasis and responding to var...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Polysaccharides From Bombax ceiba Flower by Deep Eutectic Solvent Based Three-Phase Partitioning and Their Protective Effects Against DSS-Induced Colitis in Mice.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41804295/</link>
+  <description><![CDATA[Chemistry & biodiversity - A deep eutectic solvent (DES)-based three-phase partitioning (TPP) was developed for efficient and green extraction of Bombax ceiba flower polysaccharide (BCFP). DES-1 (lauric acid and decanoic aci...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Therapeutic Potential of Ruberythric Acid in Intestinal Inflammation and Barrier Function Reduction.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41815196/</link>
+  <description><![CDATA[Preventive nutrition and food science - Inflammatory bowel disease (IBD), characterized by chronic inflammation of the gastrointestinal tract, which results from pathogen-activated inflammatory mechanisms, and is increasingly prevalent w...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Amomum tsaoko extract from Nujiang alleviates DSS-induced colitis through inhibiting necroptosis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41836293/</link>
+  <description><![CDATA[Frontiers in cell and developmental biology - Necroptosis, a form of programmed cell death, plays a significant role in compromising the intestinal barrier and initiating intestinal inflammation. An analysis of data from the Gene Expression Om...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Exploring the Treatment of Cinnamomum Cassia Leaf Extract in Ulcerative Colitis: Network Pharmacology and In Vitro Investigations.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41829736/</link>
+  <description><![CDATA[Plants (Basel, Switzerland) - Cinnamomum cassia essential oil production generates substantial waste, and the therapeutic potential of non-volatile constituents from cinnamomum cassia leaves in ulcerative colitis (UC) has not b...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Gut inflammation affects retinal fatty acid composition.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41759572/</link>
+  <description><![CDATA[Experimental eye research - Inflammation and altered lipid metabolism - particularly bioavailability of polyunsaturated fatty acids of the omega-3 series (n-3 PUFAs) - are associated with age-related macular degeneration (AMD...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Human DNA levels in feces reflect gut inflammation and associate with presence of gut species in IBD patients across the age spectrum.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41742321/</link>
+  <description><![CDATA[Microbiome - Feces represent a complex biological matrix that provides valuable information about intestinal physiology and gut microbial activity. Comprehensive fecal DNA sequencing is mostly utilized as a non...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Novel Method to Target Apical Periodontitis Worsened by Inflammatory Bowel Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41733186/</link>
+  <description><![CDATA[Journal of dental research - Patients with inflammatory bowel disease (IBD) have a higher prevalence of apical periodontitis (AP), which is often associated with accelerated jawbone destruction. However, the mechanisms underly...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[LvID-BDP: A Conotoxin-Based Fluorescent Probe for Visualizing α7 nAChR Expression in Intestinal Inflammation.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41731686/</link>
+  <description><![CDATA[Journal of medicinal chemistry - The α7 nicotinic acetylcholine receptor (α7 nAChR) modulates neuroimmune signaling but remains poorly characterized in peripheral disease due to a lack of visualization tools. We developed the fluo...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Engineering carboxymethyl chitosan/dialdehyde starch hydrogel as a therapeutic platform for immuno-microbial modulation in ulcerative colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41722795/</link>
+  <description><![CDATA[International journal of biological macromolecules - Ulcerative colitis (UC) is a chronic inflammatory bowel disorder characterized by mucosal barrier disruption, dysregulated immune activation, and microbial dysbiosis. However, current therapies are...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Betanin ameliorates dextran sulfate sodium-induced colitis in mice by modulating tight junction protein expression.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41732419/</link>
+  <description><![CDATA[Biochemistry and biophysics reports - The incidence of inflammatory bowel disease (IBD), a chronic inflammatory condition of the gastrointestinal tract characterized by a progressive and unpredictable disease course, has been increasin...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pathogenesis & Basic Science</category>
+</item>
+<item>
+  <title><![CDATA[Aucubin Restores Intestinal Mucosal Immunity and Barrier Integrity in Experimental Colitis via the Microbiota-SCFAs-GPR41/GPR43 Axis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41677424/</link>
+  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - BackgroundInflammatory bowel disease (IBD) pathogenesis involves immune dysfunction and gut microbiota dysbiosis. Aucubin (AU), a naturally occurring iridoid glycoside known for its ability to alle...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pathogenesis & Basic Science</category>
 </item>
 

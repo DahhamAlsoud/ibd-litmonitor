@@ -1,31 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor — Epidemiology & Outcomes</title>
+    <title>IBD LitMonitor - Epidemiology & Outcomes</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Weekly IBD literature: Epidemiology & Outcomes</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Letter: Incremental Value and Outcome Modelling in Frailty Assessment for Older Patients With Inflammatory Bowel Disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41856915/</link>
-  <description><![CDATA[Alimentary pharmacology & therapeutics — Letter - ]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Letter - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology & Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Disparities in Access to Gastrointestinal Care in the United States.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41849127/</link>
-  <description><![CDATA[Digestive diseases and sciences — Review - Disparities in gastrointestinal (GI) care in the United States represent a major health burden, with GI diseases accounting for approximately $135 billion annually in direct medical expenditures. A...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Digestive diseases and sciences - Review - Disparities in gastrointestinal (GI) care in the United States represent a major health burden, with GI diseases accounting for approximately $135 billion annually in direct medical expenditures. A...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology & Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Ulcerative colitis, frailty, and beyond.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41849263/</link>
-  <description><![CDATA[Expert review of gastroenterology & hepatology — Review - Frailty is a geriatric construct that is increasingly pertinent to patients with ulcerative colitis (UC). Understanding how frailty and UC interact will be imperative to incorporating frailty into ...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Expert review of gastroenterology & hepatology - Review - Frailty is a geriatric construct that is increasingly pertinent to patients with ulcerative colitis (UC). Understanding how frailty and UC interact will be imperative to incorporating frailty into ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Tumor Necrosis Factor Alpha Inhibitors Reduce Staged Surgery Rate and Prevent Postoperative Endoscopic Recurrence in Crohn's Disease Patients.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41816975/</link>
+  <description><![CDATA[Diseases of the colon and rectum - The impact of preoperative tumor necrosis factor inhibitors on surgical outcomes in Crohn's disease remains controversial, while postoperative tumor necrosis factor inhibitors are known to prevent ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Is Clostridioides difficile superinfection a major causative factor for acute flares associated with moderate to severe ulcerative colitis in northern India?]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41820719/</link>
+  <description><![CDATA[Indian journal of gastroenterology : official journal of the Indian Society of Gastroenterology - The natural history of ulcerative colitis is characterized by the occurrence of recurrent flares. Flares in ulcerative colitis may be attributed to the natural history of the disease or other extra...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence and clinical impact of latent tuberculosis infection in patients with inflammatory bowel disease in Japan: a retrospective multicenter study by the IBD-Quality team.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41803488/</link>
+  <description><![CDATA[Journal of gastroenterology - Screening and preventive treatment are recommended for latent tuberculosis infection (LTBI) before immunosuppressive therapy in patients with inflammatory bowel disease (IBD). However, the prevalen...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Association Between Ultraprocessed Food Intake and Inflammatory Bowel Disease Risk: A Propensity-Matched Analysis With Monte Carlo Simulation From the Prospective Urban Rural Epidemiology Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41801172/</link>
+  <description><![CDATA[Gastroenterology - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Incidence of acne in patients with inflammatory bowel disease treated with Janus kinase inhibitors: a systematic review and meta-analysis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41784155/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Janus kinase (JAK) inhibitors are effective oral therapies for inflammatory bowel disease (IBD). While acne is a known adverse event in dermatological cohorts, its incidence and risk factors in the...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence of disability in inflammatory bowel disease: a systematic review and meta-analysis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41784159/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Disability is a multidimensional concept that includes physical, psychological, and social limitations affecting individuals with inflammatory bowel disease (IBD). Disability is shaped by cultural ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence of Kinesiophobia in Patients with Inflammatory Bowel Disease: A Cross-Sectional Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41798797/</link>
+  <description><![CDATA[Journal of multidisciplinary healthcare - Inflammatory bowel disease (IBD) patients often exhibit low adherence to physical activity, potentially influenced by kinesiophobia. While kinesiophobia has been extensively studied in musculoskele...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence and risk factors for malnutrition based on the Global Leadership Initiative on Malnutrition (GLIM) criteria in patients with inflammatory bowel disease:a population-based study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41780675/</link>
+  <description><![CDATA[Clinical nutrition ESPEN - Inflammatory bowel disease (IBD) may be linked to an increased risk of malnutrition. However, no previous population-based study has examined the prevalence and risk factors of malnutrition in the ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Single-Center Investigation on the Prevalence, Risk Factors, and Outcomes of Non-infective Inflammatory Bowel Disease in Heart Transplant Recipients.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41771711/</link>
+  <description><![CDATA[Transplantation proceedings - Inflammatory bowel diseases (IBDs) are progressive, immune-mediated conditions including Crohn Disease and ulcerative colitis. Heart transplant (HTx) represents the most successful treatment for pa...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Real-world evidence on medication patterns in inflammatory bowel disease the first decade after diagnosis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41837867/</link>
+  <description><![CDATA[Journal of Crohn's & colitis - Medical treatment of inflammatory bowel disease (IBD) is complex and highly dynamic. This study conducts an extensive population-wide analysis of real-world treatment patterns in ulcerative colitis...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Inflammatory Bowel Disease in Patients With Atopic Dermatitis and Allergic Rhinitis: A Nationwide Case-Control Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41858144/</link>
+  <description><![CDATA[International journal of rheumatic diseases - Inflammatory bowel disease (IBD) has been associated with several allergic diseases, including atopic dermatitis, allergic rhinitis, and asthma. However, the correlations between these conditions v...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Association Between Rheumatoid Arthritis and Gastrointestinal Comorbidities: Evidence From Taiwan's National Health Insurance Database.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41795863/</link>
+  <description><![CDATA[International journal of rheumatic diseases - Rheumatoid arthritis (RA) is a systemic autoimmune disease with known extra-articular manifestations, including potential involvement of the gastrointestinal (GI) tract. While prior studies have ex...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Comparative analysis of inflammatory bowel disease (IBD) patient- and service-reported quality of care using 2019 and 2023 UK benchmarking data from more than 26 000 adult patient respondents and 154 IBD services.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41578010/</link>
+  <description><![CDATA[Journal of Crohn's & colitis - The IBD UK Benchmarking surveys, conducted in 2019 and 2023, collected repeated data regarding the quality of inflammatory bowel disease (IBD) care across the UK using both service self-assessments...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Correction to: Clinical Features and Natural History of Paediatric Patients with Ulcerative Proctitis: A Multicentre Study from the Paediatric IBD Porto Group of ESPGHAN.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41833060/</link>
+  <description><![CDATA[Journal of Crohn's & colitis - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Performance of Novel Inflammatory Bowel Disease-Specific Models for Risk Adjustment.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41777488/</link>
+  <description><![CDATA[Risk management and healthcare policy - We aimed to develop and evaluate inflammatory bowel disease (IBD)-specific risk-adjustment models using an actuarial approach. This retrospective, cross-sectional study was conducted using Optum ad...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Crohn's disease: Risk of surgery among newly diagnosed patients.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41755464/</link>
+  <description><![CDATA[Scandinavian journal of surgery : SJS : official organ for the Finnish Surgical Society and the Scandinavian Surgical Society - Medical treatment and treatment goals for Crohn's disease (CD) have evolved over the past 20 years. The aim of the study was to assess the cumulative risk of surgery in newly diagnosed CD patients ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Intestinal obstruction by Meckel's diverticulum in stricturing Crohn's disease: coincidence?]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41738787/</link>
+  <description><![CDATA[Revista espanola de enfermedades digestivas - We report the case of a 56-year-old male with a long-standing history of stricturing CD involving distal ileum. He had previously been treated with multiple biologics agents (infliximab, adalimumab...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Impact of tobacco use on inpatient outcomes in inflammatory bowel disease: a retrospective matched cohort study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41835800/</link>
+  <description><![CDATA[Annals of translational medicine - Tobacco plays a complex role in patients with inflammatory bowel disease (IBD). Its impact on inpatient outcomes of IBD needs additional study. We aimed to assess the impact of smoking on clinical ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence of Comorbidities in Inflammatory Bowel Disease: An Umbrella Review of 18 Systematic Reviews.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41827155/</link>
+  <description><![CDATA[Journal of clinical medicine - Review - Background: Inflammatory bowel disease (IBD) is associated with numerous extraintestinal manifestations and systemic comorbidities; however, the certainty of prevalence estimates across multiple or...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[The temporal trends of incidence, prevalence, mortality, and disability-adjusted life years of inflammatory bowel disease in the Chinese population aged 0-54 years and prediction to 2030.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41822878/</link>
+  <description><![CDATA[Frontiers in medicine - The Global Burden of Disease (GBD) Study 2021 highlights that the age-standardized incidence rate of inflammatory bowel disease (IBD) in China reaches its peak prior to the age of 55 years, compreh...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Characteristics of monogenic inflammatory bowel disease in very early-onset cases: a Japanese multicenter registry study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41731989/</link>
+  <description><![CDATA[Intestinal research - Very early-onset inflammatory bowel disease (VEO-IBD), defined as IBD diagnosed before 6 years of age, is highly influenced by genetic factors. Monogenic IBD is a type of enterocolitis caused by a ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Temporal hospitalization trends for inflammatory bowel disease in Taiwan.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41731990/</link>
+  <description><![CDATA[Intestinal research - Scant population-based data are available for inflammatory bowel disease (IBD)-related hospitalization rates in Asian countries. We investigated the epidemiological trends of hospitalization rate a...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Association of inflammatory bowel disease with cardiovascular disease, and the mediating role of inflammation: a matched-cohort study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41757295/</link>
+  <description><![CDATA[Therapeutic advances in gastroenterology - The elevated risk of cardiovascular disease (CVD) in inflammatory bowel disease (IBD) has been increasingly recognized. Although inflammation is implicated in both IBD and CVD, the IBD-CVD associat...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Updated data on the epidemiology of Inflammatory Bowel Disease (IBD) in Lebanon.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41730009/</link>
+  <description><![CDATA[PloS one - The objective of the study was to review available data on IBD in Lebanon based on histopathological reports and endoscopic data to identify the number of newly diagnosed cases per year, age, gende...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence of infectious bursal disease in chicken populations in China during 1983-2024: a meta-analysis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41810403/</link>
+  <description><![CDATA[Frontiers in veterinary science - Systematic review - Infectious bursal disease (IBD) is an acute, highly contagious and immunosuppressive disease caused by the Infectious bursal disease virus (IBDV), which has brought significant economic losses to C...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[New approach methodologies in Crohn's disease link molecular disease subtypes to clinical outcomes.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41665110/</link>
+  <description><![CDATA[American journal of physiology. Gastrointestinal and liver physiology - Current clinical decision-making is hindered by the absence of predictive preclinical models that faithfully bridge molecular diversity to patient outcomes. Here, we apply the principle of abstract...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Inpatient and post-discharge thromboembolic events in inflammatory bowel disease patients: a 13 year retrospective cohort study at a tertiary Centre.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41527508/</link>
+  <description><![CDATA[Scandinavian journal of gastroenterology - Patients with inflammatory bowel disease (IBD) are at increased risk of thromboembolic events (TEEs), particularly during hospitalisation. While extended thromboprophylaxis is standard in the post-...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Prevalence of sarcopenia, myopenia, and malnutrition in Polish patients with inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41498169/</link>
+  <description><![CDATA[Polish archives of internal medicine -  Inflammatory bowel disease (IBD), including Crohn disease (CD) and ulcerative colitis (UC), can lead to malnutrition and sarcopenia due to inflammation, reduced dietary intake, and side effects of...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[The epidemiology of inflammatory bowel disease: exploring the impacts of environmental factors.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41340403/</link>
+  <description><![CDATA[The Korean journal of internal medicine - Review - Inflammatory bowel diseases (IBD), such as ulcerative colitis and Crohn's disease, are distinct chronic immune-mediated intestinal inflammatory disorders. The pathogenesis of IBD is complex and inv...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[A Response to "Heavy Metals and Inflammatory Bowel Disease" Using Linked Sources of Real-World Data.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41275926/</link>
+  <description><![CDATA[Gastroenterology - Letter - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[A Population-Based Matched Cohort Study of Extra-Digestive Cancer Incidence and Mortality in Individuals With and Without Inflammatory Bowel Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41215713/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Trends in extra-digestive (ED) cancer incidence and mortality in inflammatory bowel diseases (IBD) may be changing with newer approaches to management. To study temporal trends and contemporary ris...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Research Communication: Risk of Tuberculosis With Advanced Therapies in 20,705 Patients With Inflammatory Bowel Diseases in Low Incidence Regions-A U.S. Claims-Based Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41159450/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - We conducted a USA claims-based cohort study in 20,705 patients with inflammatory bowel diseases (IBD) on advanced therapies to estimate the overall and comparative risk of tuberculosis between adv...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[The persistence of chronic opioid use in patients with inflammatory bowel disease-A nationwide cohort study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41123295/</link>
+  <description><![CDATA[British journal of clinical pharmacology - Pain is common in patients with Crohn's disease (CD) and ulcerative colitis (UC), and a substantial proportion develop chronic opioid use (COU). We examined the persistence of COU over time and ide...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Treatment-Free Outcomes Following Surgery for IBD: A Nationwide Cohort Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41121721/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Surgery in select individuals with inflammatory bowel disease (IBD) may obviate the need for future IBD-related treatment. To characterise individuals who remain treatment-free during the first 5 y...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology & Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Epidemiology and temporal trends of adult inflammatory bowel disease in Taiwan: Multicenter study from the TSIBD registration.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/39893095/</link>
+  <description><![CDATA[Journal of the Formosan Medical Association = Taiwan yi zhi - Multicenter study - Despite industrialization and advances in healthcare, the prevalence of inflammatory bowel disease (IBD), which encompasses Crohn's disease (CD) and ulcerative colitis (UC), is increasing in Taiwan...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology & Outcomes</category>
 </item>
 

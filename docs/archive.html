@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Report Archive – IBD LitMonitor</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,19 +35,18 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7a0caef5a4940a40a80cd0bbd7c30217.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-202c2798bf7967f0089ce99ba35ae6bb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7a0caef5a4940a40a80cd0bbd7c30217.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-318d1c3982123bc6be90984be2477085.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a458adbbdb7847db7a23a604c78a2f22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-318d1c3982123bc6be90984be2477085.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -246,8 +248,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">IBD LitMonitor</span>
     </a>
@@ -304,8 +304,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#past-reports" id="toc-past-reports" class="nav-link active" data-scroll-target="#past-reports">Past Reports</a></li>
-  <li><a href="#download-all-data" id="toc-download-all-data" class="nav-link" data-scroll-target="#download-all-data">Download All Data</a></li>
-  <li><a href="#api-access" id="toc-api-access" class="nav-link" data-scroll-target="#api-access">API Access</a></li>
   </ul>
 </nav>
     </div>
@@ -334,10 +332,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="past-reports" class="level2">
 <h2 class="anchored" data-anchor-id="past-reports">Past Reports</h2>
-<p>Browse previous weekly reports to track IBD literature over time.</p>
+<p>Browse previous daily reports to track IBD literature over time.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>No archived reports yet. Check back after the first weekly update!</code></pre>
+<pre><code>No archived reports yet - check back after the first automated update runs.</code></pre>
 </div>
 </div>
 <hr>
@@ -347,26 +345,14 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Weekly Updates
+<span class="screen-reader-only">Tip</span>Stay Up to Date
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>New reports are published every Friday at 7:00 AM Pacific Time.</p>
-<p><a href="rss.xml">Subscribe via RSS</a> to get notified automatically.</p>
+<p>New reports are published every morning automatically.</p>
+<p><a href="rss.xml">Subscribe via RSS</a> to get notified automatically, or browse the per-category feeds if you only follow specific subfields.</p>
 </div>
 </div>
-</section>
-<section id="download-all-data" class="level2">
-<h2 class="anchored" data-anchor-id="download-all-data">Download All Data</h2>
-<p>For researchers who want to analyze trends over time:</p>
-<ul>
-<li><a href="data/papers.json">JSON Data Feed</a> - Machine-readable format</li>
-<li><a href="data/papers.csv">CSV Export</a> - Spreadsheet-compatible format</li>
-</ul>
-</section>
-<section id="api-access" class="level2">
-<h2 class="anchored" data-anchor-id="api-access">API Access</h2>
-<p>Interested in programmatic access to IBD LitMonitor data? Contact me to discuss API options for research collaborations.</p>
 
 
 </section>
@@ -792,7 +778,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Created by <strong>Dahham Alsoud</strong> | © 2026</p>
+<p>Created by <strong><a href="https://github.com/dahhamalsoud">Dahham Alsoud</a></strong> | © 2026</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

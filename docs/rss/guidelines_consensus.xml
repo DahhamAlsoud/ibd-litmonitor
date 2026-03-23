@@ -1,24 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor — Guidelines & Consensus</title>
+    <title>IBD LitMonitor - Guidelines & Consensus</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Weekly IBD literature: Guidelines & Consensus</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Enhancing Inflammatory Bowel Disease (IBD) competency in gastroenterology fellowship through traditional, digital, and experiential learning pathways.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41865266/</link>
-  <description><![CDATA[Inflammatory bowel diseases — The rapidly evolving field of Inflammatory Bowel Disease (IBD) places growing educational demands on gastroenterology trainees, many of whom report gaps in confidence and preparedness in managing I...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Inflammatory bowel diseases - The rapidly evolving field of Inflammatory Bowel Disease (IBD) places growing educational demands on gastroenterology trainees, many of whom report gaps in confidence and preparedness in managing I...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Guidelines & Consensus</category>
 </item>
 <item>
   <title><![CDATA[Translation and cross-cultural adaptation of the Identification of Spondyloarthritis Questionnaire (IBIS-Q) into Danish for patients with inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41846565/</link>
-  <description><![CDATA[Scandinavian journal of gastroenterology — Spondyloarthritis (SpA) affects 10-30% of patients with inflammatory bowel disease (IBD). An early diagnosis is essential as a delayed diagnosis of SpA increases the risk of disability and reduces ...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Scandinavian journal of gastroenterology - Spondyloarthritis (SpA) affects 10-30% of patients with inflammatory bowel disease (IBD). An early diagnosis is essential as a delayed diagnosis of SpA increases the risk of disability and reduces ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Evaluation of the quality, reliability of Crohn's disease-related content on Douyin and Xiaohongshu with insights from user comments: A cross-sectional study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41836617/</link>
+  <description><![CDATA[Digital health - No studies have evaluated Crohn's disease-related video quality on short video platforms. This study assesses the quality, reliability, and audience engagement of such videos on Douyin and Xiaohong...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Fibrin glue with mesenchymal stem cells for perianal ﬁstulas: a systematic review and meta-analysis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41800920/</link>
+  <description><![CDATA[Revista espanola de enfermedades digestivas - perianal ﬁstulas (PFs) are often refractory to standard management. Cell therapy strategies using mesenchymal stem cells (MSCs) carried in ﬁbrin glue (FG) have shown promising results in regenerati...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Frailty Is Associated With All-Cause and Acute Hospitalisations During 18 Months Follow-Up in Older Patients With Inflammatory Bowel Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41795627/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Guidelines recommend considering frailty in the management of older patients with Inflammatory Bowel Disease (IBD). A geriatric assessment is a specific and clinically applicable frailty assessment...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[A mixed methods study of multidisciplinary team assessment and therapeutic decision making for intestinal strictures in Crohn's disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41781595/</link>
+  <description><![CDATA[Scientific reports - Crohn's disease (CD) is frequently complicated by intestinal strictures, which substantially affect patients quality of life and long-term outcomes. Accurate classification of strictures-as inflamm...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Can Mycobacterium avium subsp. paratuberculosis Survive During Pecorino Cheesemaking Process? An Experimental Evaluation Through a Microbiological Challenge Test.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41830444/</link>
+  <description><![CDATA[Journal of food science - Paratuberculosis is an infectious disease mainly affecting domestic ruminants, caused by Mycobacterium avium subsp. paratuberculosis (MAP). Affected animals shed the pathogen through feces, also du...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Effectiveness and safety of dual advanced therapy in inflammatory bowel disease: a multicenter series from Galicia, Spain.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41021002/</link>
+  <description><![CDATA[Revista espanola de enfermedades digestivas - Multicenter study - approximately one-third of patients with inflammatory bowel disease (IBD) do not achieve disease control despite the incorporation of new advanced therapies in recent years. The combination of two ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[GLIM criteria: from consensus to practice in inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41748908/</link>
+  <description><![CDATA[European journal of clinical nutrition - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Potential of pharmacogenetics in treatment of chronic inflammatory diseases - a danish report overview from 2000 - 2024.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41735256/</link>
+  <description><![CDATA[The pharmacogenomics journal - Review - Given the substantial degree of inter-individual variability in treatment responses in patients with inflammatory bowel disease (IBD), treatment optimization is warranted. We provide an overview of...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Definitions, diagnosis, management, and outcomes of upper gastrointestinal Crohn's disease: an international, expert RAND/UCLA appropriateness study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41520669/</link>
+  <description><![CDATA[The lancet. Gastroenterology & hepatology - Review - Patients with Crohn's disease can have isolated or co-existent upper gastrointestinal involvement, but this is an understudied clinical manifestation. There are neither standardised definitions nor...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Correction: ACG Clinical Guideline Ulcerative Colitis in Adults.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41384833/</link>
+  <description><![CDATA[The American journal of gastroenterology - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Effects of the Mediterranean diet on inflammation, quality of life, and mortality in autoimmune diseases: A systematic review featured in the Italian National Guidelines "La Dieta Mediterranea".]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41386096/</link>
+  <description><![CDATA[Nutrition (Burbank, Los Angeles County, Calif.) - Systematic review - Autoimmune diseases (ADs) are chronic inflammatory disorders with increasing global prevalence and substantial health and economic burden. The Mediterranean diet (MD), known for its anti-inflammato...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Efficacy of Mediterranean Diet for the primary prevention of autoimmune diseases: A systematic review and meta-analysis featured in the Italian National Guidelines "La Dieta Mediterranea".]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41308432/</link>
+  <description><![CDATA[Nutrition (Burbank, Los Angeles County, Calif.) - Meta-analysis - The Mediterranean Diet (MD) has been associated with reduced inflammation and improved immune regulation, suggesting a potential protective role against autoimmune diseases. This review was conduct...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Factors leading to implant failure: An umbrella review of meta-analyses of observational studies and trials.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/40425441/</link>
+  <description><![CDATA[The Journal of prosthetic dentistry - Systematic review - The evidence concerning factors leading to implant failure remains inconclusive. Existing systematic reviews have reported mixed results for patient-related, surgical, and prosthetic factors contri...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines & Consensus</category>
+</item>
+<item>
+  <title><![CDATA[Interventions for improving treatment adherence in young people with inflammatory bowel disease (IBD): A systematic review of behaviour change theory and behaviour change techniques.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/39704083/</link>
+  <description><![CDATA[Journal of child health care : for professionals working with children in the hospital and community - Systematic review - Treatment adherence is important but challenging for young people with inflammatory bowel disease (IBD). Behavioural interventions may support adherence, leading to improved condition management. T...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Guidelines & Consensus</category>
 </item>
 

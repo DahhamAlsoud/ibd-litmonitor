@@ -1,38 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor — AI & Machine Learning</title>
+    <title>IBD LitMonitor - AI & Machine Learning</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Weekly IBD literature: AI & Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Multimodal deep learning for inflammatory bowel disease: a new frontier in cellular and molecular biomarker discovery to clinical translation.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41857729/</link>
-  <description><![CDATA[Journal of biological engineering — Review - Inflammatory bowel disease (IBD), including Crohn’s disease (CD) and ulcerative colitis (UC), is a chronic, relapsing condition with heterogeneous clinical phenotypes and variable therapeutic outco...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Journal of biological engineering - Review - Inflammatory bowel disease (IBD), including Crohn’s disease (CD) and ulcerative colitis (UC), is a chronic, relapsing condition with heterogeneous clinical phenotypes and variable therapeutic outco...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>AI & Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Artificial intelligence in inflammatory bowel disease: bridging innovation, implementation and impact.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41857227/</link>
-  <description><![CDATA[Nature reviews. Gastroenterology & hepatology — Review - Artificial intelligence (AI) is rapidly transforming the management landscape of inflammatory bowel disease (IBD). While early applications in endoscopy, digital pathology and cross-sectional imagi...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Nature reviews. Gastroenterology & hepatology - Review - Artificial intelligence (AI) is rapidly transforming the management landscape of inflammatory bowel disease (IBD). While early applications in endoscopy, digital pathology and cross-sectional imagi...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>AI & Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Chat-based Artificial Intelligence model as a source of information for Inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41846185/</link>
-  <description><![CDATA[Arab journal of gastroenterology : the official publication of the Pan-Arab Association of Gastroenterology — Artificial intelligence models could be a promising tool for providing scientific information to patients. The aim was to study the accuracy of the responses provided by Chat GPT (Generative Pre-tr...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Arab journal of gastroenterology : the official publication of the Pan-Arab Association of Gastroenterology - Artificial intelligence models could be a promising tool for providing scientific information to patients. The aim was to study the accuracy of the responses provided by Chat GPT (Generative Pre-tr...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Artificial intelligence and the future of inflammatory bowel disease trial recruitment: from bottleneck to breakthrough.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41824292/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Editorial - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Advancing Predictive Modeling of Inflammatory Bowel Disease (IBD) Flares: A Data-Driven Approach Using Lifestyle and Psychosocial Factors from a Remote Monitoring Platform.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41817833/</link>
+  <description><![CDATA[Digestive diseases and sciences - Recurrent flares are associated with disease progression and have a pronounced impact on the quality of life of people with Inflammatory Bowel Disease (IBD). Models using clinical characteristics o...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Exploring the molecular mechanism of Shenling baizhu formula in the treatment of ulcerative colitis via the cGMP-PKG signaling pathway.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41796620/</link>
+  <description><![CDATA[Journal of ethnopharmacology - Ulcerative colitis (UC) is a chronic inflammatory bowel disease characterized by symptoms such as persistent diarrhea. Shenlingbaizhu Formula (SLBZ), a classical Chinese herbal formula with centuri...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Cell-free chromatin state tracing reveals disease origin and therapy responses.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41781618/</link>
+  <description><![CDATA[Nature - Cell-free DNA in blood originates from fragmented chromatin released by dying cells from both healthy and diseased tissues1,2. These fragments carry rich molecular modalities that can reveal pathol...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Wearable Technology and Remote Physiological Monitoring in Inflammatory Bowel Disease: A Systematic Review.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41490247/</link>
+  <description><![CDATA[Journal of clinical gastroenterology - Systematic review - Remote patient monitoring (RPM) for inflammatory bowel disease (IBD) has historically focused on patient-reported symptoms and medication adherence through therapeutic monitoring. The advent of nov...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Artificial intelligence in the management of inflammatory bowel disease: What's next?]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41809215/</link>
+  <description><![CDATA[World journal of gastrointestinal pharmacology and therapeutics - Review - Inflammatory bowel disease (IBD) is a chronic, relapsing-remitting autoimmune disorder of the gastrointestinal tract. The management of IBD is complex and requires accurate assessment of disease ex...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>AI & Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Identification of Novel Biomarkers for Crohn's Disease Through the Integration of Machine Learning, Colocalization, and SMR Analysis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41773807/</link>
-  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology — Crohn's disease (CD) is a chronic inflammatory bowel disease with a prevalence rate increasing with time, thus demanding improved diagnostic and therapeutic strategies. The present work focused on ...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - Crohn's disease (CD) is a chronic inflammatory bowel disease with a prevalence rate increasing with time, thus demanding improved diagnostic and therapeutic strategies. The present work focused on ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[IOlBD evidence-based consensus on the use of artificial intelligence for assessment of endoscopic and histologic endpoints in clinical trials of inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41802119/</link>
+  <description><![CDATA[Journal of Crohn's & colitis - Central reading of endoscopy and histopathology is the current standard for disease activity assessment in inflammatory bowel disease (IBD) clinical trials but is limited by interreader and intrare...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Artificial Intelligence as a New Player in Dietary Management of Inflammatory Bowel Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41273140/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Comment - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Machine learning framework for early identification of high-spending Crohn's disease patients using administrative claims.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41760348/</link>
+  <description><![CDATA[BMJ health & care informatics - To develop and evaluate a machine learning (ML) model that predicts Crohn's disease (CD) patients responsible for the top quartile of healthcare spending. De-identified commercial claims (2016-2018...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Retrospective analysis of characteristics of Tami users, a digital patient companion for inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41767865/</link>
+  <description><![CDATA[Digital health - Inflammatory bowel disease (IBD) is a chronic condition causing gastrointestinal inflammation. Digital health tools like the Tami app support symptom tracking, medication adherence, and personalize...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[CT-derived sarcopenia and myosteatosis predict treatment escalation in hospitalized patients with inflammatory Bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41721866/</link>
+  <description><![CDATA[Abdominal radiology (New York) - Sarcopenia and myosteatosis reflect muscle quantity and quality and are linked to adverse outcomes in chronic diseases. Their role in predicting treatment escalation in inflammatory bowel disease (...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Hydrogel-enabled drug delivery for ulcerative colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41680539/</link>
+  <description><![CDATA[Inflammopharmacology - Review - Ulcerative colitis (UC) represents a chronic, relapsing inflammatory condition primarily affecting the colonic and rectal mucosa, presenting substantial challenges to healthcare systems globally. C...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Artificial intelligence and digital transformation of gastroenterology and hepatology: A critical review of clinical applications and future challenges.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41809465/</link>
+  <description><![CDATA[World journal of hepatology - Review - Artificial intelligence (AI) is reshaping modern medicine, and gastroenterology and hepatology are among the specialties where its impact is becoming increasingly evident. AI has demonstrated the a...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[OMOM SmartScan provides noninferior assessment of Lewis score and CECDAI in Crohn's disease vs full-video review.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41622052/</link>
+  <description><![CDATA[Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver - RCT - Small bowel capsule endoscopy (SBCE) is central to Crohn's Disease (CD) care but limited by lengthy review and reader variability. We tested whether an artificial-intelligence (AI)-triaged, human-r...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Decipher the molecular network of PFOA in inflammatory bowel disease through integrating machine learning, molecular docking strategies, and validation in vitro.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41407026/</link>
+  <description><![CDATA[Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association - Perfluorooctanoic Acid (PFOA), widely recognized as an enduring environmental pollutant, is associated with immune system disruption and potential cancer-causing effects. Epidemiological findings s...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Exploring the molecular mechanism of Crohn's disease and rheumatoid arthritis: a bioinformatics and functional analysis approach.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/40929681/</link>
+  <description><![CDATA[European journal of gastroenterology & hepatology - Crohn's disease (CD) and rheumatoid arthritis (RA) are autoimmune diseases. CD is known to be closely associated with RA. However, the mechanisms underlying these relationships remain unclear. This...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>AI & Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Wearable Devices Identify Altered Sleep Characteristics and Sleep Trajectories in Active Inflammatory Bowel Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/40581072/</link>
+  <description><![CDATA[Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association - Observational study - Poor sleep is associated with flares of inflammatory bowel disease (IBD). Studies often rely on subjective assessments of sleep and disease activity. Our aim is to use wearable devices to objective...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>AI & Machine Learning</category>
 </item>
 

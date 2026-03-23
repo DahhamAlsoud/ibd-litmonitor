@@ -1,17 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor — Pregnancy & Reproductive Health</title>
+    <title>IBD LitMonitor - Pregnancy & Reproductive Health</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Weekly IBD literature: Pregnancy & Reproductive Health</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Characterizing the effects of genetic liability to autoimmune conditions on pregnancy outcomes using Mendelian randomization.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41851855/</link>
-  <description><![CDATA[BMC medicine — Autoimmune conditions are common in women of reproductive age. They are associated with an increased risk of adverse pregnancy outcomes; whether this is causal is unclear. Our aim was to explore th...]]></description>
-  <pubDate>Sun, 22 Mar 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[BMC medicine - Autoimmune conditions are common in women of reproductive age. They are associated with an increased risk of adverse pregnancy outcomes; whether this is causal is unclear. Our aim was to explore th...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Long-term Infant Outcomes After In Utero Biologic Exposure: Results from the Pregnancy Inflammatory Disease Neonatal Outcomes (PIANO) Registry.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41789805/</link>
+  <description><![CDATA[The American journal of gastroenterology - Long-term data are needed for offspring exposed in utero to medications for inflammatory bowel disease (IBD). We utilized a prospective cohort of pregnant women with IBD and their offspring (PIANO)...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Letter to the Editor: The Impact of Disease Activity and Medications on Pregnancy and Fetal Outcomes in Women With Inflammatory Bowel Disease: A Cohort Study From the IBD-ME Group.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41793039/</link>
+  <description><![CDATA[Journal of gastroenterology and hepatology - Letter - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Repairing Peri-Anal Fistulas with regenerative cell therapeutics: study protocol for a double-blinded randomized controlled phase I-II trial from Denmark (REP-PAF).]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41782164/</link>
+  <description><![CDATA[Trials - Surgical treatment of high anal fistulas is challenging and associated with a relatively high rate of complications and failure. Stem cell therapy has shown promising results for fistulas associate...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Vaccination recommendations and adherence in inflammatory bowel disease: A physician-patient discordance study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41780635/</link>
+  <description><![CDATA[Gastroenterologia y hepatologia - Despite specific recommendations, immunization rates among patients with inflammatory bowel disease (IBD) remain suboptimal. This study aimed to assess vaccination management by exploring the conco...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Updated review of Janus kinase inhibitors for the management of inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41809214/</link>
+  <description><![CDATA[World journal of gastrointestinal pharmacology and therapeutics - Review - Inflammatory bowel disease (IBD) management has evolved with the advent of Janus kinase inhibitors (JAKi), oral small molecules that modulate cytokine-driven inflammation via the Janus kinase-signa...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[From Treg, FOXP3 to RBPJ: Linking basic science and clinical medicine.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41813374/</link>
+  <description><![CDATA[Taiwanese journal of obstetrics & gynecology - Review - The discovery of regulatory T cells (Treg) and Forkhead box protein P3 (FOXP3) gene has unraveled a new venue toward understanding peripheral tolerance and facilitates the development of Treg-based...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Inflammatory bowel disease leads to long-term ovarian dysfunction via immune-mediated follicular aging.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41762242/</link>
+  <description><![CDATA[Cellular and molecular life sciences : CMLS - The rising global incidence of inflammatory bowel disease (IBD) is associated with menstrual cycle irregularities and reduced anti-Müllerian hormone (AMH), a key biomarker for premature ovarian ins...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Epidemiology and Treatment of Inflammatory Bowel Disease in Pregnancy: Results from a Retrospective, Observational Study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41739324/</link>
+  <description><![CDATA[Digestive diseases and sciences - Inflammatory bowel disease (IBD) can adversely affect conception and pregnancy outcomes. Disease management must balance the benefits and risks for both mother and foetus. To investigate real-world...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Platelets as immune sensors: monitoring immune dynamics and diagnosing disease states across multiple disorders.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41719795/</link>
+  <description><![CDATA[EBioMedicine - Beyond their classical roles in haemostasis and thrombosis, platelets have been recognised as active regulators of immune responses. However, whether platelets can function as immune sensors capabl...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Incident and prevalent peripartum mental illness in mothers with multiple sclerosis and other chronic diseases in Sweden.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41637801/</link>
+  <description><![CDATA[Multiple sclerosis and related disorders - Findings conflict regarding the risk of peripartum mental illness in women with multiple sclerosis (MS) and how this compares to the risk among women with other chronic diseases. We compared the in...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Liver enzyme alterations during pregnancy in IBD are not attributable to disease activity or medication.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41542996/</link>
+  <description><![CDATA[Scandinavian journal of gastroenterology - Multicenter study - Inflammatory bowel disease (IBD) is often diagnosed during reproductive age, requiring adequate management during pregnancy. Physiological changes during pregnancy affect liver enzymes, complicatin...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Editorial: Mitigating the Risk of Adverse Pregnancy Outcomes in Women With Inflammatory Bowel Disease and Chronic Liver Disease-Authors' Reply.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41243669/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Editorial - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Editorial: Mitigating the Risk of Adverse Pregnancy Outcomes in Women With Inflammatory Bowel Disease and Chronic Liver Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41243552/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Editorial - ]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Maternal and Perinatal Outcomes in Pregnant Women With Comorbid Inflammatory Bowel Disease and Chronic Liver Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41128005/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Inflammatory bowel disease (IBD) and chronic liver disease (CLD) are each associated with adverse pregnancy outcomes, but the impact of coexisting IBD and CLD on pregnancy remains understudied. To ...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Pregnancy & Reproductive Health</category>
+</item>
+<item>
+  <title><![CDATA[Prenatal supplementation with the gut-derived tryptophan metabolite indole-3-propionic acid alleviates colitis susceptibility in maternal immune-activated offspring mice.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/40451535/</link>
+  <description><![CDATA[Journal of advanced research - Maternal immune activation (MIA) impairs gut immune function in offspring, with maternal microbiota and their metabolites influencing intestinal development. Indole-3-propionic acid (IPA), a microb...]]></description>
+  <pubDate>Mon, 23 Mar 2026 07:00:00 GMT</pubDate>
   <category>Pregnancy & Reproductive Health</category>
 </item>
 
