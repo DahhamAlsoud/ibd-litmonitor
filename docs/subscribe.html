@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>project_overview – IBD LitMonitor</title>
+<title>Subscribe to Email Digests – IBD LitMonitor</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -298,7 +263,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Interactive Dashboard</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./subscribe.html"> 
+    <a class="nav-link active" href="./subscribe.html" aria-current="page"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
@@ -334,316 +299,101 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ibd-litmonitor---complete-project-overview-updated" id="toc-ibd-litmonitor---complete-project-overview-updated" class="nav-link active" data-scroll-target="#ibd-litmonitor---complete-project-overview-updated">IBD LitMonitor - Complete Project Overview (UPDATED)</a>
-  <ul class="collapse">
-  <li><a href="#core-philosophy" id="toc-core-philosophy" class="nav-link" data-scroll-target="#core-philosophy">🎯 Core Philosophy</a>
-  <ul class="collapse">
-  <li><a href="#we-dont-judge-quality" id="toc-we-dont-judge-quality" class="nav-link" data-scroll-target="#we-dont-judge-quality"><strong>We Don’t Judge Quality</strong></a></li>
-  </ul></li>
-  <li><a href="#complete-file-structure" id="toc-complete-file-structure" class="nav-link" data-scroll-target="#complete-file-structure">📁 Complete File Structure</a></li>
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">🏗️ How It Works</a>
-  <ul class="collapse">
-  <li><a href="#step-1-categorize-12-subfields" id="toc-step-1-categorize-12-subfields" class="nav-link" data-scroll-target="#step-1-categorize-12-subfields"><strong>Step 1: Categorize (12 Subfields)</strong></a></li>
-  <li><a href="#step-2-rank-by-journal-metrics" id="toc-step-2-rank-by-journal-metrics" class="nav-link" data-scroll-target="#step-2-rank-by-journal-metrics"><strong>Step 2: Rank by Journal Metrics</strong></a></li>
-  <li><a href="#step-3-present-to-users" id="toc-step-3-present-to-users" class="nav-link" data-scroll-target="#step-3-present-to-users"><strong>Step 3: Present to Users</strong></a></li>
-  </ul></li>
-  <li><a href="#journal-metrics-database" id="toc-journal-metrics-database" class="nav-link" data-scroll-target="#journal-metrics-database">📊 Journal Metrics Database</a></li>
-  <li><a href="#user-experience" id="toc-user-experience" class="nav-link" data-scroll-target="#user-experience">🎨 User Experience</a>
-  <ul class="collapse">
-  <li><a href="#main-website-quarto" id="toc-main-website-quarto" class="nav-link" data-scroll-target="#main-website-quarto"><strong>Main Website (Quarto)</strong></a></li>
-  <li><a href="#interactive-dashboard-shiny" id="toc-interactive-dashboard-shiny" class="nav-link" data-scroll-target="#interactive-dashboard-shiny"><strong>Interactive Dashboard (Shiny)</strong></a></li>
-  </ul></li>
-  <li><a href="#weekly-automation" id="toc-weekly-automation" class="nav-link" data-scroll-target="#weekly-automation">🔄 Weekly Automation</a></li>
-  <li><a href="#value-proposition" id="toc-value-proposition" class="nav-link" data-scroll-target="#value-proposition">🎯 Value Proposition</a>
-  <ul class="collapse">
-  <li><a href="#for-busy-clinicians" id="toc-for-busy-clinicians" class="nav-link" data-scroll-target="#for-busy-clinicians"><strong>For Busy Clinicians:</strong></a></li>
-  <li><a href="#for-researchers" id="toc-for-researchers" class="nav-link" data-scroll-target="#for-researchers"><strong>For Researchers:</strong></a></li>
-  <li><a href="#for-fellowstrainees" id="toc-for-fellowstrainees" class="nav-link" data-scroll-target="#for-fellowstrainees"><strong>For Fellows/Trainees:</strong></a></li>
-  <li><a href="#vs-pubmed-emails" id="toc-vs-pubmed-emails" class="nav-link" data-scroll-target="#vs-pubmed-emails"><strong>vs PubMed Emails:</strong></a></li>
-  <li><a href="#vs-subjective-curation" id="toc-vs-subjective-curation" class="nav-link" data-scroll-target="#vs-subjective-curation"><strong>vs Subjective Curation:</strong></a></li>
-  </ul></li>
-  <li><a href="#cost-0month" id="toc-cost-0month" class="nav-link" data-scroll-target="#cost-0month">💰 Cost: $0/month</a></li>
-  <li><a href="#privacy-code-protection" id="toc-privacy-code-protection" class="nav-link" data-scroll-target="#privacy-code-protection">🔒 Privacy &amp; Code Protection</a></li>
-  <li><a href="#ready-to-deploy" id="toc-ready-to-deploy" class="nav-link" data-scroll-target="#ready-to-deploy">✅ Ready to Deploy</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">📚 Documentation</a></li>
-  </ul></li>
+  <li><a href="#subscribe" id="toc-subscribe" class="nav-link active" data-scroll-target="#subscribe">Subscribe</a></li>
+  <li><a href="#what-youll-receive" id="toc-what-youll-receive" class="nav-link" data-scroll-target="#what-youll-receive">What you’ll receive</a></li>
+  <li><a href="#frequency-options" id="toc-frequency-options" class="nav-link" data-scroll-target="#frequency-options">Frequency options</a></li>
+  <li><a href="#unsubscribe" id="toc-unsubscribe" class="nav-link" data-scroll-target="#unsubscribe">Unsubscribe</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Subscribe to Email Digests</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="ibd-litmonitor---complete-project-overview-updated" class="level1">
-<h1>IBD LitMonitor - Complete Project Overview (UPDATED)</h1>
-<p><strong>100% R + Shiny + Quarto | 100% FREE | Code Protected</strong></p>
-<hr>
-<section id="core-philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="core-philosophy">🎯 Core Philosophy</h2>
-<section id="we-dont-judge-quality" class="level3">
-<h3 class="anchored" data-anchor-id="we-dont-judge-quality"><strong>We Don’t Judge Quality</strong></h3>
-<p>Instead, we: 1. <strong>Categorize</strong> - 12 clinical subfields 2. <strong>Rank</strong> - By Impact Factor &amp; quartile (objective) 3. <strong>Filter</strong> - User choice (YOU decide)</p>
-<p><strong>NOT like PubMed emails</strong> (unfiltered chaos)<br>
-<strong>NOT subjective scoring</strong> (we don’t judge science)</p>
-<hr>
-</section>
-</section>
-<section id="complete-file-structure" class="level2">
-<h2 class="anchored" data-anchor-id="complete-file-structure">📁 Complete File Structure</h2>
-<pre><code>ibd_litmonitor_final/ (17 files)
-│
-├── 📄 START_HERE.md              ← READ THIS FIRST!
-├── 📊 PROJECT_OVERVIEW.md         ← This file
-├── 📖 README.md                   ← Full documentation
-├── 🔐 DEPLOYMENT_GUIDE.md         ← Keep code private
-│
-├── 🔒 R/core_functions.R         ← YOUR SECRET SAUCE
-│   • get_journal_metrics()       → IF/quartile database
-│   • categorize_papers()         → 12 subfields
-│   • rank_by_journal_metrics()   → Sort by IF/Q
-│   • get_papers()                → Main function
-│
-├── 📝 QUARTO PAGES (4 files)
-│   ├── index.qmd                 ← Category tabs, IF-ranked
-│   ├── archive.qmd               ← Past reports
-│   ├── dashboard.qmd             ← Embedded Shiny
-│   └── about.qmd                 ← Philosophy
-│
-├── 📊 dashboard/app.R            ← Filter by IF/quartile
-│
-├── 🤖 .github/workflows/
-│   └── update-reports.yml        ← Runs every Friday
-│
-├── 🚀 DEPLOYMENT
-│   ├── setup.sh                  ← Automated setup
-│   ├── quickstart.R              ← R setup
-│   └── deploy_shiny.R            ← Deploy dashboard
-│
-├── ⚙️ CONFIG
-│   ├── _quarto.yml               ← Quarto config
-│   ├── styles.css                ← Terracotta branding
-│   └── .gitignore                ← Code protection
-│
-└── 📚 README.md                  ← Documentation</code></pre>
-<p><strong>Total: 17 files</strong></p>
-<hr>
-</section>
-<section id="how-it-works" class="level2">
-<h2 class="anchored" data-anchor-id="how-it-works">🏗️ How It Works</h2>
-<section id="step-1-categorize-12-subfields" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-categorize-12-subfields"><strong>Step 1: Categorize (12 Subfields)</strong></h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>categories <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Therapeutics &amp; Mechanisms"</span> <span class="ot">=</span> <span class="fu">c</span>(...),</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Biomarkers &amp; Precision Medicine"</span> <span class="ot">=</span> <span class="fu">c</span>(...),</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"AI &amp; Machine Learning"</span> <span class="ot">=</span> <span class="fu">c</span>(...),</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ... 9 more</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>papers <span class="sc">%&gt;%</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">category =</span> <span class="fu">assign_to_best_match</span>(title, abstract))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="step-2-rank-by-journal-metrics" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-rank-by-journal-metrics"><strong>Step 2: Rank by Journal Metrics</strong></h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>papers <span class="sc">%&gt;%</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(journal_metrics_db) <span class="sc">%&gt;%</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(category) <span class="sc">%&gt;%</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">desc</span>(impact_factor),     <span class="co"># Primary: IF (29.4 &gt; 7.2)</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    quartile_rank,            <span class="co"># Secondary: Q1 &gt; Q2</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">desc</span>(publication_date)    <span class="co"># Tertiary: Newest</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="step-3-present-to-users" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-present-to-users"><strong>Step 3: Present to Users</strong></h3>
-<p><strong>Category-first tabs:</strong></p>
-<pre><code>THERAPEUTICS &amp; MECHANISMS (23 papers)
-Ranked by journal impact factor
+</header>
 
-1. Gastroenterology (IF: 29.4, Q1)
-2. Gut (IF: 24.5, Q1)
-3. Lancet Gastro (IF: 23.2, Q1)
-...</code></pre>
+
+<p>Get IBD LitMonitor delivered to your inbox — new papers, organised by category, every day (or every Monday for a weekly digest).</p>
+<hr>
+<section id="subscribe" class="level2">
+<h2 class="anchored" data-anchor-id="subscribe">Subscribe</h2>
+<p>Fill out the form below to sign up. You’ll receive a brief email each morning with a link to the day’s literature digest.</p>
+<!-- PASTE YOUR GOOGLE FORM EMBED CODE HERE -->
+<!-- Replace the src URL with your actual Google Form embed link -->
+<!-- Example:
+<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
+        width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">
+  Loading form…
+</iframe>
+-->
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Subscription form coming soon. In the meantime, email <a href="mailto:ibdlitmonitor@gmail.com">ibdlitmonitor@gmail.com</a> to subscribe.</p>
+</div>
+</div>
 <hr>
 </section>
-</section>
-<section id="journal-metrics-database" class="level2">
-<h2 class="anchored" data-anchor-id="journal-metrics-database">📊 Journal Metrics Database</h2>
-<p>Built into <code>R/core_functions.R</code>:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>get_journal_metrics <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tribble</span>(</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="sc">~</span>journal, <span class="sc">~</span>impact_factor, <span class="sc">~</span>quartile,</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Gastroenterology"</span>, <span class="fl">29.4</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Gut"</span>, <span class="fl">24.5</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Lancet Gastroenterology &amp; Hepatology"</span>, <span class="fl">23.2</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Clinical Gastroenterology and Hepatology"</span>, <span class="fl">11.6</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Journal of Crohn's and Colitis"</span>, <span class="fl">8.3</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Inflammatory Bowel Diseases"</span>, <span class="fl">7.2</span>, <span class="st">"Q1"</span>,</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 20+ journals total</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Update annually</strong> - No API needed</p>
-<p><strong>Unknown journals:</strong> IF = 0, appear last</p>
-<hr>
-</section>
-<section id="user-experience" class="level2">
-<h2 class="anchored" data-anchor-id="user-experience">🎨 User Experience</h2>
-<section id="main-website-quarto" class="level3">
-<h3 class="anchored" data-anchor-id="main-website-quarto"><strong>Main Website (Quarto)</strong></h3>
-<p><strong>URL:</strong> <code>https://ibd-litmonitor.netlify.app</code></p>
-<p><strong>What users see:</strong> - Overview stats (total papers, RCTs, Q1 journals) - Top journals this week (by paper count) - 12 category tabs - Papers within each tab ranked by IF - Journal name + IF + quartile shown - Study design badges (RCT, Meta-analysis) - Category distribution chart - IF distribution chart - RSS subscription button</p>
-</section>
-<section id="interactive-dashboard-shiny" class="level3">
-<h3 class="anchored" data-anchor-id="interactive-dashboard-shiny"><strong>Interactive Dashboard (Shiny)</strong></h3>
-<p><strong>URL:</strong> <code>https://YOUR-USERNAME.shinyapps.io/ibd-litmonitor-dashboard</code></p>
-<p><strong>Filters (User Choice):</strong> - Category dropdown - Journal quartile checkboxes (Q1, Q2, Q3, Q4) - Minimum IF slider (0-50) - Study design checkboxes - Date range picker - Keyword search</p>
-<p><strong>Analytics:</strong> - Papers by category (bar chart) - IF distribution (box plot) - Top journals (pie chart) - Publication timeline (line chart)</p>
-<p><strong>Exports:</strong> - CSV download - BibTeX download</p>
-<p><strong>Special Tab:</strong> - “About Filtering” - Explains philosophy</p>
-<hr>
-</section>
-</section>
-<section id="weekly-automation" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-automation">🔄 Weekly Automation</h2>
-<p><strong>GitHub Action runs every Friday 7 AM:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="at">1. Fetch papers from PubMed (28 queries)</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="at">2. Categorize into 12 subfields</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="at">3. Rank by IF/quartile within category</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">4. Generate RSS feed</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="at">5. Render Quarto website</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">6. Archive current report</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">7. Commit &amp; push</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="at">8. Deploy to Netlify/GitHub Pages</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Users see fresh data every week, zero maintenance</strong></p>
-<hr>
-</section>
-<section id="value-proposition" class="level2">
-<h2 class="anchored" data-anchor-id="value-proposition">🎯 Value Proposition</h2>
-<section id="for-busy-clinicians" class="level3">
-<h3 class="anchored" data-anchor-id="for-busy-clinicians"><strong>For Busy Clinicians:</strong></h3>
+<section id="what-youll-receive" class="level2">
+<h2 class="anchored" data-anchor-id="what-youll-receive">What you’ll receive</h2>
 <ul>
-<li>Organized by clinical area (not chaos)</li>
-<li>High-IF journals first (trusted sources)</li>
-<li>Quick Friday scan</li>
+<li><strong>Daily digest</strong> — sent each morning (06:00 PT) with a link to the latest report</li>
+<li><strong>Weekly digest</strong> — sent every Monday morning with the week’s coverage</li>
+<li>Papers organised across 17 IBD clinical categories</li>
+<li>Direct link to the searchable dashboard with filters and CSV/Excel export</li>
 </ul>
-</section>
-<section id="for-researchers" class="level3">
-<h3 class="anchored" data-anchor-id="for-researchers"><strong>For Researchers:</strong></h3>
-<ul>
-<li>Complete coverage (28 queries)</li>
-<li>Objective ranking (IF/quartile)</li>
-<li>Filter to YOUR criteria</li>
-</ul>
-</section>
-<section id="for-fellowstrainees" class="level3">
-<h3 class="anchored" data-anchor-id="for-fellowstrainees"><strong>For Fellows/Trainees:</strong></h3>
-<ul>
-<li>Learn what journals matter (IF shown)</li>
-<li>See study designs</li>
-<li>Discover across subfields</li>
-</ul>
-</section>
-<section id="vs-pubmed-emails" class="level3">
-<h3 class="anchored" data-anchor-id="vs-pubmed-emails"><strong>vs PubMed Emails:</strong></h3>
-<p>✅ Organized (12 categories)<br>
-✅ Ranked (by IF)<br>
-✅ Filterable (by quartile/design)</p>
-</section>
-<section id="vs-subjective-curation" class="level3">
-<h3 class="anchored" data-anchor-id="vs-subjective-curation"><strong>vs Subjective Curation:</strong></h3>
-<p>✅ Transparent (IF is objective)<br>
-✅ Complete (all papers shown)<br>
-✅ User-controlled (you filter)</p>
 <hr>
 </section>
-</section>
-<section id="cost-0month" class="level2">
-<h2 class="anchored" data-anchor-id="cost-0month">💰 Cost: $0/month</h2>
+<section id="frequency-options" class="level2">
+<h2 class="anchored" data-anchor-id="frequency-options">Frequency options</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Service</th>
-<th>What</th>
-<th>Cost</th>
+<th>Option</th>
+<th>When sent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>GitHub Pages/Netlify</td>
-<td>Website hosting</td>
-<td>$0</td>
+<td><strong>Daily</strong></td>
+<td>Every morning</td>
 </tr>
 <tr class="even">
-<td>GitHub Actions</td>
-<td>Weekly automation</td>
-<td>$0</td>
-</tr>
-<tr class="odd">
-<td>shinyapps.io</td>
-<td>Dashboard (25 hrs/mo)</td>
-<td>$0</td>
-</tr>
-<tr class="even">
-<td>PubMed API</td>
-<td>Data source</td>
-<td>$0</td>
+<td><strong>Weekly</strong></td>
+<td>Every Monday morning</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Scales to 10,000+ users for FREE</strong></p>
 <hr>
 </section>
-<section id="privacy-code-protection" class="level2">
-<h2 class="anchored" data-anchor-id="privacy-code-protection">🔒 Privacy &amp; Code Protection</h2>
-<p><strong>Two-repo strategy (recommended):</strong></p>
-<pre><code>Private Repo (GitHub)
-  ├─ R/core_functions.R (SECRET)
-  ├─ *.qmd files
-  └─ All code
-      ↓
-  Netlify builds
-      ↓
-Public Website (HTML only)</code></pre>
-<p><strong>Nobody sees your code!</strong></p>
-<p><strong>Alternative:</strong> Single private repo + Netlify (easiest)</p>
-<hr>
-</section>
-<section id="ready-to-deploy" class="level2">
-<h2 class="anchored" data-anchor-id="ready-to-deploy">✅ Ready to Deploy</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Extract</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tar</span> <span class="at">-xzf</span> ibd_litmonitor_UPDATED.tar.gz</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ibd_litmonitor_final</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Setup</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="ex">./setup.sh</span>  <span class="co"># or source("quickstart.R")</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Deploy website</span></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="ex">gh</span> repo create ibd-litmonitor <span class="at">--private</span></span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Then connect to Netlify</span></span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Deploy dashboard</span></span>
-<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span><span class="er">(</span><span class="st">"deploy_shiny.R"</span><span class="kw">)</span></span>
-<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. You're live!</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Time: 15 minutes</strong></p>
-<hr>
-</section>
-<section id="documentation" class="level2">
-<h2 class="anchored" data-anchor-id="documentation">📚 Documentation</h2>
-<ul>
-<li><strong>START_HERE.md</strong> - Quick start guide</li>
-<li><strong>README.md</strong> - Complete features &amp; usage</li>
-<li><strong>DEPLOYMENT_GUIDE.md</strong> - Privacy setup</li>
-<li><strong>This file</strong> - Architecture overview</li>
-</ul>
-<hr>
-<p><strong>Last updated:</strong> March 2026 (Updated approach - no quality scores)</p>
+<section id="unsubscribe" class="level2">
+<h2 class="anchored" data-anchor-id="unsubscribe">Unsubscribe</h2>
+<p>To unsubscribe or change your frequency, email <a href="mailto:ibdlitmonitor@gmail.com">ibdlitmonitor@gmail.com</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

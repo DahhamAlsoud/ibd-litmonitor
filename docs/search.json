@@ -42,74 +42,81 @@
     "text": "Citation\n\nAlsoud D. (2026). IBD LitMonitor: Systematic literature monitoring for inflammatory bowel disease research. https://dahhamalsoud.github.io/ibd-litmonitor"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html",
-    "href": "DEPLOYMENT_GUIDE.html",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html",
+    "href": "BREVO_SETUP.html",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "To keep your code PRIVATE while the website is PUBLIC, you’ll use TWO GitHub repositories:\n\n\nName: ibd-litmonitor-private\nVisibility: Private\nContains:\nibd-litmonitor-private/\n├── R/\n│   └── core_functions.R          ← YOUR SECRET SAUCE\n├── .qmd files\n├── .github/workflows/\n└── scripts/\n\n\n\nName: ibd-litmonitor\nVisibility: Public\nContains:\nibd-litmonitor/\n├── docs/                          ← Rendered HTML only\n│   ├── index.html\n│   ├── archive.html\n│   ├── dashboard.html\n│   └── *.html\n├── rss.xml\n└── README.md\n\n\n\n\n\n\n\n# On your computer\ncd /path/to/this/folder\n\n# Initialize git\ngit init\n\n# Create private repo on GitHub\ngh repo create ibd-litmonitor-private --private --source=. --remote=origin\n\n# Add all files\ngit add .\ngit commit -m \"Initial commit - private code\"\ngit push -u origin main\n\n\n\n# Create public repo for website\ngh repo create ibd-litmonitor --public --clone\n\ncd ibd-litmonitor\n\n# This will ONLY contain rendered HTML\n# (populated automatically by GitHub Actions)\n\n\n\nIn your PRIVATE repo, the GitHub Action will:\n\nRun on private repo (code is safe)\nRender Quarto → HTML\nPush HTML to PUBLIC repo\n\n\n\n- name: Deploy to public repository\n  run: |\n    # Clone public repo\n    git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dahhamalsoud/ibd-litmonitor.git public-site\n    \n    # Copy rendered docs\n    cp -r docs/* public-site/\n    \n    # Push to public repo\n    cd public-site\n    git config user.name \"IBD LitMonitor Bot\"\n    git config user.email \"bot@litmonitor.com\"\n    git add .\n    git commit -m \"Update site - $(date)\"\n    git push\n\n\n\n\n\nGo to GitHub Settings → Developer settings → Personal access tokens\nGenerate new token (classic)\nSelect scopes: repo (all)\nCopy token\nAdd to private repo secrets:\n\nGo to private repo → Settings → Secrets → Actions\nAdd secret: PERSONAL_ACCESS_TOKEN = your token\n\n\n\n\n\nIn PRIVATE repo → Settings → Secrets → Actions:\n\nPUBMED_EMAIL = your email\nPUBMED_API_KEY = your PubMed API key (optional but recommended)\n\n\n\n\n\n\n┌─────────────────────────────────────────────┐\n│  PRIVATE REPO (Code)                        │\n│  ├── R/core_functions.R                     │\n│  ├── *.qmd                                  │\n│  └── GitHub Actions                         │\n│                                             │\n│  Every Friday:                              │\n│  1. Fetch papers (R code)                   │\n│  2. Render Quarto → HTML                    │\n│  3. Push HTML to public repo ───────┐       │\n└─────────────────────────────────────│───────┘\n                                      │\n                                      ↓\n                      ┌───────────────────────────────┐\n                      │  PUBLIC REPO (Website)        │\n                      │  ├── docs/                    │\n                      │  │   ├── index.html           │\n                      │  │   └── *.html               │\n                      │  └── README.md                │\n                      │                               │\n                      │  GitHub Pages serves this!    │\n                      │  https://....github.io        │\n                      └───────────────────────────────┘\nResult: - ✅ Your R code = PRIVATE (nobody can copy) - ✅ Website = PUBLIC (everyone can use) - ✅ GitHub Actions runs on private repo (secure) - ✅ FREE (both repos free)\n\n\n\n\nIf you want to keep EVERYTHING private initially:\n\n\nGitHub Pages works on private repos if you have: - GitHub Pro ($4/month) - GitHub Team ($4/user/month)\nThen you can: 1. Keep everything in ONE private repo 2. Enable GitHub Pages on private repo 3. Website is public, code stays private\n\n\n\n\nKeep everything in private repo\nUse GitHub Actions to deploy to:\n\nNetlify (FREE)\nVercel (FREE)\nCloudflare Pages (FREE)\n\n\nAll of these can deploy from private repos for FREE!\n\n\n\n\n\nEASIEST & FREE:\n\nKeep everything in ONE private repo\nConnect to Netlify\nNetlify auto-deploys from private repo\n\n\n\n# Keep everything in private repo\ngh repo create ibd-litmonitor --private\n\n# Connect to Netlify\n# 1. Go to netlify.com\n# 2. New site from Git\n# 3. Connect GitHub (authorize private repos)\n# 4. Select your private repo\n# 5. Build command: quarto render\n# 6. Publish directory: docs\n# 7. Deploy!\n\n# Your site: https://ibd-litmonitor.netlify.app\n# (or custom domain)\nBenefits: - ✅ Code stays private - ✅ Website is public - ✅ FREE forever - ✅ Automatic deployments - ✅ Custom domain support - ✅ HTTPS included - ✅ Faster than GitHub Pages\n\n\n\n\n\n\n\n\nMethod\nComplexity\nCost\nPrivacy\n\n\n\n\nTwo repos (private + public)\nMedium\n$0\nPerfect\n\n\nPrivate repo + Netlify\nEasy\n$0\nPerfect\n\n\nPrivate repo + GitHub Pro\nEasy\n$4/mo\nPerfect\n\n\n\nRecommendation: Netlify + Private Repo (easiest + free)\n\n\n\n\nEven with private code, you CAN share these if you want:\n\nREADME.md - Description of the project\nabout.qmd - About page\nstyles.css - Styling (not secret)\ndashboard/app.R - Shiny app (if you want to share)\n\nBut keep PRIVATE: - R/core_functions.R - Your search queries and logic - PubMed API credentials - Any proprietary algorithms\n\n\n\n\n✅ Never commit API keys or passwords\n✅ Use .gitignore to exclude sensitive files\n✅ Use GitHub Secrets for credentials\n✅ Keep R/ folder private\n✅ Only share rendered HTML\n✅ Use private repo for development\n✅ Review commits before pushing\n\n\n\n\nChoose your deployment method:\n\nEasy: Netlify + private repo (recommended)\nTraditional: Two repos (private code + public site)\nPro: Single private repo + GitHub Pro\n\nWant me to create setup scripts for your chosen method?"
+    "text": "This document walks you through the one-time setup needed to enable the IBD LitMonitor email digest system.\n\n\n\nThe system works like this:\n\nYou maintain a Google Sheet with subscriber email addresses\nThe sheet is published as a CSV (read-only, URL kept private as a GitHub secret)\nAfter each daily render, GitHub Actions runs scripts/send_digest.py\nThe script reads the subscriber list and sends a digest email via Brevo (free up to 300 emails/day)\n\n\n\n\n\n\nGo to brevo.com and sign up for a free account\nVerify your sender email address: ibdlitmonitor@gmail.com\n\nIn Brevo: Senders & IPs → Senders → Add a sender\nName: IBD LitMonitor, Email: ibdlitmonitor@gmail.com\nVerify via the confirmation email Brevo sends\n\nGenerate an API key:\n\nGo to Account settings → API Keys → Generate a new API key\nName it github-actions\nCopy the key — you’ll add it to GitHub secrets next\n\n\n\n\n\n\nIn your private repo (ibd-litmonitor-src): - Settings → Secrets and variables → Actions → New repository secret\nAdd these two secrets:\n\n\n\n\n\n\n\nSecret name\nValue\n\n\n\n\nBREVO_API_KEY\nYour Brevo API key from Step 1\n\n\nSUBSCRIBER_SHEET_URL\nThe Google Sheet CSV export URL (see Step 3)\n\n\n\n\n\n\n\n\nCreate a new Google Sheet at sheets.google.com\nName it IBD LitMonitor Subscribers\nAdd these exact column headers in row 1:\n\n\n\nA\nB\nC\nD\n\n\n\n\nemail\nname\nfrequency\nactive\n\n\n\nColumn notes:\n\nemail — subscriber email address (required)\nname — first name for personalized greeting (optional, leave blank if unknown)\nfrequency — daily or weekly (defaults to daily if blank)\nactive — TRUE to receive emails, FALSE to pause (defaults to TRUE)\n\nAdd yourself as a test subscriber in row 2:\ndahhamalsoud@gmail.com  |  Dahham  |  daily  |  TRUE\nPublish the sheet as CSV:\n\nFile → Share → Publish to web\nSelect Sheet 1 and Comma-separated values (.csv)\nClick Publish and copy the URL\nThe URL looks like: https://docs.google.com/spreadsheets/d/SHEET_ID/export?format=csv&gid=0\n\nAdd the CSV URL as the SUBSCRIBER_SHEET_URL GitHub secret (Step 2)\n\n\n\n\n\nTo let users self-subscribe without emailing you:\n\nGo to forms.google.com → Create new form\nTitle: Subscribe to IBD LitMonitor\nAdd questions:\n\nEmail address (short answer, required, validate as email)\nFirst name (short answer, optional)\nFrequency (multiple choice: Daily / Weekly)\n\nConnect to your subscriber sheet:\n\nResponses tab → Link to Sheets → Select your subscriber sheet\n\nSet up a Google Sheets App Script (or use Zapier/Make) to automatically:\n\nAdd active = TRUE to new rows\nNormalize frequency to daily/weekly\n\nGet the embed code:\n\nSend → &lt;&gt; (embed) → Copy the iframe HTML\n\nPaste the iframe code into subscribe.qmd replacing the placeholder comment\n\n\n\n\n\nRun a dry-run locally to verify the script works:\nexport SUBSCRIBER_SHEET_URL=\"your-csv-url\"\npython3 scripts/send_digest.py --dry-run\nTo send a real test email:\nexport BREVO_API_KEY=\"your-key\"\nexport SUBSCRIBER_SHEET_URL=\"your-csv-url\"\npython3 scripts/send_digest.py\nOr trigger from GitHub Actions manually (Actions tab → Update IBD LitMonitor → Run workflow).\n\n\n\n\n\nBrevo free: 300 emails/day, unlimited contacts\nWith ~100 daily subscribers and ~50 weekly: well within free tier\nIf you grow beyond 300/day, Brevo Starter is $9/month for 5,000/day\n\n\n\n\n\n\n\n\n\n\n\n\nProblem\nFix\n\n\n\n\nSUBSCRIBER_SHEET_URL not set\nAdd the secret to GitHub repo settings\n\n\nBREVO_API_KEY not set\nAdd the secret to GitHub repo settings\n\n\nHTTP 401 from Brevo\nAPI key is wrong or expired — regenerate in Brevo\n\n\nHTTP 400 from Brevo\nSender email not verified in Brevo — verify ibdlitmonitor@gmail.com\n\n\nEmails going to spam\nSet up SPF/DKIM in Brevo for better deliverability\n\n\nSheet fetch fails\nMake sure the sheet is published to web as CSV"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#important-two-repository-architecture",
-    "href": "DEPLOYMENT_GUIDE.html#important-two-repository-architecture",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#overview",
+    "href": "BREVO_SETUP.html#overview",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "To keep your code PRIVATE while the website is PUBLIC, you’ll use TWO GitHub repositories:\n\n\nName: ibd-litmonitor-private\nVisibility: Private\nContains:\nibd-litmonitor-private/\n├── R/\n│   └── core_functions.R          ← YOUR SECRET SAUCE\n├── .qmd files\n├── .github/workflows/\n└── scripts/\n\n\n\nName: ibd-litmonitor\nVisibility: Public\nContains:\nibd-litmonitor/\n├── docs/                          ← Rendered HTML only\n│   ├── index.html\n│   ├── archive.html\n│   ├── dashboard.html\n│   └── *.html\n├── rss.xml\n└── README.md"
+    "text": "The system works like this:\n\nYou maintain a Google Sheet with subscriber email addresses\nThe sheet is published as a CSV (read-only, URL kept private as a GitHub secret)\nAfter each daily render, GitHub Actions runs scripts/send_digest.py\nThe script reads the subscriber list and sends a digest email via Brevo (free up to 300 emails/day)"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#setup-instructions",
-    "href": "DEPLOYMENT_GUIDE.html#setup-instructions",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#step-1-create-a-brevo-account",
+    "href": "BREVO_SETUP.html#step-1-create-a-brevo-account",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "# On your computer\ncd /path/to/this/folder\n\n# Initialize git\ngit init\n\n# Create private repo on GitHub\ngh repo create ibd-litmonitor-private --private --source=. --remote=origin\n\n# Add all files\ngit add .\ngit commit -m \"Initial commit - private code\"\ngit push -u origin main\n\n\n\n# Create public repo for website\ngh repo create ibd-litmonitor --public --clone\n\ncd ibd-litmonitor\n\n# This will ONLY contain rendered HTML\n# (populated automatically by GitHub Actions)\n\n\n\nIn your PRIVATE repo, the GitHub Action will:\n\nRun on private repo (code is safe)\nRender Quarto → HTML\nPush HTML to PUBLIC repo\n\n\n\n- name: Deploy to public repository\n  run: |\n    # Clone public repo\n    git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dahhamalsoud/ibd-litmonitor.git public-site\n    \n    # Copy rendered docs\n    cp -r docs/* public-site/\n    \n    # Push to public repo\n    cd public-site\n    git config user.name \"IBD LitMonitor Bot\"\n    git config user.email \"bot@litmonitor.com\"\n    git add .\n    git commit -m \"Update site - $(date)\"\n    git push\n\n\n\n\n\nGo to GitHub Settings → Developer settings → Personal access tokens\nGenerate new token (classic)\nSelect scopes: repo (all)\nCopy token\nAdd to private repo secrets:\n\nGo to private repo → Settings → Secrets → Actions\nAdd secret: PERSONAL_ACCESS_TOKEN = your token\n\n\n\n\n\nIn PRIVATE repo → Settings → Secrets → Actions:\n\nPUBMED_EMAIL = your email\nPUBMED_API_KEY = your PubMed API key (optional but recommended)"
+    "text": "Go to brevo.com and sign up for a free account\nVerify your sender email address: ibdlitmonitor@gmail.com\n\nIn Brevo: Senders & IPs → Senders → Add a sender\nName: IBD LitMonitor, Email: ibdlitmonitor@gmail.com\nVerify via the confirmation email Brevo sends\n\nGenerate an API key:\n\nGo to Account settings → API Keys → Generate a new API key\nName it github-actions\nCopy the key — you’ll add it to GitHub secrets next"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#how-it-works",
-    "href": "DEPLOYMENT_GUIDE.html#how-it-works",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#step-2-add-github-secrets",
+    "href": "BREVO_SETUP.html#step-2-add-github-secrets",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "┌─────────────────────────────────────────────┐\n│  PRIVATE REPO (Code)                        │\n│  ├── R/core_functions.R                     │\n│  ├── *.qmd                                  │\n│  └── GitHub Actions                         │\n│                                             │\n│  Every Friday:                              │\n│  1. Fetch papers (R code)                   │\n│  2. Render Quarto → HTML                    │\n│  3. Push HTML to public repo ───────┐       │\n└─────────────────────────────────────│───────┘\n                                      │\n                                      ↓\n                      ┌───────────────────────────────┐\n                      │  PUBLIC REPO (Website)        │\n                      │  ├── docs/                    │\n                      │  │   ├── index.html           │\n                      │  │   └── *.html               │\n                      │  └── README.md                │\n                      │                               │\n                      │  GitHub Pages serves this!    │\n                      │  https://....github.io        │\n                      └───────────────────────────────┘\nResult: - ✅ Your R code = PRIVATE (nobody can copy) - ✅ Website = PUBLIC (everyone can use) - ✅ GitHub Actions runs on private repo (secure) - ✅ FREE (both repos free)"
+    "text": "In your private repo (ibd-litmonitor-src): - Settings → Secrets and variables → Actions → New repository secret\nAdd these two secrets:\n\n\n\n\n\n\n\nSecret name\nValue\n\n\n\n\nBREVO_API_KEY\nYour Brevo API key from Step 1\n\n\nSUBSCRIBER_SHEET_URL\nThe Google Sheet CSV export URL (see Step 3)"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#alternative-single-private-repo-simpler",
-    "href": "DEPLOYMENT_GUIDE.html#alternative-single-private-repo-simpler",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#step-3-create-the-subscriber-google-sheet",
+    "href": "BREVO_SETUP.html#step-3-create-the-subscriber-google-sheet",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "If you want to keep EVERYTHING private initially:\n\n\nGitHub Pages works on private repos if you have: - GitHub Pro ($4/month) - GitHub Team ($4/user/month)\nThen you can: 1. Keep everything in ONE private repo 2. Enable GitHub Pages on private repo 3. Website is public, code stays private\n\n\n\n\nKeep everything in private repo\nUse GitHub Actions to deploy to:\n\nNetlify (FREE)\nVercel (FREE)\nCloudflare Pages (FREE)\n\n\nAll of these can deploy from private repos for FREE!"
+    "text": "Create a new Google Sheet at sheets.google.com\nName it IBD LitMonitor Subscribers\nAdd these exact column headers in row 1:\n\n\n\nA\nB\nC\nD\n\n\n\n\nemail\nname\nfrequency\nactive\n\n\n\nColumn notes:\n\nemail — subscriber email address (required)\nname — first name for personalized greeting (optional, leave blank if unknown)\nfrequency — daily or weekly (defaults to daily if blank)\nactive — TRUE to receive emails, FALSE to pause (defaults to TRUE)\n\nAdd yourself as a test subscriber in row 2:\ndahhamalsoud@gmail.com  |  Dahham  |  daily  |  TRUE\nPublish the sheet as CSV:\n\nFile → Share → Publish to web\nSelect Sheet 1 and Comma-separated values (.csv)\nClick Publish and copy the URL\nThe URL looks like: https://docs.google.com/spreadsheets/d/SHEET_ID/export?format=csv&gid=0\n\nAdd the CSV URL as the SUBSCRIBER_SHEET_URL GitHub secret (Step 2)"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#recommended-approach-netlify-private-repo",
-    "href": "DEPLOYMENT_GUIDE.html#recommended-approach-netlify-private-repo",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#step-4-create-the-subscribe-google-form-optional",
+    "href": "BREVO_SETUP.html#step-4-create-the-subscribe-google-form-optional",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "EASIEST & FREE:\n\nKeep everything in ONE private repo\nConnect to Netlify\nNetlify auto-deploys from private repo\n\n\n\n# Keep everything in private repo\ngh repo create ibd-litmonitor --private\n\n# Connect to Netlify\n# 1. Go to netlify.com\n# 2. New site from Git\n# 3. Connect GitHub (authorize private repos)\n# 4. Select your private repo\n# 5. Build command: quarto render\n# 6. Publish directory: docs\n# 7. Deploy!\n\n# Your site: https://ibd-litmonitor.netlify.app\n# (or custom domain)\nBenefits: - ✅ Code stays private - ✅ Website is public - ✅ FREE forever - ✅ Automatic deployments - ✅ Custom domain support - ✅ HTTPS included - ✅ Faster than GitHub Pages"
+    "text": "To let users self-subscribe without emailing you:\n\nGo to forms.google.com → Create new form\nTitle: Subscribe to IBD LitMonitor\nAdd questions:\n\nEmail address (short answer, required, validate as email)\nFirst name (short answer, optional)\nFrequency (multiple choice: Daily / Weekly)\n\nConnect to your subscriber sheet:\n\nResponses tab → Link to Sheets → Select your subscriber sheet\n\nSet up a Google Sheets App Script (or use Zapier/Make) to automatically:\n\nAdd active = TRUE to new rows\nNormalize frequency to daily/weekly\n\nGet the embed code:\n\nSend → &lt;&gt; (embed) → Copy the iframe HTML\n\nPaste the iframe code into subscribe.qmd replacing the placeholder comment"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#which-approach-should-you-use",
-    "href": "DEPLOYMENT_GUIDE.html#which-approach-should-you-use",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#step-5-test-the-digest",
+    "href": "BREVO_SETUP.html#step-5-test-the-digest",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "Method\nComplexity\nCost\nPrivacy\n\n\n\n\nTwo repos (private + public)\nMedium\n$0\nPerfect\n\n\nPrivate repo + Netlify\nEasy\n$0\nPerfect\n\n\nPrivate repo + GitHub Pro\nEasy\n$4/mo\nPerfect\n\n\n\nRecommendation: Netlify + Private Repo (easiest + free)"
+    "text": "Run a dry-run locally to verify the script works:\nexport SUBSCRIBER_SHEET_URL=\"your-csv-url\"\npython3 scripts/send_digest.py --dry-run\nTo send a real test email:\nexport BREVO_API_KEY=\"your-key\"\nexport SUBSCRIBER_SHEET_URL=\"your-csv-url\"\npython3 scripts/send_digest.py\nOr trigger from GitHub Actions manually (Actions tab → Update IBD LitMonitor → Run workflow)."
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#files-you-can-share-publicly-optional",
-    "href": "DEPLOYMENT_GUIDE.html#files-you-can-share-publicly-optional",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#free-tier-limits",
+    "href": "BREVO_SETUP.html#free-tier-limits",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "Even with private code, you CAN share these if you want:\n\nREADME.md - Description of the project\nabout.qmd - About page\nstyles.css - Styling (not secret)\ndashboard/app.R - Shiny app (if you want to share)\n\nBut keep PRIVATE: - R/core_functions.R - Your search queries and logic - PubMed API credentials - Any proprietary algorithms"
+    "text": "Brevo free: 300 emails/day, unlimited contacts\nWith ~100 daily subscribers and ~50 weekly: well within free tier\nIf you grow beyond 300/day, Brevo Starter is $9/month for 5,000/day"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#security-checklist",
-    "href": "DEPLOYMENT_GUIDE.html#security-checklist",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "BREVO_SETUP.html#troubleshooting",
+    "href": "BREVO_SETUP.html#troubleshooting",
+    "title": "Brevo Email Digest Setup Guide",
     "section": "",
-    "text": "✅ Never commit API keys or passwords\n✅ Use .gitignore to exclude sensitive files\n✅ Use GitHub Secrets for credentials\n✅ Keep R/ folder private\n✅ Only share rendered HTML\n✅ Use private repo for development\n✅ Review commits before pushing"
+    "text": "Problem\nFix\n\n\n\n\nSUBSCRIBER_SHEET_URL not set\nAdd the secret to GitHub repo settings\n\n\nBREVO_API_KEY not set\nAdd the secret to GitHub repo settings\n\n\nHTTP 401 from Brevo\nAPI key is wrong or expired — regenerate in Brevo\n\n\nHTTP 400 from Brevo\nSender email not verified in Brevo — verify ibdlitmonitor@gmail.com\n\n\nEmails going to spam\nSet up SPF/DKIM in Brevo for better deliverability\n\n\nSheet fetch fails\nMake sure the sheet is published to web as CSV"
   },
   {
-    "objectID": "DEPLOYMENT_GUIDE.html#next-steps",
-    "href": "DEPLOYMENT_GUIDE.html#next-steps",
-    "title": "IBD LitMonitor - Private Code Repository",
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Interactive Dashboard",
     "section": "",
-    "text": "Choose your deployment method:\n\nEasy: Netlify + private repo (recommended)\nTraditional: Two repos (private code + public site)\nPro: Single private repo + GitHub Pro\n\nWant me to create setup scripts for your chosen method?"
+    "text": "475 papers from the past 30 days — search, filter, and download below.\nCategory\n    \n      All categories\n      AI & Machine LearningBiomarkers & Precision MedicineDrug Safety & PharmacovigilanceEndoscopy & ImagingEpidemiology & OutcomesExtraintestinal ManifestationsGenetics & GenomicsGuidelines & ConsensusIBD-associated NeoplasiaMicrobiome & ImmunologyNutrition & LifestylePathogenesis & Basic SciencePediatric IBDPregnancy & Reproductive HealthQuality of Life & PROsSurgery & ComplicationsTherapeutics & Mechanisms\n    \n  \n\n  \n    \n      Study design\n      ⓘ\n    \n    \n      All designs\n      Case reportEditorialLetterMeta-analysisMulticenter studyObservational studyRCTReviewSystematic review\n    \n    PubMed-assigned; not all papers tagged\n  \n\n  \n    Date range\n    \n      \n      to\n      \n    \n    Papers indexed by PubMed in the past 30 days\n  \n\n  \n     \n    \n      \n      Flagship journals only\n    \n  \n\n  \n     \n    ✕ Clear filters"
+  },
+  {
+    "objectID": "dashboard.html#papers-by-category",
+    "href": "dashboard.html#papers-by-category",
+    "title": "Interactive Dashboard",
+    "section": "Papers by Category",
+    "text": "Papers by Category"
   },
   {
     "objectID": "START_HERE.html",
@@ -315,18 +322,109 @@
     "text": "START_HERE.md - Quick start guide\nREADME.md - Complete features & usage\nDEPLOYMENT_GUIDE.md - Privacy setup\nThis file - Architecture overview\n\n\nLast updated: March 2026 (Updated approach - no quality scores)"
   },
   {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "Interactive Dashboard",
+    "objectID": "subscribe.html",
+    "href": "subscribe.html",
+    "title": "Subscribe to Email Digests",
     "section": "",
-    "text": "475 papers from the past 30 days — search, filter, and download below.\nCategory\n    \n      All categories\n      AI & Machine LearningBiomarkers & Precision MedicineDrug Safety & PharmacovigilanceEndoscopy & ImagingEpidemiology & OutcomesExtraintestinal ManifestationsGenetics & GenomicsGuidelines & ConsensusIBD-associated NeoplasiaMicrobiome & ImmunologyNutrition & LifestylePathogenesis & Basic SciencePediatric IBDPregnancy & Reproductive HealthQuality of Life & PROsSurgery & ComplicationsTherapeutics & Mechanisms\n    \n  \n\n  \n    \n      Study design\n      ⓘ\n    \n    \n      All designs\n      Case reportEditorialLetterMeta-analysisMulticenter studyObservational studyRCTReviewSystematic review\n    \n    PubMed-assigned; not all papers tagged\n  \n\n  \n    Date range\n    \n      \n      to\n      \n    \n    Papers indexed by PubMed in the past 30 days\n  \n\n  \n     \n    \n      \n      Flagship journals only\n    \n  \n\n  \n     \n    ✕ Clear filters"
+    "text": "Get IBD LitMonitor delivered to your inbox — new papers, organised by category, every day (or every Monday for a weekly digest)."
   },
   {
-    "objectID": "dashboard.html#papers-by-category",
-    "href": "dashboard.html#papers-by-category",
-    "title": "Interactive Dashboard",
-    "section": "Papers by Category",
-    "text": "Papers by Category"
+    "objectID": "subscribe.html#subscribe",
+    "href": "subscribe.html#subscribe",
+    "title": "Subscribe to Email Digests",
+    "section": "Subscribe",
+    "text": "Subscribe\nFill out the form below to sign up. You’ll receive a brief email each morning with a link to the day’s literature digest.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSubscription form coming soon. In the meantime, email ibdlitmonitor@gmail.com to subscribe."
+  },
+  {
+    "objectID": "subscribe.html#what-youll-receive",
+    "href": "subscribe.html#what-youll-receive",
+    "title": "Subscribe to Email Digests",
+    "section": "What you’ll receive",
+    "text": "What you’ll receive\n\nDaily digest — sent each morning (06:00 PT) with a link to the latest report\nWeekly digest — sent every Monday morning with the week’s coverage\nPapers organised across 17 IBD clinical categories\nDirect link to the searchable dashboard with filters and CSV/Excel export"
+  },
+  {
+    "objectID": "subscribe.html#frequency-options",
+    "href": "subscribe.html#frequency-options",
+    "title": "Subscribe to Email Digests",
+    "section": "Frequency options",
+    "text": "Frequency options\n\n\n\nOption\nWhen sent\n\n\n\n\nDaily\nEvery morning\n\n\nWeekly\nEvery Monday morning"
+  },
+  {
+    "objectID": "subscribe.html#unsubscribe",
+    "href": "subscribe.html#unsubscribe",
+    "title": "Subscribe to Email Digests",
+    "section": "Unsubscribe",
+    "text": "Unsubscribe\nTo unsubscribe or change your frequency, email ibdlitmonitor@gmail.com."
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html",
+    "href": "DEPLOYMENT_GUIDE.html",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "To keep your code PRIVATE while the website is PUBLIC, you’ll use TWO GitHub repositories:\n\n\nName: ibd-litmonitor-private\nVisibility: Private\nContains:\nibd-litmonitor-private/\n├── R/\n│   └── core_functions.R          ← YOUR SECRET SAUCE\n├── .qmd files\n├── .github/workflows/\n└── scripts/\n\n\n\nName: ibd-litmonitor\nVisibility: Public\nContains:\nibd-litmonitor/\n├── docs/                          ← Rendered HTML only\n│   ├── index.html\n│   ├── archive.html\n│   ├── dashboard.html\n│   └── *.html\n├── rss.xml\n└── README.md\n\n\n\n\n\n\n\n# On your computer\ncd /path/to/this/folder\n\n# Initialize git\ngit init\n\n# Create private repo on GitHub\ngh repo create ibd-litmonitor-private --private --source=. --remote=origin\n\n# Add all files\ngit add .\ngit commit -m \"Initial commit - private code\"\ngit push -u origin main\n\n\n\n# Create public repo for website\ngh repo create ibd-litmonitor --public --clone\n\ncd ibd-litmonitor\n\n# This will ONLY contain rendered HTML\n# (populated automatically by GitHub Actions)\n\n\n\nIn your PRIVATE repo, the GitHub Action will:\n\nRun on private repo (code is safe)\nRender Quarto → HTML\nPush HTML to PUBLIC repo\n\n\n\n- name: Deploy to public repository\n  run: |\n    # Clone public repo\n    git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dahhamalsoud/ibd-litmonitor.git public-site\n    \n    # Copy rendered docs\n    cp -r docs/* public-site/\n    \n    # Push to public repo\n    cd public-site\n    git config user.name \"IBD LitMonitor Bot\"\n    git config user.email \"bot@litmonitor.com\"\n    git add .\n    git commit -m \"Update site - $(date)\"\n    git push\n\n\n\n\n\nGo to GitHub Settings → Developer settings → Personal access tokens\nGenerate new token (classic)\nSelect scopes: repo (all)\nCopy token\nAdd to private repo secrets:\n\nGo to private repo → Settings → Secrets → Actions\nAdd secret: PERSONAL_ACCESS_TOKEN = your token\n\n\n\n\n\nIn PRIVATE repo → Settings → Secrets → Actions:\n\nPUBMED_EMAIL = your email\nPUBMED_API_KEY = your PubMed API key (optional but recommended)\n\n\n\n\n\n\n┌─────────────────────────────────────────────┐\n│  PRIVATE REPO (Code)                        │\n│  ├── R/core_functions.R                     │\n│  ├── *.qmd                                  │\n│  └── GitHub Actions                         │\n│                                             │\n│  Every Friday:                              │\n│  1. Fetch papers (R code)                   │\n│  2. Render Quarto → HTML                    │\n│  3. Push HTML to public repo ───────┐       │\n└─────────────────────────────────────│───────┘\n                                      │\n                                      ↓\n                      ┌───────────────────────────────┐\n                      │  PUBLIC REPO (Website)        │\n                      │  ├── docs/                    │\n                      │  │   ├── index.html           │\n                      │  │   └── *.html               │\n                      │  └── README.md                │\n                      │                               │\n                      │  GitHub Pages serves this!    │\n                      │  https://....github.io        │\n                      └───────────────────────────────┘\nResult: - ✅ Your R code = PRIVATE (nobody can copy) - ✅ Website = PUBLIC (everyone can use) - ✅ GitHub Actions runs on private repo (secure) - ✅ FREE (both repos free)\n\n\n\n\nIf you want to keep EVERYTHING private initially:\n\n\nGitHub Pages works on private repos if you have: - GitHub Pro ($4/month) - GitHub Team ($4/user/month)\nThen you can: 1. Keep everything in ONE private repo 2. Enable GitHub Pages on private repo 3. Website is public, code stays private\n\n\n\n\nKeep everything in private repo\nUse GitHub Actions to deploy to:\n\nNetlify (FREE)\nVercel (FREE)\nCloudflare Pages (FREE)\n\n\nAll of these can deploy from private repos for FREE!\n\n\n\n\n\nEASIEST & FREE:\n\nKeep everything in ONE private repo\nConnect to Netlify\nNetlify auto-deploys from private repo\n\n\n\n# Keep everything in private repo\ngh repo create ibd-litmonitor --private\n\n# Connect to Netlify\n# 1. Go to netlify.com\n# 2. New site from Git\n# 3. Connect GitHub (authorize private repos)\n# 4. Select your private repo\n# 5. Build command: quarto render\n# 6. Publish directory: docs\n# 7. Deploy!\n\n# Your site: https://ibd-litmonitor.netlify.app\n# (or custom domain)\nBenefits: - ✅ Code stays private - ✅ Website is public - ✅ FREE forever - ✅ Automatic deployments - ✅ Custom domain support - ✅ HTTPS included - ✅ Faster than GitHub Pages\n\n\n\n\n\n\n\n\nMethod\nComplexity\nCost\nPrivacy\n\n\n\n\nTwo repos (private + public)\nMedium\n$0\nPerfect\n\n\nPrivate repo + Netlify\nEasy\n$0\nPerfect\n\n\nPrivate repo + GitHub Pro\nEasy\n$4/mo\nPerfect\n\n\n\nRecommendation: Netlify + Private Repo (easiest + free)\n\n\n\n\nEven with private code, you CAN share these if you want:\n\nREADME.md - Description of the project\nabout.qmd - About page\nstyles.css - Styling (not secret)\ndashboard/app.R - Shiny app (if you want to share)\n\nBut keep PRIVATE: - R/core_functions.R - Your search queries and logic - PubMed API credentials - Any proprietary algorithms\n\n\n\n\n✅ Never commit API keys or passwords\n✅ Use .gitignore to exclude sensitive files\n✅ Use GitHub Secrets for credentials\n✅ Keep R/ folder private\n✅ Only share rendered HTML\n✅ Use private repo for development\n✅ Review commits before pushing\n\n\n\n\nChoose your deployment method:\n\nEasy: Netlify + private repo (recommended)\nTraditional: Two repos (private code + public site)\nPro: Single private repo + GitHub Pro\n\nWant me to create setup scripts for your chosen method?"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#important-two-repository-architecture",
+    "href": "DEPLOYMENT_GUIDE.html#important-two-repository-architecture",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "To keep your code PRIVATE while the website is PUBLIC, you’ll use TWO GitHub repositories:\n\n\nName: ibd-litmonitor-private\nVisibility: Private\nContains:\nibd-litmonitor-private/\n├── R/\n│   └── core_functions.R          ← YOUR SECRET SAUCE\n├── .qmd files\n├── .github/workflows/\n└── scripts/\n\n\n\nName: ibd-litmonitor\nVisibility: Public\nContains:\nibd-litmonitor/\n├── docs/                          ← Rendered HTML only\n│   ├── index.html\n│   ├── archive.html\n│   ├── dashboard.html\n│   └── *.html\n├── rss.xml\n└── README.md"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#setup-instructions",
+    "href": "DEPLOYMENT_GUIDE.html#setup-instructions",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "# On your computer\ncd /path/to/this/folder\n\n# Initialize git\ngit init\n\n# Create private repo on GitHub\ngh repo create ibd-litmonitor-private --private --source=. --remote=origin\n\n# Add all files\ngit add .\ngit commit -m \"Initial commit - private code\"\ngit push -u origin main\n\n\n\n# Create public repo for website\ngh repo create ibd-litmonitor --public --clone\n\ncd ibd-litmonitor\n\n# This will ONLY contain rendered HTML\n# (populated automatically by GitHub Actions)\n\n\n\nIn your PRIVATE repo, the GitHub Action will:\n\nRun on private repo (code is safe)\nRender Quarto → HTML\nPush HTML to PUBLIC repo\n\n\n\n- name: Deploy to public repository\n  run: |\n    # Clone public repo\n    git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dahhamalsoud/ibd-litmonitor.git public-site\n    \n    # Copy rendered docs\n    cp -r docs/* public-site/\n    \n    # Push to public repo\n    cd public-site\n    git config user.name \"IBD LitMonitor Bot\"\n    git config user.email \"bot@litmonitor.com\"\n    git add .\n    git commit -m \"Update site - $(date)\"\n    git push\n\n\n\n\n\nGo to GitHub Settings → Developer settings → Personal access tokens\nGenerate new token (classic)\nSelect scopes: repo (all)\nCopy token\nAdd to private repo secrets:\n\nGo to private repo → Settings → Secrets → Actions\nAdd secret: PERSONAL_ACCESS_TOKEN = your token\n\n\n\n\n\nIn PRIVATE repo → Settings → Secrets → Actions:\n\nPUBMED_EMAIL = your email\nPUBMED_API_KEY = your PubMed API key (optional but recommended)"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#how-it-works",
+    "href": "DEPLOYMENT_GUIDE.html#how-it-works",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "┌─────────────────────────────────────────────┐\n│  PRIVATE REPO (Code)                        │\n│  ├── R/core_functions.R                     │\n│  ├── *.qmd                                  │\n│  └── GitHub Actions                         │\n│                                             │\n│  Every Friday:                              │\n│  1. Fetch papers (R code)                   │\n│  2. Render Quarto → HTML                    │\n│  3. Push HTML to public repo ───────┐       │\n└─────────────────────────────────────│───────┘\n                                      │\n                                      ↓\n                      ┌───────────────────────────────┐\n                      │  PUBLIC REPO (Website)        │\n                      │  ├── docs/                    │\n                      │  │   ├── index.html           │\n                      │  │   └── *.html               │\n                      │  └── README.md                │\n                      │                               │\n                      │  GitHub Pages serves this!    │\n                      │  https://....github.io        │\n                      └───────────────────────────────┘\nResult: - ✅ Your R code = PRIVATE (nobody can copy) - ✅ Website = PUBLIC (everyone can use) - ✅ GitHub Actions runs on private repo (secure) - ✅ FREE (both repos free)"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#alternative-single-private-repo-simpler",
+    "href": "DEPLOYMENT_GUIDE.html#alternative-single-private-repo-simpler",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "If you want to keep EVERYTHING private initially:\n\n\nGitHub Pages works on private repos if you have: - GitHub Pro ($4/month) - GitHub Team ($4/user/month)\nThen you can: 1. Keep everything in ONE private repo 2. Enable GitHub Pages on private repo 3. Website is public, code stays private\n\n\n\n\nKeep everything in private repo\nUse GitHub Actions to deploy to:\n\nNetlify (FREE)\nVercel (FREE)\nCloudflare Pages (FREE)\n\n\nAll of these can deploy from private repos for FREE!"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#recommended-approach-netlify-private-repo",
+    "href": "DEPLOYMENT_GUIDE.html#recommended-approach-netlify-private-repo",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "EASIEST & FREE:\n\nKeep everything in ONE private repo\nConnect to Netlify\nNetlify auto-deploys from private repo\n\n\n\n# Keep everything in private repo\ngh repo create ibd-litmonitor --private\n\n# Connect to Netlify\n# 1. Go to netlify.com\n# 2. New site from Git\n# 3. Connect GitHub (authorize private repos)\n# 4. Select your private repo\n# 5. Build command: quarto render\n# 6. Publish directory: docs\n# 7. Deploy!\n\n# Your site: https://ibd-litmonitor.netlify.app\n# (or custom domain)\nBenefits: - ✅ Code stays private - ✅ Website is public - ✅ FREE forever - ✅ Automatic deployments - ✅ Custom domain support - ✅ HTTPS included - ✅ Faster than GitHub Pages"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#which-approach-should-you-use",
+    "href": "DEPLOYMENT_GUIDE.html#which-approach-should-you-use",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "Method\nComplexity\nCost\nPrivacy\n\n\n\n\nTwo repos (private + public)\nMedium\n$0\nPerfect\n\n\nPrivate repo + Netlify\nEasy\n$0\nPerfect\n\n\nPrivate repo + GitHub Pro\nEasy\n$4/mo\nPerfect\n\n\n\nRecommendation: Netlify + Private Repo (easiest + free)"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#files-you-can-share-publicly-optional",
+    "href": "DEPLOYMENT_GUIDE.html#files-you-can-share-publicly-optional",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "Even with private code, you CAN share these if you want:\n\nREADME.md - Description of the project\nabout.qmd - About page\nstyles.css - Styling (not secret)\ndashboard/app.R - Shiny app (if you want to share)\n\nBut keep PRIVATE: - R/core_functions.R - Your search queries and logic - PubMed API credentials - Any proprietary algorithms"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#security-checklist",
+    "href": "DEPLOYMENT_GUIDE.html#security-checklist",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "✅ Never commit API keys or passwords\n✅ Use .gitignore to exclude sensitive files\n✅ Use GitHub Secrets for credentials\n✅ Keep R/ folder private\n✅ Only share rendered HTML\n✅ Use private repo for development\n✅ Review commits before pushing"
+  },
+  {
+    "objectID": "DEPLOYMENT_GUIDE.html#next-steps",
+    "href": "DEPLOYMENT_GUIDE.html#next-steps",
+    "title": "IBD LitMonitor - Private Code Repository",
+    "section": "",
+    "text": "Choose your deployment method:\n\nEasy: Netlify + private repo (recommended)\nTraditional: Two repos (private code + public site)\nPro: Single private repo + GitHub Pro\n\nWant me to create setup scripts for your chosen method?"
   },
   {
     "objectID": "archive.html",
