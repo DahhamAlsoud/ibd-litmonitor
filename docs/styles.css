@@ -28,13 +28,13 @@
 
 /* Stat boxes */
 .stat-box {
-  background: linear-gradient(135deg, var(--brand-primary) 0%, #5a0f0f 100%);
+  background: linear-gradient(135deg, #B1040E 0%, #8C1515 100%);
   color: white;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 1.5rem;
-  box-shadow: 0 2px 8px rgba(140, 21, 21, 0.2);
+  box-shadow: 0 2px 12px rgba(177, 4, 14, 0.25);
 }
 
 .stat-number {
@@ -271,6 +271,21 @@ a:hover {
   border-color: var(--brand-hover);
   color: var(--brand-hover);
   background: #fff5f5;
+}
+
+.ibd-filter-hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  cursor: help;
+  margin-left: 3px;
+}
+
+.ibd-filter-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 3px;
+  line-height: 1.2;
 }
 
 /* Responsive */
