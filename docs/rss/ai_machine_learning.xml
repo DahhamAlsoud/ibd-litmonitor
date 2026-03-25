@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor - AI & Machine Learning</title>
+    <title>IBD LitMonitor - AI &amp; Machine Learning</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
-    <description>Weekly IBD literature: AI & Machine Learning</description>
+    <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 07:00:00 GMT</lastBuildDate>
 
@@ -12,28 +12,28 @@
   <link>https://pubmed.ncbi.nlm.nih.gov/41862229/</link>
   <description><![CDATA[Gastrointestinal endoscopy - Review - Artificial intelligence (AI), encompassing various methods that enable computers to process complex data and perform tasks previously requiring human input, is set to play a pivotal role in the fut...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>AI & Machine Learning</category>
+  <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Multimodal deep learning for inflammatory bowel disease: a new frontier in cellular and molecular biomarker discovery to clinical translation.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41857729/</link>
   <description><![CDATA[Journal of biological engineering - Review - Inflammatory bowel disease (IBD), including Crohn’s disease (CD) and ulcerative colitis (UC), is a chronic, relapsing condition with heterogeneous clinical phenotypes and variable therapeutic outco...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>AI & Machine Learning</category>
+  <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Artificial intelligence in inflammatory bowel disease: bridging innovation, implementation and impact.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41857227/</link>
   <description><![CDATA[Nature reviews. Gastroenterology & hepatology - Review - Artificial intelligence (AI) is rapidly transforming the management landscape of inflammatory bowel disease (IBD). While early applications in endoscopy, digital pathology and cross-sectional imagi...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>AI & Machine Learning</category>
+  <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Chat-based Artificial Intelligence model as a source of information for Inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41846185/</link>
   <description><![CDATA[Arab journal of gastroenterology : the official publication of the Pan-Arab Association of Gastroenterology - Artificial intelligence models could be a promising tool for providing scientific information to patients. The aim was to study the accuracy of the responses provided by Chat GPT (Generative Pre-tr...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>AI & Machine Learning</category>
+  <category>AI &amp; Machine Learning</category>
 </item>
 
   </channel>

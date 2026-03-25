@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor - Pregnancy & Reproductive Health</title>
+    <title>IBD LitMonitor - Pregnancy &amp; Reproductive Health</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
-    <description>Weekly IBD literature: Pregnancy & Reproductive Health</description>
+    <description>IBD literature monitoring: Pregnancy &amp; Reproductive Health</description>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 07:00:00 GMT</lastBuildDate>
 
@@ -12,7 +12,7 @@
   <link>https://pubmed.ncbi.nlm.nih.gov/41851855/</link>
   <description><![CDATA[BMC medicine - Autoimmune conditions are common in women of reproductive age. They are associated with an increased risk of adverse pregnancy outcomes; whether this is causal is unclear. Our aim was to explore th...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Pregnancy & Reproductive Health</category>
+  <category>Pregnancy &amp; Reproductive Health</category>
 </item>
 
   </channel>

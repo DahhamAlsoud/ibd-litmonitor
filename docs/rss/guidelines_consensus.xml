@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor - Guidelines & Consensus</title>
+    <title>IBD LitMonitor - Guidelines &amp; Consensus</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
-    <description>Weekly IBD literature: Guidelines & Consensus</description>
+    <description>IBD literature monitoring: Guidelines &amp; Consensus</description>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Defining Moderate Disease Activity and Severity in Crohn's Disease and Ulcerative Colitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41870263/</link>
+  <description><![CDATA[Journal of clinical gastroenterology - This research aimed to review the literature for definitions of moderate Crohn's disease (CD) and ulcerative colitis (UC). Real-world evidence suggests that biologics may achieve better outcomes in...]]></description>
+  <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines &amp; Consensus</category>
+</item>
 <item>
   <title><![CDATA[[Use of NSAIDs in inflammatory bowel disease].]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41873467/</link>
   <description><![CDATA[Lakartidningen - Systematic review - Health Technology Assessment (HTA) Region Stockholm conducted a systematic review evaluating the risk of flare-ups from use of non-steroidal anti-inflammatory drugs (NSAID) in patients with inflamm...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Guidelines & Consensus</category>
+  <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[Enhancing Inflammatory Bowel Disease (IBD) competency in gastroenterology fellowship through traditional, digital, and experiential learning pathways.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41865266/</link>
   <description><![CDATA[Inflammatory bowel diseases - The rapidly evolving field of Inflammatory Bowel Disease (IBD) places growing educational demands on gastroenterology trainees, many of whom report gaps in confidence and preparedness in managing I...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Guidelines & Consensus</category>
+  <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[Translation and cross-cultural adaptation of the Identification of Spondyloarthritis Questionnaire (IBIS-Q) into Danish for patients with inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41846565/</link>
   <description><![CDATA[Scandinavian journal of gastroenterology - Spondyloarthritis (SpA) affects 10-30% of patients with inflammatory bowel disease (IBD). An early diagnosis is essential as a delayed diagnosis of SpA increases the risk of disability and reduces ...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Guidelines & Consensus</category>
+  <category>Guidelines &amp; Consensus</category>
 </item>
 
   </channel>

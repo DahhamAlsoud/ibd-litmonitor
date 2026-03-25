@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor - Genetics & Genomics</title>
+    <title>IBD LitMonitor - Genetics &amp; Genomics</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
-    <description>Weekly IBD literature: Genetics & Genomics</description>
+    <description>IBD literature monitoring: Genetics &amp; Genomics</description>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 07:00:00 GMT</lastBuildDate>
 
@@ -12,7 +12,7 @@
   <link>https://pubmed.ncbi.nlm.nih.gov/41857630/</link>
   <description><![CDATA[Molecular brain - Autoimmune diseases (AIDs) result from intricate interactions among genetic, environmental and immune factors, with emerging evidence underscoring the role of the central nervous system (CNS) in th...]]></description>
   <pubDate>Tue, 24 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Genetics & Genomics</category>
+  <category>Genetics &amp; Genomics</category>
 </item>
 
   </channel>
