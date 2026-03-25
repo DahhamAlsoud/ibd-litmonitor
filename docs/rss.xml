@@ -43,9 +43,9 @@
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
-  <title><![CDATA[Exploring the mechanism of Qinlian Yuyang Decoction in the treatment of ulcerative colitis based on multi-omics technology.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41857589/</link>
-  <description><![CDATA[Chinese medicine - The global incidence of ulcerative colitis (UC) is increasing, yet effective clinical treatment options remain limited. Qinlian Yuyang Decoction (QYD), a modified formulation based on Gegen Qinlian...]]></description>
+  <title><![CDATA[Gene Network Enrichment Analysis and Its Application to Explore Enriched Immune Disease Pathways for Gene Network of Acute Myeloid Leukemia Cell Lines.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41849252/</link>
+  <description><![CDATA[Journal of computational biology : a journal of computational molecular cell biology - Recent advances in gene network analysis have improved our understanding of complex disease mechanisms; however, interpreting estimated gene networks remains challenging. Existing methods for pathw...]]></description>
   <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
@@ -85,11 +85,18 @@
   <category>Endoscopy &amp; Imaging</category>
 </item>
 <item>
-  <title><![CDATA[INTELCAPE: A Deep Learning-Powered System for Automated, High-Accuracy Crohn's Disease Diagnosis via Capsule Endoscopy.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41861933/</link>
-  <description><![CDATA[Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association - Capsule endoscopy (CE) is a non-invasive technique for diagnosing Crohn's disease (CD); however, manual interpretation of CE videos is time-consuming and error-prone. We developed an artificial int...]]></description>
+  <title><![CDATA[Editorial: "Striding" Towards Transmural Healing: Redefining Deep Remission as a Treatment Target in Crohn's Disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41845867/</link>
+  <description><![CDATA[Alimentary pharmacology & therapeutics - Editorial - ]]></description>
   <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
   <category>Endoscopy &amp; Imaging</category>
+</item>
+<item>
+  <title><![CDATA[Discordant Clostridioides difficile testing as a predictor of inflammatory bowel disease therapy escalation.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41879161/</link>
+  <description><![CDATA[Inflammatory bowel diseases - In patients with inflammatory bowel disease (IBD), Clostridioides difficile infection (CDI) presents with clinical features indistinguishable from the underlying disease. Sequential polymerase chai...]]></description>
+  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Exposure to per- and polyfluoroalkyl substances and inflammatory bowel disease: review and meta-analysis.]]></title>
@@ -110,26 +117,19 @@
   <link>https://pubmed.ncbi.nlm.nih.gov/41871627/</link>
   <description><![CDATA[Arquivos de neuro-psiquiatria - ]]></description>
   <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Epidemiology &amp; Outcomes</category>
+  <category>Extraintestinal Manifestations</category>
 </item>
 <item>
-  <title><![CDATA[Dysbiotic microbiota trigger colitis-associated colorectal cancer and imprint a distinctive bile acid profile in a PSC-IBD model.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41871943/</link>
-  <description><![CDATA[Gut - Primary sclerosing cholangitis-associated UC (PSC-UC) carries excess colorectal neoplasia despite often mild-appearing endoscopy, implicating persistent microscopic inflammation and microbiota-bile...]]></description>
+  <title><![CDATA[Beyond numbers: challenges in assessing myasthenia gravis prevalence in inflammatory bowel disease.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41871626/</link>
+  <description><![CDATA[Arquivos de neuro-psiquiatria - ]]></description>
   <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
-  <title><![CDATA[Microscopic colitis and primary sclerosing cholangitis are bidirectionally associated: A nationwide matched cohort and case-control study.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41866330/</link>
-  <description><![CDATA[Journal of internal medicine - Microscopic colitis (MC) is an inflammatory disease of the colon. Although there is a known association between inflammatory bowel disease (IBD) and primary sclerosing cholangitis (PSC), evidence l...]]></description>
-  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Extraintestinal Manifestations</category>
-</item>
-<item>
-  <title><![CDATA[Conjunctival ulcer in Crohn's disease: a complete slit-lamp photography follow-up.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41862728/</link>
-  <description><![CDATA[Eye (London, England) - ]]></description>
+  <title><![CDATA[Distinct clinicopathological features of IgA nephropathy associated with Crohn's disease: comparison with ulcerative colitis and non-IBD IgA nephropathy.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41870749/</link>
+  <description><![CDATA[Clinical and experimental nephrology - IgA nephropathy (IgAN) is increasingly recognized as a complication of inflammatory bowel disease (IBD), particularly Crohn's disease (CD). Recent studies suggest that mucosal immune dysregulation ...]]></description>
   <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
