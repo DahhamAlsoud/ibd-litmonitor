@@ -1,13 +1,28 @@
 # IBD LitMonitor
 
-**Daily IBD literature monitoring, organized by clinical subfield**
+**Daily IBD literature monitoring, organised by clinical subfield**
 
-🌐 **Live site:** https://dahhamalsoud.github.io/ibd-litmonitor
+🌐 https://dahhamalsoud.github.io/ibd-litmonitor
 
 ---
 
-IBD LitMonitor searches PubMed every morning and organises the day's IBD publications into 17 clinical categories — so you can go straight to what's relevant to your work instead of scanning a flat, unsorted alert list.
+IBD LitMonitor searches PubMed every morning and organises new Inflammatory Bowel Disease publications into 17 clinical categories — so researchers and clinicians can go straight to what's relevant to their work rather than scanning an unsorted alert list.
 
-Visit the site to browse the latest report, use the interactive dashboard, or subscribe via RSS.
+## Features
 
-Created by [Dahham Alsoud](https://github.com/dahhamalsoud)
+- **17 research categories** — Therapeutics, Microbiome, Surgery, Pediatric IBD, Genetics, Pathogenesis, Endoscopy, and more
+- **Study design badges** — RCTs, meta-analyses, and systematic reviews flagged directly from PubMed MeSH tags
+- **Flagship journal highlights** — top-tier GI journals marked at a glance
+- **Interactive 30-day dashboard** — filter by category, study design, date range, or journal tier; download as CSV or Excel
+- **Email digest** — subscribe for daily or weekly paper lists delivered to your inbox
+- **RSS feeds** — full feed or per-category feeds for any standard RSS reader
+
+## Getting started
+
+Visit **https://dahhamalsoud.github.io/ibd-litmonitor** to browse the latest 7-day report. Collapsible sections let you jump directly to any category. The Dashboard tab covers the past 30 days with full search and export.
+
+To receive updates by email, use the [Subscribe](https://dahhamalsoud.github.io/ibd-litmonitor/subscribe.html) page. To follow via RSS, use the RSS button in the navigation bar or browse the [per-category feeds](https://dahhamalsoud.github.io/ibd-litmonitor/rss/).
+
+---
+
+*Created by [Dahham Alsoud](https://dahhamalsoud.github.io)*
