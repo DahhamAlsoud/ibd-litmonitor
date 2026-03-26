@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "subscribe.html",
+    "href": "subscribe.html",
+    "title": "Subscribe to Email Digests",
+    "section": "",
+    "text": "Get IBD LitMonitor delivered to your inbox — new papers, organised by category, every day (or every Monday for a weekly digest)."
+  },
+  {
+    "objectID": "subscribe.html#subscribe",
+    "href": "subscribe.html#subscribe",
+    "title": "Subscribe to Email Digests",
+    "section": "Subscribe",
+    "text": "Subscribe\nFill out the form below to sign up. You’ll receive a brief email each morning with a link to the day’s literature digest.\n\nLoading form…"
+  },
+  {
+    "objectID": "subscribe.html#what-youll-receive",
+    "href": "subscribe.html#what-youll-receive",
+    "title": "Subscribe to Email Digests",
+    "section": "What you’ll receive",
+    "text": "What you’ll receive\n\nDaily digest — sent each morning with a link to the latest report\nWeekly digest — sent every Monday morning with the week’s coverage\nPapers organised across several IBD sub-categories\nDirect link to the searchable dashboard with filters and CSV/Excel export"
+  },
+  {
+    "objectID": "subscribe.html#frequency-options",
+    "href": "subscribe.html#frequency-options",
+    "title": "Subscribe to Email Digests",
+    "section": "Frequency options",
+    "text": "Frequency options\n\n\n\nOption\nWhen sent\n\n\n\n\nDaily\nEvery morning\n\n\nWeekly\nEvery Monday morning"
+  },
+  {
+    "objectID": "subscribe.html#unsubscribe",
+    "href": "subscribe.html#unsubscribe",
+    "title": "Subscribe to Email Digests",
+    "section": "Unsubscribe",
+    "text": "Unsubscribe\nTo unsubscribe or change your frequency, email ibdlitmonitor@gmail.com."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Interactive Dashboard",
+    "section": "",
+    "text": "488 papers from the past 30 days — search, filter, and download below.\nCategory\n    \n      All categories\n      AI & Machine LearningBiomarkers & Precision MedicineDrug Safety & PharmacovigilanceEndoscopy & ImagingEpidemiology & OutcomesExtraintestinal ManifestationsGenetics & GenomicsGuidelines & ConsensusIBD-associated NeoplasiaMicrobiome & ImmunologyNutrition & LifestylePathogenesis & Basic SciencePediatric IBDPregnancy & Reproductive HealthQuality of Life & PROsSurgery & ComplicationsTherapeutics & Mechanisms\n    \n  \n\n  \n    \n      Study design\n      ⓘ\n    \n    \n      All designs\n      Case reportEditorialLetterMeta-analysisMulticenter studyObservational studyRCTReviewSystematic review\n    \n    PubMed-assigned; not all papers tagged\n  \n\n  \n    Date range\n    \n      \n      to\n      \n    \n    Papers indexed by PubMed in the past 30 days\n  \n\n  \n     \n    \n      \n      Flagship journals only\n    \n  \n\n  \n     \n    ✕ Clear filters"
+  },
+  {
+    "objectID": "dashboard.html#papers-by-category",
+    "href": "dashboard.html#papers-by-category",
+    "title": "Interactive Dashboard",
+    "section": "Papers by Category",
+    "text": "Papers by Category"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About IBD LitMonitor",
@@ -42,41 +91,6 @@
     "text": "Citation\n\nAlsoud D. (2026). IBD LitMonitor: Systematic literature monitoring for inflammatory bowel disease research. https://dahhamalsoud.github.io/ibd-litmonitor"
   },
   {
-    "objectID": "subscribe.html",
-    "href": "subscribe.html",
-    "title": "Subscribe to Email Digests",
-    "section": "",
-    "text": "Get IBD LitMonitor delivered to your inbox — new papers, organised by category, every day (or every Monday for a weekly digest)."
-  },
-  {
-    "objectID": "subscribe.html#subscribe",
-    "href": "subscribe.html#subscribe",
-    "title": "Subscribe to Email Digests",
-    "section": "Subscribe",
-    "text": "Subscribe\nFill out the form below to sign up. You’ll receive a brief email each morning with a link to the day’s literature digest.\n\nLoading form…"
-  },
-  {
-    "objectID": "subscribe.html#what-youll-receive",
-    "href": "subscribe.html#what-youll-receive",
-    "title": "Subscribe to Email Digests",
-    "section": "What you’ll receive",
-    "text": "What you’ll receive\n\nDaily digest — sent each morning (06:00 PT) with a link to the latest report\nWeekly digest — sent every Monday morning with the week’s coverage\nPapers organised across 17 IBD clinical categories\nDirect link to the searchable dashboard with filters and CSV/Excel export"
-  },
-  {
-    "objectID": "subscribe.html#frequency-options",
-    "href": "subscribe.html#frequency-options",
-    "title": "Subscribe to Email Digests",
-    "section": "Frequency options",
-    "text": "Frequency options\n\n\n\nOption\nWhen sent\n\n\n\n\nDaily\nEvery morning\n\n\nWeekly\nEvery Monday morning"
-  },
-  {
-    "objectID": "subscribe.html#unsubscribe",
-    "href": "subscribe.html#unsubscribe",
-    "title": "Subscribe to Email Digests",
-    "section": "Unsubscribe",
-    "text": "Unsubscribe\nTo unsubscribe or change your frequency, email ibdlitmonitor@gmail.com."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "IBD Literature Report",
@@ -96,19 +110,5 @@
     "title": "IBD Literature Report",
     "section": "Category Distribution",
     "text": "Category Distribution\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipWant More Control?\n\n\n\nThe Interactive Dashboard lets you filter and search across all categories, download results as CSV or Excel, and explore the full 30-day backlog - useful if you missed a week or want to search by keyword across a wider date range.\nSubscribe via RSS to get daily updates automatically, or use the per-category feeds to follow just one subfield."
-  },
-  {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "Interactive Dashboard",
-    "section": "",
-    "text": "488 papers from the past 30 days — search, filter, and download below.\nCategory\n    \n      All categories\n      AI & Machine LearningBiomarkers & Precision MedicineDrug Safety & PharmacovigilanceEndoscopy & ImagingEpidemiology & OutcomesExtraintestinal ManifestationsGenetics & GenomicsGuidelines & ConsensusIBD-associated NeoplasiaMicrobiome & ImmunologyNutrition & LifestylePathogenesis & Basic SciencePediatric IBDPregnancy & Reproductive HealthQuality of Life & PROsSurgery & ComplicationsTherapeutics & Mechanisms\n    \n  \n\n  \n    \n      Study design\n      ⓘ\n    \n    \n      All designs\n      Case reportEditorialLetterMeta-analysisMulticenter studyObservational studyRCTReviewSystematic review\n    \n    PubMed-assigned; not all papers tagged\n  \n\n  \n    Date range\n    \n      \n      to\n      \n    \n    Papers indexed by PubMed in the past 30 days\n  \n\n  \n     \n    \n      \n      Flagship journals only\n    \n  \n\n  \n     \n    ✕ Clear filters"
-  },
-  {
-    "objectID": "dashboard.html#papers-by-category",
-    "href": "dashboard.html#papers-by-category",
-    "title": "Interactive Dashboard",
-    "section": "Papers by Category",
-    "text": "Papers by Category"
   }
 ]
