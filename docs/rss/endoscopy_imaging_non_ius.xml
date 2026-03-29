@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IBD LitMonitor - Endoscopy &amp; Imaging</title>
+    <title>IBD LitMonitor - Endoscopy &amp; Imaging (non-IUS)</title>
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
-    <description>IBD literature monitoring: Endoscopy &amp; Imaging</description>
+    <description>IBD literature monitoring: Endoscopy &amp; Imaging (non-IUS)</description>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Mar 2026 07:00:00 GMT</lastBuildDate>
 
@@ -12,35 +12,21 @@
   <link>https://pubmed.ncbi.nlm.nih.gov/41883182/</link>
   <description><![CDATA[Journal of pediatric gastroenterology and nutrition - This study aimed to evaluate the clinical utility of magnetically controlled capsule endoscopy (MCCE) in the evaluation and management of pediatric Crohn's disease (CD). A single-center retrospecti...]]></description>
   <pubDate>Sat, 28 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Endoscopy &amp; Imaging</category>
+  <category>Endoscopy &amp; Imaging (non-IUS)</category>
 </item>
 <item>
   <title><![CDATA[The prognostic role of magnetic resonance enterography at diagnosis in paediatric isolated ileocaecal Crohn's disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41879084/</link>
   <description><![CDATA[Journal of pediatric gastroenterology and nutrition - We aimed at identifying magnetic resonance enterography (MRE) predictors of surgical intervention and anti-tumor necrosis factor alpha (TNF-α) initiation in a paediatric cohort of patients newly di...]]></description>
   <pubDate>Sat, 28 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Endoscopy &amp; Imaging</category>
+  <category>Endoscopy &amp; Imaging (non-IUS)</category>
 </item>
 <item>
   <title><![CDATA[Diagnostic value of CT enterography combined with inflammatory indicators in active Crohn's disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41877013/</link>
   <description><![CDATA[BMC gastroenterology - ]]></description>
   <pubDate>Sat, 28 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Endoscopy &amp; Imaging</category>
-</item>
-<item>
-  <title><![CDATA[Examining attitudes to intestinal ultrasound in inflammatory bowel disease: a national survey of Australian gastroenterologists.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41883698/</link>
-  <description><![CDATA[Therapeutic advances in gastroenterology - Intestinal ultrasound (IUS) is a non-invasive, accurate, and increasingly utilized tool for the assessment and monitoring of inflammatory bowel disease (IBD). This Australian survey, endorsed by th...]]></description>
-  <pubDate>Sat, 28 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Endoscopy &amp; Imaging</category>
-</item>
-<item>
-  <title><![CDATA[Comprehensive Imaging Evaluation and Staging of Crohn's Disease: When and Why to Use Intestinal Ultrasound, MRE, or CTE: Current Guidelines and Future Directions.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41897617/</link>
-  <description><![CDATA[Diagnostics (Basel, Switzerland) - Review - Crohn's disease (CD) is a complex inflammatory bowel disease, defined by chronic transmural inflammation and marked heterogeneity in both anatomical distribution and disease behavior, with potentia...]]></description>
-  <pubDate>Sat, 28 Mar 2026 07:00:00 GMT</pubDate>
-  <category>Endoscopy &amp; Imaging</category>
+  <category>Endoscopy &amp; Imaging (non-IUS)</category>
 </item>
 
   </channel>
