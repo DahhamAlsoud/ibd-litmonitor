@@ -2,37 +2,30 @@
   {
     "objectID": "subscribe.html",
     "href": "subscribe.html",
-    "title": "Subscribe to Email Digests",
+    "title": "Subscribe to Weekly Email Digest",
     "section": "",
-    "text": "Get IBD LitMonitor delivered to your inbox — new papers, organised by category, every day (or every Monday for a weekly digest)."
+    "text": "Get IBD LitMonitor delivered to your inbox as a single weekly digest every Friday morning (San Francisco time), with new papers organised by category."
   },
   {
     "objectID": "subscribe.html#subscribe",
     "href": "subscribe.html#subscribe",
-    "title": "Subscribe to Email Digests",
+    "title": "Subscribe to Weekly Email Digest",
     "section": "Subscribe",
-    "text": "Subscribe\nFill out the form below to sign up. You’ll receive a brief email each morning with a link to the day’s literature digest.\n\nLoading form…"
+    "text": "Subscribe\nFill out the form below to sign up. There is only one digest schedule: Friday morning.\n\nLoading form…"
   },
   {
     "objectID": "subscribe.html#what-youll-receive",
     "href": "subscribe.html#what-youll-receive",
-    "title": "Subscribe to Email Digests",
+    "title": "Subscribe to Weekly Email Digest",
     "section": "What you’ll receive",
-    "text": "What you’ll receive\n\nDaily digest — sent each morning with a link to the latest report\nWeekly digest — sent every Monday morning with the week’s coverage\nPapers organised across several IBD sub-categories\nDirect link to the searchable dashboard with filters and CSV/Excel export"
-  },
-  {
-    "objectID": "subscribe.html#frequency-options",
-    "href": "subscribe.html#frequency-options",
-    "title": "Subscribe to Email Digests",
-    "section": "Frequency options",
-    "text": "Frequency options\n\n\n\nOption\nWhen sent\n\n\n\n\nDaily\nEvery morning\n\n\nWeekly\nEvery Monday morning"
+    "text": "What you’ll receive\n\nWeekly Friday digest — sent every Friday morning (San Francisco time) with the week’s coverage\nPapers organised across several IBD sub-categories\nDirect link to the searchable dashboard with filters and CSV/Excel export"
   },
   {
     "objectID": "subscribe.html#unsubscribe",
     "href": "subscribe.html#unsubscribe",
-    "title": "Subscribe to Email Digests",
+    "title": "Subscribe to Weekly Email Digest",
     "section": "Unsubscribe",
-    "text": "Unsubscribe\nTo unsubscribe or change your frequency, email ibdlitmonitor@gmail.com."
+    "text": "Unsubscribe\nTo unsubscribe, email ibdlitmonitor@gmail.com."
   },
   {
     "objectID": "dashboard.html",
