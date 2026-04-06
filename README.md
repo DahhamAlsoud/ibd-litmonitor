@@ -6,7 +6,7 @@
 
 ---
 
-IBD LitMonitor searches PubMed every morning and organises new Inflammatory Bowel Disease publications into relevant research categories — so researchers and clinicians can go straight to what's relevant to their work rather than scanning an unsorted alert list.
+IBD LitMonitor searches PubMed every morning and organises new Inflammatory Bowel Disease publications into relevant research categories, so researchers and clinicians can go straight to what's relevant to their work rather than scanning an unsorted alert list.
 
 ## Features
 
@@ -26,4 +26,5 @@ To receive updates by email, use the [Subscribe](https://dahhamalsoud.github.io/
 ---
 
 *Created by [Dahham Alsoud](https://dahhamalsoud.github.io)*
+
 
