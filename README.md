@@ -6,11 +6,11 @@
 
 ---
 
-IBD LitMonitor searches PubMed every morning and organises new Inflammatory Bowel Disease publications into 17 clinical categories — so researchers and clinicians can go straight to what's relevant to their work rather than scanning an unsorted alert list.
+IBD LitMonitor searches PubMed every morning and organises new Inflammatory Bowel Disease publications into relevant research categories — so researchers and clinicians can go straight to what's relevant to their work rather than scanning an unsorted alert list.
 
 ## Features
 
-- **17 research categories** — Therapeutics, Microbiome, Surgery, Pediatric IBD, Genetics, Pathogenesis, Endoscopy, and more
+- **Relevant research categories** — Therapeutics, Microbiome, Surgery, Pediatric IBD, Genetics, Pathogenesis, Endoscopy, and more
 - **Study design badges** — RCTs, meta-analyses, and systematic reviews flagged directly from PubMed MeSH tags
 - **Flagship journal highlights** — top-tier GI journals marked at a glance
 - **Interactive 30-day dashboard** — filter by category, study design, date range, or journal tier; download as CSV or Excel
@@ -26,3 +26,4 @@ To receive updates by email, use the [Subscribe](https://dahhamalsoud.github.io/
 ---
 
 *Created by [Dahham Alsoud](https://dahhamalsoud.github.io)*
+
