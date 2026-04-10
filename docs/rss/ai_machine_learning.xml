@@ -5,41 +5,41 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Therapeutic Decisions in Inflammatory Bowel Disease: ChatGPT-4.0 Compared to Medical Expertise.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41947905/</link>
   <description><![CDATA[JGH open : an open access journal of gastroenterology and hepatology - With the increasing prevalence of inflammatory bowel disease (IBD) and its complex management, evaluating innovative approaches became essential. Large language models (LLM), such as ChatGPT-4.0, h...]]></description>
-  <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[The Role of Nurse-Patient Mutuality on Self-Care Behaviors in Adults Living with Inflammatory Bowel Disease: A Multicenter Cross-Sectional Study.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41935233/</link>
   <description><![CDATA[Digestive diseases and sciences - Self-care is a core component of inflammatory bowel disease (IBD) management and includes self-care maintenance (behaviors aimed at preserving health and treatment adherence), monitoring (attention...]]></description>
-  <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41959488/</link>
+  <description><![CDATA[bioRxiv : the preprint server for biology - The interaction between T cell receptors (TCRs), peptides, and human leukocyte antigens (HLAs) underlies antigen-specific T cell immunity. Despite substantial advances in peptide- HLA presentation ...]]></description>
+  <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[ChatGPT-Assisted Image Interpretation for Inflammatory Bowel Diseases: Ulcerative Colitis and Crohn's Disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/41939287/</link>
   <description><![CDATA[JGH open : an open access journal of gastroenterology and hepatology - Differentiating ulcerative colitis (UC) from Crohn's disease (CD) is challenging, particularly for nonexperts. Although artificial-intelligence-based image analysis has advanced endoscopic diagnosi...]]></description>
-  <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
-  <title><![CDATA[TNF alpha unmasks enteric malate aspartate shuttle dysfunction bridging Parkinson disease and intestinal inflammation.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41922384/</link>
-  <description><![CDATA[Nature communications - Gastrointestinal dysfunction often precedes motor symptoms in Parkinson's disease (PD), suggesting the enteric nervous system (ENS) is central to early pathogenesis. How α-synuclein contributes to ...]]></description>
-  <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[Multiomics integration of single-cell transcriptomics and bulk sequencing data identifies key biomarkers and predictive models for IBD subtype classification.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/41939783/</link>
-  <description><![CDATA[Frontiers in medicine - Inflammatory bowel disease (IBD), comprising ulcerative colitis (UC) and Crohn's disease (CD), represents a diagnostic challenge owing to its overlapping clinical features. Precise molecular charac...]]></description>
-  <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Artificial intelligence-driven gastrointestinal functional assessment: multimodal imaging, digital biomarkers, and real-time monitoring.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/41958528/</link>
+  <description><![CDATA[Frontiers in physiology - Review - Gastrointestinal (GI) functional disorders and chronic inflammatory diseases impose a substantial health burden, yet their assessment remains challenging because symptoms reflect dynamic interactio...]]></description>
+  <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
