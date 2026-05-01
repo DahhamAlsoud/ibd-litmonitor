@@ -5,146 +5,146 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Daily IBD literature monitoring - organized by clinical subfield</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Automated Eosinophil Quantification Using Deep Learning to Predict Therapy Escalation in Pediatric Ulcerative Colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42044208/</link>
   <description><![CDATA[Clinical and translational gastroenterology - Emerging evidence implicates eosinophils as important modulators of disease activity and therapeutic response in ulcerative colitis. Automated image analysis provides a scalable and reproducible ap...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
-  <title><![CDATA[Machine Learning Analysis of Serum Metabolomics for Multi-Disease Classification and Proteome-Metabolome Pathway Insights in T2D, IBD, and CRC.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42024141/</link>
-  <description><![CDATA[Journal of proteome research - Type 2 diabetes (T2D), inflammatory bowel disease (IBD), and colorectal cancer (CRC) share overlapping metabolic alterations that hinder early, disease-specific diagnosis. Using publicly available ...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Neurotransmitter-mediated gut-brain axis: a bibliometric analysis of research trends and knowledge structure.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42052390/</link>
+  <description><![CDATA[Frontiers in microbiology - Systematic review - The gut-brain axis constitutes a bidirectional network linking the gastrointestinal tract and central nervous system through neural, endocrine, metabolic, and immune pathways. Neurotransmitters pla...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
-  <title><![CDATA[Development and validation of a predictive model for early failure of biological therapy in perianal fistulizing Crohn's disease based on three-dimensional transrectal ultrasound.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42024671/</link>
-  <description><![CDATA[Inflammatory bowel diseases - Despite the clinical use of three-dimensional transrectal ultrasound (3D-TRUS) in pfCD, no validated model exists to predict early biologic treatment failure. Our objective was to develop and valid...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Non-invasive assessment of inflammatory bowel disease activity using a DIA-derived stool peptidomic signature and machine learning.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42052152/</link>
+  <description><![CDATA[Frontiers in molecular biosciences - Monitoring disease activity in inflammatory bowel disease (IBD) is essential for guiding therapy and preventing irreversible tissue damage. Colonoscopy, although the gold standard, is invasive and ...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Tetrameric STAT5 regulates the formation of immune niche cells to protect stem cell regenerative repair against mucosal inflammation.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42062572/</link>
+  <description><![CDATA[Experimental & molecular medicine - How intestinal stem cells (ISCs) are regulated during inflammation remains largely unexplored, leading to a lack of effective treatments for inflammatory bowel diseases (IBD). ISC-mediated intestin...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Advancing IBD Management: A Literature Review on the Role of Non-Invasive Blood-Based Biomarkers in Predicting and Assessing Pharmacodynamic Response to Treatment.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42045784/</link>
   <description><![CDATA[Clinical and translational science - Review - Reliable biomarkers that enable noninvasive, longitudinal assessment of disease activity and therapeutic response remain a major unmet need in inflammatory bowel disease (IBD). While colonic biopsi...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Modified Glasgow Prognostic Score as a dual biomarker for disease activity and malnutrition in inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42056173/</link>
   <description><![CDATA[Scientific reports - ]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Spatial transcriptomics atlas of inflammatory bowel disease to guide implementation in research consortiums and clinical trials.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42049732/</link>
-  <description><![CDATA[Nature communications - Using over 100 intestinal tissue sections from non-diseased controls and patients with ulcerative colitis or Crohn's disease across multiple inflammatory bowel disease consortia, we construct a spa...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Discovery of Benzofuran-2-Carboxylic Acid Derivatives as Potent PTPRO Inhibitors with Oral Efficacy for Treatment of Inflammatory Bowel Disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42046270/</link>
   <description><![CDATA[Journal of medicinal chemistry - Emerging evidence implicates PTPRO as a pivotal regulator in inflammatory bowel disease (IBD). Screening a benzofuran-2-carboxylic acid-based library identified a lead PTPRO inhibitor. Structure-gu...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[EB1010, a putative Christensenellaceae-derived microbial peptide, exhibits anti-inflammatory activity and therapeutic potential in ulcerative colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42033239/</link>
   <description><![CDATA[Gut microbes - The gut microbiota plays a pivotal role in modulating the immune system, fostering immune tolerance, and defending against pathogens. Among its bioactive products, microbiota-derived peptides hold ...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[Lyophilized mesenchymal stromal cell-derived extracellular vesicles for the oral treatment of inflammatory bowel disease: a novel cell-free therapeutic strategy.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42036713/</link>
   <description><![CDATA[Stem cell research & therapy - Inflammatory bowel disease (IBD), encompassing ulcerative colitis (UC) and Crohn's disease (CD), is a chronic and relapsing inflammatory disorder of the gastrointestinal tract. Current standard tre...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Endoscopy &amp; Imaging (non-IUS)</category>
 </item>
 <item>
   <title><![CDATA[Pediatric video capsule endoscopy: diagnostic yield, safety, and clinical impact in a tertiary center.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42058471/</link>
   <description><![CDATA[Frontiers in pediatrics - Video capsule endoscopy (VCE) enables direct, radiation-free visualization of the small bowel mucosa and is endorsed by pediatric guidelines as a key tool in the evaluation of Crohn's disease (CD)....]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Endoscopy &amp; Imaging (non-IUS)</category>
 </item>
 <item>
   <title><![CDATA[Epidemiological Trends in Inflammatory Bowel Disease in Korea: Age-Related Shifts and Urban-Rural Disparities in a Nationwide Study, 2004-2015.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42044981/</link>
   <description><![CDATA[Yonsei medical journal - The incidence of inflammatory bowel disease (IBD) is rapidly increasing in newly industrialized Asian countries. However, nationwide epidemiological shifts, especially age-specific trends and urban...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
-  <title><![CDATA[The incidence and prevalence of paediatric inflammatory bowel disease in Scotland: A nationwide study from 2015 to 2018.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42057762/</link>
-  <description><![CDATA[Journal of pediatric gastroenterology and nutrition - Scotland is known to have the highest incidence of paediatric-onset inflammatory bowel disease (PIBD) in the United Kingdom and one of the highest worldwide; however, data on prevalence is lacking....]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Sexual dysfunction is highly prevalent in patients with active perianal fistulizing Crohn's disease: Outcomes from a large national prospective cohort study.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42059297/</link>
+  <description><![CDATA[Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland - Multicenter study - Sexual function is one of the determinants of quality of life (QoL) and is prevalent in approximately half of the patients with inflammatory bowel disease. However, the sexual function in patients ...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
-  <title><![CDATA[Association of Crohn's disease with periodontal disease risk and severity: a meta-analytic study.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42057450/</link>
-  <description><![CDATA[Acta odontologica Scandinavica - Meta-analysis - Crohn's disease (CD) is a chronic inflammatory disorder with systemic manifestations, including potential effects on oral health. Evidence regarding its association with periodontal disease remains...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Extraintestinal manifestations in Korean patients with inflammatory bowel disease: A nationwide population-based study from 2005 to 2017.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42060839/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Extraintestinal manifestations (EIMs) significantly contribute to morbidity in individuals with inflammatory bowel disease (IBD); however, population-based East Asian data remain limited. We evalua...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
+</item>
+<item>
+  <title><![CDATA[Annual trends of chronic opioid use in patients with inflammatory bowel disease and spondyloarthritis in Denmark between 2000 and 2023.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42063331/</link>
+  <description><![CDATA[Scandinavian journal of rheumatology - Patients with inflammatory bowel disease (IBD) and concomitant spondyloarthritis (SpA) experience substantial pain burden. We examined long-term trends in chronic opioid use (COU) among patients wi...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <category>Extraintestinal Manifestations</category>
+</item>
+<item>
+  <title><![CDATA[Genome-wide cross-trait analysis reveals shared genetic architecture between inflammatory bowel disease and ankylosing spondylitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42062459/</link>
+  <description><![CDATA[Scientific reports - Patients with inflammatory bowel disease (IBD) and ankylosing spondylitis (AS) are clinically closely related. They suffer from comorbidities, possibly attributed to a shared genetic structure. By ...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <category>Genetics &amp; Genomics</category>
+</item>
+<item>
+  <title><![CDATA[Escherichia coli pathobionts and Crohn's disease: varied genetic paths leading to similar phenotypes.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42060842/</link>
+  <description><![CDATA[Journal of bacteriology - Review - Crohn's disease (CD), an inflammatory bowel disease that arises from an immune attack on the gastrointestinal tract, affects roughly 1.6 million Americans. The etiology of CD and the other major ir...]]></description>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <category>Genetics &amp; Genomics</category>
 </item>
 <item>
   <title><![CDATA[Mechanisms of inflammatory bowel diseases: Insights from human genetics and chemical biology.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42049036/</link>
   <description><![CDATA[Immunity - Review - Human genetics has proven remarkably productive in linking genetic variants to a wide variety of diseases. Discovery initiatives from medical and population genetics have been especially prolific i...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
-  <category>Genetics &amp; Genomics</category>
-</item>
-<item>
-  <title><![CDATA[The Genetics of Hidradenitis Suppurativa.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42057800/</link>
-  <description><![CDATA[Clinical, cosmetic and investigational dermatology - Review - Hidradenitis suppurativa (HS) is a chronic, relapsing inflammatory skin disease characterized by painful nodules, abscesses, tunnels, and scarring, with substantial clinical and psychological burde...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Genetics &amp; Genomics</category>
 </item>
 <item>
   <title><![CDATA[Exploring alterations in the gut resistome in medically treated inflammatory bowel disease patients.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42045813/</link>
   <description><![CDATA[BMC microbiology - ]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[Factors Associated With Lack of Pre-Operative Stoma Site Marking Before Ostomy Surgery.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42025124/</link>
   <description><![CDATA[The Journal of surgical research - Preoperative stoma marking is recommended for patients undergoing potential ostomy surgery. Factors influencing marking are unknown. The purpose of this study was to identify factors associated wit...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[Small bowel metastasis from colorectal cancer in patients with inflammatory bowel disease: a diagnostic challenge.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42049381/</link>
   <description><![CDATA[BMJ case reports - Case report - Small bowel metastasis from colorectal cancer (CRC) is rare and difficult to diagnose, especially in patients with inflammatory bowel disease (IBD). We report two cases with two different presentat...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
-  <category>IBD-associated Neoplasia</category>
-</item>
-<item>
-  <title><![CDATA[Mechanistic roles of interleukin‑18 in colonic immunity across infection, inflammatory bowel disease, and colorectal cancer (Review).]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42028753/</link>
-  <description><![CDATA[International journal of molecular medicine - Review - The colon, functioning as a central organ for digestion, absorption, and immune defense in the human body, depends on intricate interactions among the epithelial barrier, immune cells, and gut micr...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
-  <category>IBD-associated Neoplasia</category>
-</item>
-<item>
-  <title><![CDATA[Curcumin-loaded extracellular vesicles derived from lactic acid bacteria for alleviation of inflammatory bowel disease.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42025660/</link>
-  <description><![CDATA[International journal of pharmaceutics - Inflammatory bowel disease (IBD) is a chronic inflammatory disorder characterized by symptoms such as diarrhea, bleeding, and an elevated risk of colorectal cancer. Bacterial extracellular vesicles...]]></description>
-  <pubDate>Thu, 30 Apr 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
   <category>IBD-associated Neoplasia</category>
 </item>
 
