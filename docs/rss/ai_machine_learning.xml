@@ -5,34 +5,41 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Intestinal alkaline phosphatase and gut health: insights into homeostasis, barrier protection, and immune signaling.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42065513/</link>
+  <description><![CDATA[Food & function - Review - Intestinal alkaline phosphatase (IAP) is a brush border enzyme critical for maintaining gut homeostasis by detoxifying bacterial endotoxins, regulating nutrient metabolism, and modulating immune re...]]></description>
+  <pubDate>Sat, 02 May 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Astragalin alleviates ulcerative colitis via FPR1 inhibition and restores Microbiota-Metabolite Homeostasis: A mechanism revealed by deep learning.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42066856/</link>
+  <description><![CDATA[Biochemical pharmacology - The pursuit of multi-targeted therapies that simultaneously address mucosal immune dysregulation, barrier dysfunction and gut microbiota imbalance in ulcerative colitis (UC) remains a major challen...]]></description>
+  <pubDate>Sat, 02 May 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
 <item>
   <title><![CDATA[Automated Eosinophil Quantification Using Deep Learning to Predict Therapy Escalation in Pediatric Ulcerative Colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42044208/</link>
   <description><![CDATA[Clinical and translational gastroenterology - Emerging evidence implicates eosinophils as important modulators of disease activity and therapeutic response in ulcerative colitis. Automated image analysis provides a scalable and reproducible ap...]]></description>
-  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 02 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Neurotransmitter-mediated gut-brain axis: a bibliometric analysis of research trends and knowledge structure.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42052390/</link>
   <description><![CDATA[Frontiers in microbiology - Systematic review - The gut-brain axis constitutes a bidirectional network linking the gastrointestinal tract and central nervous system through neural, endocrine, metabolic, and immune pathways. Neurotransmitters pla...]]></description>
-  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 02 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Non-invasive assessment of inflammatory bowel disease activity using a DIA-derived stool peptidomic signature and machine learning.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42052152/</link>
   <description><![CDATA[Frontiers in molecular biosciences - Monitoring disease activity in inflammatory bowel disease (IBD) is essential for guiding therapy and preventing irreversible tissue damage. Colonoscopy, although the gold standard, is invasive and ...]]></description>
-  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[Benchmarking public large language model responses to patient-facing inflammatory bowel disease questions: informational quality, transparency proxies, and readability.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42040103/</link>
-  <description><![CDATA[Frontiers in public health - Patient-facing large language model (LLM) outputs for inflammatory bowel disease (IBD) must be decision-relevant, readable, and verifiable. In a cross-sectional benchmark using a guideline-derived ...]]></description>
-  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 02 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
