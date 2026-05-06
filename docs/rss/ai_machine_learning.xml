@@ -5,55 +5,41 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Multi-omics-based machine learning model predicts response and guides treatment in Crohn disease: a case study in nutritional therapy.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42086326/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Biomarkers are needed to predict treatment response and guide therapeutic decisions in Crohn disease (CD). We aimed to develop and validate a multi-omics machine learning (ML) model to predict resp...]]></description>
+  <pubDate>Wed, 06 May 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
 <item>
   <title><![CDATA[Development and validation of a machine learning model and a web tool for predicting the risk of Crohn's disease diagnosis in Chinese patients.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42068965/</link>
   <description><![CDATA[Public health - Diagnostic delay in Crohn's disease (CD) may increase the risk of poor prognosis. This study developed and validated a machine learning (ML) model for clinicians to conduct preliminary diagnosis an...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Intestinal alkaline phosphatase and gut health: insights into homeostasis, barrier protection, and immune signaling.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42065513/</link>
   <description><![CDATA[Food & function - Review - Intestinal alkaline phosphatase (IAP) is a brush border enzyme critical for maintaining gut homeostasis by detoxifying bacterial endotoxins, regulating nutrient metabolism, and modulating immune re...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Astragalin alleviates ulcerative colitis via FPR1 inhibition and restores Microbiota-Metabolite Homeostasis: A mechanism revealed by deep learning.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42066856/</link>
   <description><![CDATA[Biochemical pharmacology - The pursuit of multi-targeted therapies that simultaneously address mucosal immune dysregulation, barrier dysfunction and gut microbiota imbalance in ulcerative colitis (UC) remains a major challen...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[Automated Eosinophil Quantification Using Deep Learning to Predict Therapy Escalation in Pediatric Ulcerative Colitis.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42044208/</link>
-  <description><![CDATA[Clinical and translational gastroenterology - Emerging evidence implicates eosinophils as important modulators of disease activity and therapeutic response in ulcerative colitis. Automated image analysis provides a scalable and reproducible ap...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Phage Therapy in Gastrointestinal Diseases: Current Status and Challenges.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42074308/</link>
   <description><![CDATA[International journal of molecular sciences - Review - A phage is a virus that targets bacteria with high precision. While phage therapy provides a targeted alternative to broad-spectrum antibiotics, it is not completely free from the challenges of ant...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[Neurotransmitter-mediated gut-brain axis: a bibliometric analysis of research trends and knowledge structure.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42052390/</link>
-  <description><![CDATA[Frontiers in microbiology - Systematic review - The gut-brain axis constitutes a bidirectional network linking the gastrointestinal tract and central nervous system through neural, endocrine, metabolic, and immune pathways. Neurotransmitters pla...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[Non-invasive assessment of inflammatory bowel disease activity using a DIA-derived stool peptidomic signature and machine learning.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42052152/</link>
-  <description><![CDATA[Frontiers in molecular biosciences - Monitoring disease activity in inflammatory bowel disease (IBD) is essential for guiding therapy and preventing irreversible tissue damage. Colonoscopy, although the gold standard, is invasive and ...]]></description>
-  <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
