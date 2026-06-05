@@ -5,20 +5,41 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Atopic dermatitis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42243136/</link>
+  <description><![CDATA[Nature reviews. Disease primers - Review - Atopic dermatitis (AD) is the most common inflammatory skin disease and carries the highest disability-adjusted life-years burden, ranking 15th among all non-fatal diseases globally. It is characte...]]></description>
+  <pubDate>Fri, 05 Jun 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[A novel deep learning network for small bowel ulcerative lesion detection and differential diagnosis on double-balloon endoscopy images.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42246080/</link>
+  <description><![CDATA[Biomedical physics & engineering express - Differentiating small bowel ulcerative diseases (SBUDs) on double-balloon endoscopy (DBE) is challenging. We aimed to develop an artificial intelligence (AI) model using DBE images for accurate SBU...]]></description>
+  <pubDate>Fri, 05 Jun 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
 <item>
   <title><![CDATA[Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42235541/</link>
   <description><![CDATA[Endoscopy - Clinical trial - The effect of computer-aided detection (CADe) on performance of endoscopists with different experience levels is not well understood. This study assessed whether CADe use promotes learning or deski...]]></description>
-  <pubDate>Thu, 04 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 05 Jun 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Performance of IBD machine learning classifiers varies across microbiome training data independent of geographic diversity.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42239183/</link>
   <description><![CDATA[bioRxiv : the preprint server for biology - Microbiome-based machine learning classifiers show increasing promise for disease identification across gastrointestinal, metabolic, and immune-mediated conditions. Inflammatory bowel disease (IBD)...]]></description>
-  <pubDate>Thu, 04 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 05 Jun 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Resistant starch selectively depletes a putative pathobiont-enriched gut microbial module: evidence from multiple dietary fiber intervention cohorts.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42245561/</link>
+  <description><![CDATA[Frontiers in nutrition - Dietary fiber, particularly resistant starch (RS), has been proposed to modulate the gut microbiota and immune microenvironment; however, individual intervention studies yield inconsistent results ...]]></description>
+  <pubDate>Fri, 05 Jun 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
