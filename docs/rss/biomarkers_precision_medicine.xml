@@ -5,125 +5,132 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: Biomarkers &amp; Precision Medicine</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[The dual balance of the cytokine network: key messengers of immune activation and triggers of cytokine storm.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42286765/</link>
+  <description><![CDATA[Biomarker research - Review - The cytokine network is the central regulatory system for intercellular communication within the immune system. Its proper function depends on the dynamic balance between pro-inflammatory and anti-...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
+</item>
+<item>
+  <title><![CDATA[Coordinated IFN-γ/TNF Axis Drives Selective Loss of Activated Enteric Glia in Inflammatory Bowel Diseases.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42285501/</link>
+  <description><![CDATA[Cellular and molecular gastroenterology and hepatology - Enteric glial cells (EGCs) regulate gastrointestinal homeostasis and inflammation. While activated EGCs have been shown to support epithelial and immune balance in preclinical models, their functio...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
+</item>
 <item>
   <title><![CDATA[Microbial, functional, and virulence biomarkers associated with familial risk of Crohn's disease and ulcerative colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42277905/</link>
   <description><![CDATA[Biomarker research - First-degree relatives of patients with inflammatory bowel disease (IBD) carry elevated disease risk and offer a unique window into preclinical gut microbiome alterations. We investigated whether f...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[TENTACLES: a consensus machine learning tool for robust biomarker discovery in heterogeneous data.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42271501/</link>
   <description><![CDATA[BioData mining - Transcriptomic biomarker discovery often fails to produce reproducible gene signatures across independent cohorts due to model-specific biases and dataset heterogeneity. While single-algorithm appr...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Single-cell spatial transcriptomics of formalin-fixed, paraffin-embedded biopsies reveals colitis-associated cell networks.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42262875/</link>
   <description><![CDATA[The Journal of clinical investigation - Imaging-based single-cell spatial transcriptomics (iSCST) on formalin-fixed, paraffin-embedded (FFPE) tissue enables comprehensive analysis of archived specimens while preserving spatial context, c...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Multi-omics reveals fibroblast subtypes with distinct roles in inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42265813/</link>
   <description><![CDATA[Biology direct - Inflammatory bowel disease (IBD) is a chronic inflammatory disorder of the gastrointestinal tract involving complex interactions among epithelial, immune, and stromal components. Fibroblasts are ke...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
+</item>
+<item>
+  <title><![CDATA[The dual role of CCL20 in inflammatory disease: Maintenance of host defense and immunopathological balance.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42284975/</link>
+  <description><![CDATA[Pathology, research and practice - Review - The chemokine, CCL20, is the only ligand of CCR6 and acts as a molecular switch in immune homeostasis, affecting both protective immunity and pathological inflammation through spatiotemporal regula...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Smartly engineered biomaterials drive immune remodeling: A new paradigm for precise treatment of inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42259238/</link>
   <description><![CDATA[International immunopharmacology - Review - Inflammatory bowel disease (IBD) is a group of autoimmune disorders characterized by chronic and relapsing intestinal inflammation. Although drug therapy can alleviate clinical symptoms to some ext...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[PRAS40-driven pro-inflammatory macrophage polarization is required for inflammatory bowel disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42259776/</link>
   <description><![CDATA[Cell death & disease - Inflammatory bowel diseases (IBDs) are chronic inflammatory disorders with unclear pathogenesis and limited therapeutic options. Macrophage dysfunction is central to IBD progression, yet how metabo...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Temporal transcriptomic profiling identifies core regulators in cytokine-induced gut barrier disruption in differentiated Caco-2 cells.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42257857/</link>
-  <description><![CDATA[Inflammation research : official journal of the European Histamine Research Society ... [et al.] - The intestinal epithelial barrier maintains gut homeostasis, and its disruption contributes to inflammatory diseases such as Inflammatory Bowel Diseases (IBD). Although barrier restoration is a pro...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Rexiao Kuining decoction ameliorates ulcerative colitis by restoring immune homeostasis via the protein kinase C alpha-FMS-like tyrosine kinase 3 ligand axis: multi-omics evidence.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42264446/</link>
   <description><![CDATA[Journal of ethnopharmacology - Ulcerative colitis (UC) is marked by epithelial barrier damage and immune dysregulation, and current therapies often fail to achieve both effective inflammation control and durable immune restorati...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
-  <title><![CDATA[Atlas of human gut-associated lymphoid tissue reveals immunomodulatory interactions of B cells.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42247482/</link>
-  <description><![CDATA[Science immunology - Gut-associated lymphoid tissue (GALT) is organized lymphoid tissue that responds chronically to antigens, including whole bacteria, sampled from the gut lumen. The ensuing immunoglobulin A (IgA) pl...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Mechanism Through Which Antioxidant Polysaccharide from Tetrastigma hemsleyanum Protects Against DSS-Induced Ulcerative Colitis: Insights from Multi-Omics.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42280274/</link>
+  <description><![CDATA[Molecules (Basel, Switzerland) - Tetrastigma hemsleyanum polysaccharide (TH-P) exhibited anti-inflammatory and intestinal protective activities, but its mechanism against ulcerative colitis (UC) remained unclear. This study used a...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Progress in the Treatment of Ulcerative Colitis by Targeting NLRP3 Inflammasome.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42272621/</link>
   <description><![CDATA[Drug design, development and therapy - Review - Ulcerative colitis (UC) is a chronic inflammatory disease occurred in intestinal tract, characterized by a prolonged treatment course and associated with severe complications, exerting significant ...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Integrated Microbiome and Metabolomics Analysis Reveals That Ganoderma lucidum Triterpenoids Ameliorate Colitis Associated with the Modulation of the Gut Microbiota and Metabolic Profiles.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42279801/</link>
   <description><![CDATA[Foods (Basel, Switzerland) - Colitis is a global health challenge that severely impairs quality of life, necessitating effective dietary interventions. This study investigated the protective effects of Ganoderma lucidum triter...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[A Novel Role of Smyd2 in Inflammatory Bowel Disease by Orchestrating Macrophage Polarization.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42274007/</link>
   <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - Inflammatory bowel disease (IBD) is a chronic condition caused by an abnormal immune response to gut microflora that leads to inflammation in the gastrointestinal tract. Intestinal macrophages are ...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[The CONTEXT trial: Real world clinical use of GIQuant-a motility MRI based activity biomarker for small bowel Crohn's disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42269010/</link>
-  <description><![CDATA[Journal of Crohn's & colitis - Motility MRI is a validated marker of small bowel Crohn's disease (CD) activity. Objective assessment of small bowel motility with GIQuant (Motilent, London, U.K.) may have a valuable role to play ...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <description><![CDATA[Journal of Crohn's & colitis - Multicenter study - Motility MRI is a validated marker of small bowel Crohn's disease (CD) activity. Objective assessment of small bowel motility with GIQuant (Motilent, London, U.K.) may have a valuable role to play ...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Discovery of self-assembled nanoparticles from Rubia cordifolia L. before and after carbonization and mechanistic study on their targeted therapy for ulcerative colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42269185/</link>
   <description><![CDATA[Phytomedicine : international journal of phytotherapy and phytopharmacology - Ulcerative colitis (UC) is a chronic inflammatory bowel disease with limited treatment options. The carbonization of Rubia cordifolia L. traditionally enhances its therapeutic effects, but the mech...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Extra-Virgin Olive Oil Phenolics in IBD-Associated Vascular Risk.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42280131/</link>
   <description><![CDATA[Molecules (Basel, Switzerland) - Review - High-phenolic extra-virgin olive oil (EVOO) is a chemically dynamic bioactive matrix in which cultivar, ripening stage, processing, storage, and digestion shape the final profile of phenolic alcoho...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
-  <title><![CDATA[From dysbiosis to precision medicine: targeting the microbial-metabolic axis in IBD management.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42256221/</link>
-  <description><![CDATA[Frontiers in cellular and infection microbiology - Review - Inflammatory bowel disease (IBD) is a chronic relapsing inflammatory condition that has a rapidly changing global epidemiology. IBD has been traditionally viewed as a primary immune system dysfunct...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Gegen Qinlian Decoction Attenuates Ulcerative Colitis by Inhibiting PANoptosis: A Multi-Omics and Experimental Study.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42258405/</link>
-  <description><![CDATA[Journal of visualized experiments : JoVE - We present an integrated bioinformatics and network pharmacology protocol to clarify the therapeutic mechanisms of Gegen Qinlian Decoction (GQD) in ulcerative colitis (UC), with a particular focus ...]]></description>
-  <pubDate>Fri, 12 Jun 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Mechanism study of HuanglianKushen decoction intervention in DSS-induced ulcerative colitis mice based on integrative omics.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42284638/</link>
+  <description><![CDATA[Phytomedicine : international journal of phytotherapy and phytopharmacology - Ulcerative colitis (UC) is an inflammatory bowel disease characterized by variable extent colon and rectum inflammation. The pathogenesis is not yet clear, with no curative treatments available. Hu...]]></description>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 
