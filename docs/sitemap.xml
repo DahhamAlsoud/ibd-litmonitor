@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dahhamalsoud.github.io/ibd-litmonitor/index.html</loc>
-    <lastmod>2026-07-21T14:33:23.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dahhamalsoud.github.io/ibd-litmonitor/DESIGN_DECISIONS.html</loc>
-    <lastmod>2026-07-21T14:33:23.594Z</lastmod>
-  </url>
-  <url>
     <loc>https://dahhamalsoud.github.io/ibd-litmonitor/subscribe.html</loc>
-    <lastmod>2026-07-21T14:33:23.596Z</lastmod>
+    <lastmod>2026-07-22T14:32:36.970Z</lastmod>
   </url>
   <url>
     <loc>https://dahhamalsoud.github.io/ibd-litmonitor/dashboard.html</loc>
-    <lastmod>2026-07-21T14:33:23.594Z</lastmod>
+    <lastmod>2026-07-22T14:32:36.968Z</lastmod>
   </url>
   <url>
     <loc>https://dahhamalsoud.github.io/ibd-litmonitor/about.html</loc>
-    <lastmod>2026-07-21T14:33:23.594Z</lastmod>
+    <lastmod>2026-07-22T14:32:36.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dahhamalsoud.github.io/ibd-litmonitor/DESIGN_DECISIONS.html</loc>
+    <lastmod>2026-07-22T14:32:36.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dahhamalsoud.github.io/ibd-litmonitor/index.html</loc>
+    <lastmod>2026-07-22T14:32:36.969Z</lastmod>
   </url>
 </urlset>
