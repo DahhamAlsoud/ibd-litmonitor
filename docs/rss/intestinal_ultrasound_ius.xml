@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>IBD LitMonitor - Intestinal Ultrasound (IUS)</title>
+    <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
+    <description>IBD literature monitoring: Intestinal Ultrasound (IUS)</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2026 07:00:00 GMT</lastBuildDate>
+
+<item>
+  <title><![CDATA[Clinical appraisal of handheld intestinal ultrasound in inflammatory bowel disease: Where are we now?]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42566302/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Gastroenterologist-performed intestinal ultrasound (IUS) is increasingly used to monitor inflammatory bowel disease (IBD) due to its noninvasive, real-time, and cost-effective attributes, alongside...]]></description>
+  <pubDate>Sat, 08 Aug 2026 07:00:00 GMT</pubDate>
+  <category>Intestinal Ultrasound (IUS)</category>
+</item>
+
+  </channel>
+</rss>
