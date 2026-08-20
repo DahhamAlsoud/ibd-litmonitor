@@ -5,27 +5,27 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Large language models enhance annotation of enzymes in metagenomes.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42616879/</link>
+  <description><![CDATA[Science advances - Metagenomic data have notable biological potential, but their functional interpretation is frequently impeded by incomplete protein function annotations. Accurate enzyme annotation is essential for...]]></description>
+  <pubDate>Thu, 20 Aug 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
 <item>
   <title><![CDATA[Development and validation of a Bayesian network-based surgical risk-prediction tool for patients with small-bowel stricturing Crohn's disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42610116/</link>
   <description><![CDATA[Gastroenterology report - Patients with small-bowel stricturing Crohn's disease (sbsCD) usually have a higher risk of intestinal surgical resection. We aimed to develop a machine-learning model for predicting the 1-year sur...]]></description>
-  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
-  <category>AI &amp; Machine Learning</category>
-</item>
-<item>
-  <title><![CDATA[LIMK1 and PKM as Integratively Identified Transcriptomic Signatures in Inflammatory Bowel Disease.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42584099/</link>
-  <description><![CDATA[Omics : a journal of integrative biology - Inflammatory bowel disease (IBD) involves complex immunometabolic dysregulation. Mitochondria-associated endoplasmic reticulum membranes (MAMs) link metabolic adaptation and inflammatory signaling,...]]></description>
-  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 20 Aug 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Automated AI-based Mayo Endoscopic Scoring for ulcerative colitis across adult and pediatric cohorts from diverse populations.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42611818/</link>
   <description><![CDATA[Journal of Crohn's & colitis - Multicenter study - Endoscopic assessment in ulcerative colitis (UC) is critical for clinical decision-making but limited by interobserver variability. AI-powered systems may improve consistency, but dataset heterogen...]]></description>
-  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 20 Aug 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
