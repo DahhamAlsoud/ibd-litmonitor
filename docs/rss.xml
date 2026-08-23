@@ -5,146 +5,146 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Daily IBD literature monitoring - organized by clinical subfield</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Novel proteomic signatures of stricturing Crohn disease using a treatment-naive cohort.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42622514/</link>
   <description><![CDATA[Inflammatory bowel diseases - Crohn disease (CD) is frequently complicated by intestinal strictures, which require early recognition and management. This study aimed to identify biomarkers associated with CD-related strictures ...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Beyond ICD-10 Codes: A Multi-class Machine-Learning Approach to Identify True IBD Cases in Electronic Medical Records.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42622949/</link>
   <description><![CDATA[Digestive diseases and sciences - The adoption of electronic medical records (EMRs) has expanded research opportunities. International Classification of Diseases (ICD) codes are used for case identification but lack sensitivity and...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Large language models enhance annotation of enzymes in metagenomes.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42616879/</link>
   <description><![CDATA[Science advances - Metagenomic data have notable biological potential, but their functional interpretation is frequently impeded by incomplete protein function annotations. Accurate enzyme annotation is essential for...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Single-cell transcriptomic analysis reveals that Trametes robiniophila Murr. (Huaier) granules protect against ulcerative colitis by targeting macrophage-associated cGAS-STING signaling.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42632474/</link>
+  <description><![CDATA[Journal of ethnopharmacology - Trametes robiniophila Murr. (Huaier granules) is a medicinal fungus with over 1,600 years of historical use in traditional Chinese medicine. It has been traditionally applied to alleviate "intestin...]]></description>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
+</item>
+<item>
+  <title><![CDATA[Intestinal toxicity mechanisms of 6PPD and 6PPD-Q and their potential relevance to inflammatory bowel disease: network toxicology and experimental evidence.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42632446/</link>
+  <description><![CDATA[Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association - 6PPD and its ozonation product 6PPD-quinone (6PPD-Q) are widespread tire-derived pollutants. This study combined network toxicology, clinical transcriptomics, molecular docking, and experimental va...]]></description>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Integrative Systems Pharmacology and Zebrafish Toxicity Profiling Reveal Piperine as a Multi-Target Modulator in DSS-Induced Intestinal Inflammation.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627479/</link>
   <description><![CDATA[Applied biochemistry and biotechnology - A bioactive alkaloid derived from Piper nigrum is piperine (PIP); it exhibits significant anti-inflammatory properties, but the mechanistic basis remains incomplete. This study integrates zebrafish...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Nursing-Led Support Across the Standard Care-Clinical Trial-Standard Care Pathway in Inflammatory Bowel Disease: A Review With Realist-Informed Interpretation.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42626136/</link>
-  <description><![CDATA[JGH open : an open access journal of gastroenterology and hepatology - Review - To examine how nursing-led support may influence engagement, continuity, adherence, retention, and protocol enactment across the standard care-clinical trial-standard care pathway in individuals wi...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Global burden of inflammatory bowel disease in Asia, 1990-2023: A global burden of disease study 2023.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42622437/</link>
-  <description><![CDATA[Saudi journal of gastroenterology : official journal of the Saudi Gastroenterology Association - The burden of inflammatory bowel disease (IBD) is increasing rapidly across Asia, yet country-level evidence by subtype, age, and sex remains limited. Thus, we aimed to investigate long-term burden...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Modulating immune toxicity in ulcerative colitis using a small molecule RAB27A inhibitor.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627211/</link>
   <description><![CDATA[Inflammatory bowel diseases - Recent evidence has shown that ulcerative colitis patients with increased neutrophil biomarkers are linked to complicated disease and refractory response. In the pathology of colitis, neutrophils a...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[Clinical and endoscopic features of checkpoint inhibitor-induced colitis and their association with selective immunosuppressive therapy use.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627207/</link>
   <description><![CDATA[Inflammatory bowel diseases - Immune checkpoint-inhibitor (ICI) colitis is a common adverse event that is primarily treated with corticosteroids but may require selective immunosuppressive therapy (SIT). Although endoscopic fea...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[mRNA therapeutics for restoring immune tolerance in autoimmune diseases.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42617944/</link>
   <description><![CDATA[Drug discovery today - Review - Autoimmune diseases arise from breakdown of immune tolerance and are commonly treated with broad immunosuppression that limits efficacy and increases toxicity. For drug discovery, mRNA therapeutics...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
+</item>
+<item>
+  <title><![CDATA[Early-onset inflammatory bowel disease: progress and persistent inequities.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42632821/</link>
+  <description><![CDATA[Pediatric research - This commentary discusses Yue et al.'s population-based study, "The Shifting Burden of Early-Onset Inflammatory Bowel Disease: A Global Analysis", and highlights how declining mortality, increasing...]]></description>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+  <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[GLP-1 receptor agonist therapy is associated with increased symptomatic remission in ulcerative colitis: a matched cohort study.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627215/</link>
   <description><![CDATA[Inflammatory bowel diseases - Ulcerative colitis (UC) remains associated with significant morbidity despite therapeutic advances. The impact of glucagon-like peptide-1 receptor agonists (GLP-1 RAs) on UC disease activity is not...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Early-life adverse events and risk of inflammatory bowel disease: A Scandinavian birth cohort study.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42626830/</link>
   <description><![CDATA[Journal of pediatric gastroenterology and nutrition - The experience of childhood stressful or adverse life events is believed to imprint on immunological pathways and, therefore, might have lasting effects on inflammatory bowel disease (IBD) developm...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Epidemiology &amp; Outcomes</category>
-</item>
-<item>
-  <title><![CDATA[Mesenchymal stem cells in veterinary clinical practice: Evidence from naturally occurring diseases.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42624276/</link>
-  <description><![CDATA[Veterinary journal (London, England : 1997) - Review - Over the past two decades, the use of mesenchymal stem cells (MSCs) in veterinary medicine has expanded rapidly, although the clinical evidence remains in its early stages. This review discusses cl...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Symptom burden is associated with health-related quality of life in symptomatic adults with primary sclerosing cholangitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42623524/</link>
   <description><![CDATA[Hepatology communications - The Primary Sclerosing Cholangitis Symptom Assessment Project (PSC-SAP) is a research initiative aimed at developing regulatory-grade PSC-specific symptom measures. During the initial screening pha...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[Pruritus Is Frequent and Persistent and Impacts Quality of Life Among Patients With Primary Sclerosing Cholangitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42608739/</link>
   <description><![CDATA[Alimentary pharmacology & therapeutics - Pruritus is a common and burdensome symptom in patients with primary sclerosing cholangitis (PSC). To determine the prevalence of pruritus in PSC, its clinical associations, and its impact on quali...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[Uveitis and Scleritis as Early Signals of Undiagnosed IBD: A Tiered Screening Framework to Reduce Diagnostic Delay.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42606207/</link>
   <description><![CDATA[Ocular immunology and inflammation - Review - Uveitis and scleritis are well-recognized extraintestinal manifestations of inflammatory bowel disease (IBD). Although ocular involvement typically follows IBD diagnosis, a meaningful subset of pat...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[Hidden Burden: Liver and Gastrointestinal Involvement in Chronic Granulomatous Disease.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627583/</link>
   <description><![CDATA[Immunologic research - Chronic granulomatous disease (CGD) is a primary immunodeficiency characterized by defective reactive oxygen species production, leading to recurrent infections, chronic inflammation, and immune dy...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Genetics &amp; Genomics</category>
 </item>
 <item>
   <title><![CDATA[Inflammatory bowel disease treatment: Mechanisms to clinical translation (Review).]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42627056/</link>
   <description><![CDATA[International journal of molecular medicine - Review -  Inflammatory bowel disease (IBD) is a group of chronic, relapsing and systemic inflammatory disorders primarily affecting the gastrointestinal tract, including Crohn's disease, ulcerative colitis ...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Genetics &amp; Genomics</category>
 </item>
 <item>
   <title><![CDATA[An inflammatory bowel disease-linked lncRNA suppresses transcription factor T-BET expression in T cells to limit intestinal inflammation.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42624111/</link>
   <description><![CDATA[Immunity - Among the tens of thousands of annotated long noncoding RNAs (lncRNAs) in the human genome, only a small fraction have been functionally characterized. Here, we show that a well-established inflamm...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Genetics &amp; Genomics</category>
+</item>
+<item>
+  <title><![CDATA[Adjunctive nutraceutical strategies in ulcerative colitis: From molecular pathways to clinical outcomes.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42632301/</link>
+  <description><![CDATA[Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie - Review - Ulcerative colitis is a chronic inflammatory disease of the large intestine, involving flare-ups and remissions. Its exact causes are unclear, but genetic susceptibility, immune dysregulation and e...]]></description>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[The role of the gut-brain axis and polyphenolic compounds in glioblastoma.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42607817/</link>
   <description><![CDATA[The Journal of nutritional biochemistry - Review - Polyphenols are metabolites derived from plant-based sources studied in cancer research for their anti-inflammatory, antioxidant, and antiproliferative properties. While previous studies have focus...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Guidelines &amp; Consensus</category>
-</item>
-<item>
-  <title><![CDATA[HEPARIN-INDUCED THROMBOCYTOPENIA AND ITS IMPACT ON INPATIENT OUTCOMES IN INFLAMMATORY BOWEL DISEASE.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42603616/</link>
-  <description><![CDATA[The American journal of the medical sciences - Hospitalizations with inflammatory bowel disease (IBD) are at increased risk of venous thromboembolism (VTE), and current guidelines recommend routine pharmacological thromboprophylaxis during admi...]]></description>
-  <pubDate>Sat, 22 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
   <category>Guidelines &amp; Consensus</category>
 </item>
 
