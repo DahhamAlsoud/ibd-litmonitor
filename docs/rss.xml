@@ -5,146 +5,146 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>Daily IBD literature monitoring - organized by clinical subfield</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 07:00:00 GMT</lastBuildDate>
 
 <item>
   <title><![CDATA[Identification of Ferro-Aging-Related Biomarkers for Ulcerative Colitis Through Integrated Machine Learning, Single-Cell Analysis, and Spatial Transcriptomics.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42667131/</link>
   <description><![CDATA[FASEB journal : official publication of the Federation of American Societies for Experimental Biology - Ulcerative colitis (UC) is characterized by chronic mucosal inflammation, epithelial injury, oxidative stress, and marked molecular heterogeneity. Ferro-aging has recently been proposed as an ACSL4...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
-  <title><![CDATA[A novel inflammatory bowel disease registry powered by artificial intelligence and natural language processing.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42658785/</link>
-  <description><![CDATA[PLOS digital health - Despite substantial recent progress in inflammatory bowel disease (IBD) therapies, there remains a large proportion of patients who are non-responders or develop significant adverse events. Accurat...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Exploring spiritual needs in inflammatory bowel disease: a qualitative study protocol adopting the think-aloud method.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42670815/</link>
+  <description><![CDATA[Minerva gastroenterology - Spirituality may influence coping and quality of life in inflammatory bowel disease (IBD), yet spiritual needs are rarely assessed systematically in routine care. The Spiritual Needs Questionnaire ...]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
-  <title><![CDATA[Identification and validation of novel platelet-related genes in ulcerative colitis using bioinformatics and machine learning strategies.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42668808/</link>
-  <description><![CDATA[PeerJ - Ulcerative colitis (UC) is a chronic, relapsing inflammatory disorder of the colonic mucosa. Although colonoscopy remains the diagnostic cornerstone for UC, its invasive nature highlights the need ...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Mind the Gap: Challenges to Integration of Artificial Intelligence into Inflammatory Bowel Disease Care.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42675230/</link>
+  <description><![CDATA[Digestive diseases and sciences - Editorial - ]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Unraveling the drug resistance web in IBD: The gut microbiota-immunity-epigenetics axis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42678063/</link>
+  <description><![CDATA[Gut microbes - Review - Drug resistance in inflammatory bowel disease (IBD) precision therapy remains a critical barrier to clinical outcomes, with traditional studies focusing on single molecules or isolated pathways but...]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
+  <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[One threshold does not fit all: Rethinking faecal calprotectin in Crohn's disease-associated anal fistulas.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42644215/</link>
   <description><![CDATA[Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland - Letter - ]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Multi-Omic Analysis of Putative Cellular Senescence-Associated Genes on the Risk of Pan-Cancer.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42669193/</link>
   <description><![CDATA[Molecular carcinogenesis - Cellular senescence plays a critical role in physiological and pathological processes. This study aims to elucidate the contribution of cellular senescence-related genes to disease etiology. We inv...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Biomarkers &amp; Precision Medicine</category>
-</item>
-<item>
-  <title><![CDATA[Extracellular vesicles in inflammatory bowel disease: from immune regulation and barrier repair to precise transformation.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42665240/</link>
-  <description><![CDATA[Autoimmunity reviews - Review - Extracellular vesicles (EVs) have been shown to be key regulators of intestinal homeostasis and inflammatory responses, offering new insights into the pathogenesis of inflammatory bowel disease (IB...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Biomarkers &amp; Precision Medicine</category>
 </item>
 <item>
   <title><![CDATA[Targeting the TL1A pathway in inflammatory bowel disease: mechanistic insights and emerging therapeutic pipeline.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42660189/</link>
   <description><![CDATA[Inflammatory bowel diseases - Tumor necrosis factor-like ligand 1A (TL1A), encoded by TNFSF15, signals through death receptor 3 on effector T cells, innate lymphoid cells, and intestinal myofibroblasts, driving both chronic int...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[Primary Colonic Diffuse Large B-cell Lymphoma: A Diagnostic Challenge.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42643930/</link>
   <description><![CDATA[Cureus - Case report - Primary colonic diffuse large B-cell lymphoma (DLBCL) is a rare extranodal malignancy that accounts for a small percentage of colonic malignancies. With nonspecific gastrointestinal symptoms such a...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Drug Safety &amp; Pharmacovigilance</category>
-</item>
-<item>
-  <title><![CDATA[N-Acetylcysteine, Tiron, and Their Combination: In Vitro Antioxidant and Anti-Inflammatory Activities and Their Protective Effect in a Rat Model of Acetic Acid-Induced Ulcerative Colitis.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42653151/</link>
-  <description><![CDATA[International journal of molecular sciences - Ulcerative colitis is characterized by inflammation, oxidative stress, and excessive free radical production. This study investigated the antioxidant, anti-inflammatory, and protective effects of N...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Drug Safety &amp; Pharmacovigilance</category>
 </item>
 <item>
   <title><![CDATA[Genetic assemblages of Giardia duodenalis linked to distinct symptom profiles.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42669374/</link>
   <description><![CDATA[Parasitology international - Giardia duodenalis is a common intestinal parasite that infects children and adults worldwide. Of its eight known assemblages (A-H), assemblages A and B are the predominant genotypes infecting huma...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Temporal Trends and Socio-Demographic Disparities in Inflammatory Bowel Disease: Insights from the Global Burden of Disease Study 2021.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42668343/</link>
   <description><![CDATA[Digestive diseases and sciences - Inflammatory bowel disease (IBD) is a chronic immune-mediated gastrointestinal disorder with rising global incidence, especially in industrializing regions. The Global Burden of Disease Study (GBD)...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Prevalence of dysphagia and eosinophilic esophagitis in patients with inflammatory bowel disease or type 2 inflammation: a cross-sectional multicenter screening study.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42668855/</link>
   <description><![CDATA[Therapeutic advances in gastroenterology - Eosinophilic esophagitis (EoE) is a chronic, type-2 inflammation-driven disease causing dysphagia. Although patients with other type-2 inflammatory diseases (type-2 ID) or inflammatory bowel diseas...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Epidemiology &amp; Outcomes</category>
 </item>
 <item>
   <title><![CDATA[Dual-Targeted Therapy in Refractory Pyoderma Gangrenosum: A Focused Systematic Review of Convergent Pathway Targeting.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42663862/</link>
   <description><![CDATA[Dermatology and therapy - Systematic review - Refractory pyoderma gangrenosum (PG) may persist despite corticosteroids, ciclosporin, biologics or sequential treatment escalation. Dual-targeted therapy (DTT) is increasingly used in medically co...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[Imaging manifestations of malignancy in inflammatory bowel disease: patterns, pitfalls and pearls.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42663624/</link>
   <description><![CDATA[Abdominal radiology (New York) - Review - Patients with inflammatory bowel disease (IBD) are at increased risk of gastrointestinal and hepatobiliary malignancies arising in the setting of chronic inflammation, dysplasia, stricturing diseas...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[Comorbidity-Guided Management of Pyoderma Gangrenosum: A Clinical Guide to Emerging Therapeutic Targets.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42660433/</link>
   <description><![CDATA[Journal of the American Academy of Dermatology - Review - Pyoderma gangrenosum (PG) is a neutrophilic dermatosis frequently associated with systemic comorbidities such as inflammatory bowel disease (IBD), arthritis, and hematologic disorders. Management r...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Extraintestinal Manifestations</category>
 </item>
 <item>
   <title><![CDATA[The regulatory role of post-translational modifications in the pathogenesis of ulcerative colitis.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42663768/</link>
   <description><![CDATA[Molecular biology reports - Review - Ulcerative colitis (UC) is a chronic, relapsing inflammatory bowel disease characterized by mucosal inflammation limited to the colon, which may progress to pancolitis in severe cases. This debilit...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Genetics &amp; Genomics</category>
+</item>
+<item>
+  <title><![CDATA[Association Between Ultra-Processed Foods and Clinical Relapse in Crohn's Disease: A Systematic Review and Meta-Analysis.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42674185/</link>
+  <description><![CDATA[Journal of the Academy of Nutrition and Dietetics - Higher consumption of ultra-processed foods (UPFs) has been linked to an increased risk of developing Crohn's Disease (CD) and is hypothesized to worsen activity of CD through mechanisms such as gu...]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
+  <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
   <title><![CDATA[Plant and Animal Protein Sources in Inflammatory Bowel Disease: Current Evidence and Clinical Implications.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42666571/</link>
   <description><![CDATA[JGH open : an open access journal of gastroenterology and hepatology - Review - With the consumption of protein consumption increasing globally, there are gaps in our understanding of the differences in protein sources, particularly between animal and plant proteins and their ...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
-  <title><![CDATA[Testing-Yield Mismatch in Inpatient Micronutrient Assessment in Inflammatory Bowel Disease: A Real-World Implementation-Gap Analysis.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42654228/</link>
-  <description><![CDATA[Nutrients - Background/Objectives: Micronutrient deficiencies are common in inflammatory bowel disease (IBD) and contribute to anemia, impaired wound healing, neurologic injury, and adverse disease outcomes. M...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <title><![CDATA[Alternate-day fasting increases the risk of decreased immune cells and anemia in DSS-induced colitis mice.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42676436/</link>
+  <description><![CDATA[Frontiers in nutrition - Intermittent fasting (IF) is a widely adopted dietary strategy with well-documented benefits in the management of metabolic diseases. However, its effects in pathological settings characterized by ...]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>Guidelines &amp; Consensus</category>
 </item>
 <item>
-  <title><![CDATA[A case series study of fever-diarrhea-hematochezia triad as the first presentation in plasma EBV DNA-positive diseases.]]></title>
-  <link>https://pubmed.ncbi.nlm.nih.gov/42656448/</link>
-  <description><![CDATA[Frontiers in cellular and infection microbiology - To characterize the clinical spectrum and outcomes of fever-diarrhea-hematochezia triad as the first presentation in plasma EBV DNA-positive diseases (EBV-FDH). This retrospective case series study...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
-  <category>Guidelines &amp; Consensus</category>
+  <title><![CDATA[Inflammatory bowel disease-associated colorectal dysplasia: the expanding morphologic landscape and diagnostic challenges.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/42678422/</link>
+  <description><![CDATA[Virchows Archiv : an international journal of pathology - Review - Although most dysplastic lesions in inflammatory bowel disease (IBD) resemble sporadic adenomas, several less well-recognized morphologic variants have recently been described. These variants can b...]]></description>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
+  <category>IBD-associated Neoplasia</category>
 </item>
 <item>
   <title><![CDATA[Basal crypt dysplasia in inflammatory bowel disease: morphological quandaries, p53 immunohistochemistry and diagnostic pointers.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42640296/</link>
   <description><![CDATA[Virchows Archiv : an international journal of pathology - Review - Basal crypt dysplasia (BCD) is among the most diagnostically challenging of the non-conventional dysplasia subtypes that arise in the setting of longstanding inflammatory bowel disease (IBD). Its d...]]></description>
-  <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
   <category>IBD-associated Neoplasia</category>
 </item>
 
