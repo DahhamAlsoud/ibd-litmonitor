@@ -78,6 +78,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -302,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#coverage-september-13-2026---september-20-2026" id="toc-coverage-september-13-2026---september-20-2026" class="nav-link active" data-scroll-target="#coverage-september-13-2026---september-20-2026">Coverage: September 13, 2026 - September 20, 2026</a></li>
+  <li><a href="#coverage-september-14-2026---september-21-2026" id="toc-coverage-september-14-2026---september-21-2026" class="nav-link active" data-scroll-target="#coverage-september-14-2026---september-21-2026">Coverage: September 14, 2026 - September 21, 2026</a></li>
   <li><a href="#papers-by-category" id="toc-papers-by-category" class="nav-link" data-scroll-target="#papers-by-category">Papers by Category</a></li>
   </ul>
 </nav>
@@ -340,19 +369,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>IBD papers published <strong>September 13, 2026 to September 20, 2026</strong>, organized by sub-fields. Every paper, every category - nothing filtered out.</p>
+<p>IBD papers published <strong>September 14, 2026 to September 21, 2026</strong>, organized by sub-fields. Every paper, every category - nothing filtered out.</p>
 <p>Created by <strong><a href="https://dahhamalsoud.github.io/">Dahham Alsoud</a></strong></p>
 <p><em>Why not just use PubMed alerts? PubMed alerts give you a flat, unsorted list with no grouping by topic - you still have to manually scan through everything to find what’s relevant to your work. IBD LitMonitor organizes the week’s literature into sub-fields so you can go straight to what matters, whether that’s therapeutics, pediatrics, surgery, or any other topic area.</em></p>
 </div>
 </div>
 <hr>
-<section id="coverage-september-13-2026---september-20-2026" class="level3">
-<h3 class="anchored" data-anchor-id="coverage-september-13-2026---september-20-2026">Coverage: September 13, 2026 - September 20, 2026</h3>
+<section id="coverage-september-14-2026---september-21-2026" class="level3">
+<h3 class="anchored" data-anchor-id="coverage-september-14-2026---september-21-2026">Coverage: September 14, 2026 - September 21, 2026</h3>
 <div class="grid">
 <div class="g-col-3">
 <div class="stat-box">
 <div class="stat-number">
-<p>118</p>
+<p>116</p>
 </div>
 <div class="stat-label">
 <p>Papers This Week</p>
@@ -362,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-3">
 <div class="stat-box">
 <div class="stat-number">
-<p>18</p>
+<p>17</p>
 </div>
 <div class="stat-label">
 <p>Categories</p>
@@ -394,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Click a category to expand. Click a paper title to read its abstract.</em></p>
 <details>
 <summary>
-<strong>Surgery &amp; Complications</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(19 papers)</span>
+<strong>Surgery &amp; Complications</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(16 papers)</span>
 </summary>
 <details>
 <summary>
@@ -590,54 +619,6 @@ Crohn’s disease (CD)-associated mucosal injury involves immune-cell infiltrati
 </details>
 <details>
 <summary>
-Endoscopic Application of GM-CSF, Fosfomycin, and Metronidazole in Pouchitis, a Phase I Safety and Pilot Study. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Digestive diseases and sciences &nbsp;|&nbsp; 2026-09-11</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Inflammation of the pouch is common in patients with ulcerative colitis after ileal pouch anal anastomosis surgery. Up to 20% of patients develop chronic or treatment refractory pouchitis. We aimed to test the safety and efficacy of applying a combination drug in the pouch. We conducted a single-arm, open-label phase I study. Patients with pouchitis received a single dose of 50 µg granulocyte-macrophage colony-stimulating factor (GM-CSF), 400 mg of fosfomycin, and 100 mg of metronidazole endoscopically in the pouch. The primary outcome was the occurrence of adverse events, while secondary outcomes were changes in the Pouchitis Disease Activity Index (PDAI), laboratory parameters, bacterial composition, and mucosal gene expression patterns. Six patients were included from August 2021 to December 2022 at Zealand University Hospital. One serious adverse event occurred in the form of a hospitalization for dehydration, deemed unrelated to the study drug. PDAI decreased on average 2 points, with 2 (33.3%) patients achieving clinical remission (PDAI &lt; 7), while laboratory parameters remained similar. Bacterial composition of the pouch mucosa did not change significantly. Gene expression analysis indicated enhanced immune cell communication, reduced proteasome activity, and a shift from innate to adaptive immunity, with fewer dendritic cells and more B cells in the pouch mucosa after treatment. The administration of GM-CSF, fosfomycin, and metronidazole in the pouch appears to be safe in patients with pouchitis and results in immunological changes suggesting a reduction in inflammation, ClincialTrials.gov number, NCT04979832.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Lin V, Ngo-Stuyt L, Bennedsen ALB, Balsevicius L, Fransgaard T, Johannesen KMB, Fiehn AK, Nielsen HV, Wildt S, Bulut M</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1007/s10620-026-10233-z" target="_blank">DOI: 10.1007/s10620-026-10233-z</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42728546/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Macrophage SELENOP controls neutrophil homeostasis through redox stress regulation in Crohn’s disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Redox biology &nbsp;|&nbsp; 2026-09-09</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Neutrophil accumulation and oxidative injury are prominent features of Crohn’s disease (CD). This study aimed to investigate whether macrophage-derived SELENOP functions as a redox checkpoint in macrophage-neutrophil crosstalk during CD. Inflamed and non-inflamed colon tissues from CD patients were examined by single-cell RNA sequencing. SELENOP function was assessed in macrophages, macrophage-neutrophil co-cultures and inflammation models. Mechanistic studies included loss- and gain-of-function assays, co-immunoprecipitation, ubiquitination assays, and rescue experiments. In vivo validation was performed using myeloid-specific SELENOP-deficient mice with TNBS-induced colitis and SELENOP-overexpressing IL-10-deficient mice. SELENOP was selectively diminished in colon macrophages from inflamed CD lesions and its reduction was associated with more severe disease activity and postoperative recurrence. Functionally, SELENOP reduction in macrophages acquired a pro-oxidative and hyperinflammatory state through SESN2/NRF2 antioxidant signaling and CAP1. TRIP12 promoted ubiquitin-dependent SELENOP degradation, whereas CREB1 and SMARCA4 cooperatively activated SELENOP transcription. SELENOP-deficient macrophages altered redox and cADPR-associated metabolic signaling, thereby inducing neutrophil oxidative stress, apoptosis and NET formation. Myeloid SELENOP deletion aggravated experimental TNBS-induced colitis, while SELENOP overexpression alleviated IL-10-deficient colitis in a macrophage-dependent manner. Our findings identify macrophage-derived SELENOP as a redox checkpoint that restrains pathogenic macrophage-neutrophil communication in CD. Targeting the macrophage SELENOP may recalibrate oxidative stress-driven colonic inflammation.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Wang H, Wang J, Jiang W, Cheng C, Cheng S, Fu S, Zhang Y, Liu C, Sun J, Zhao J</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.redox.2026.104377" target="_blank">DOI: 10.1016/j.redox.2026.104377</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42731288/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Nanomaterial-Based Strategies Targeting IL-1 Signalling in Inflammatory Bowel Disease: Therapeutic Applications and Mechanistic Insights.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of inflammation research &nbsp;|&nbsp; 2026-09-07</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Inflammatory Bowel Disease (IBD) is a group of gastrointestinal disorders characterized by chronic relapsing inflammation, primarily comprising Ulcerative Colitis and Crohn’s Disease. Interleukin(IL) -1 (IL-1) family plays a central role in the immunoregulation of IBD, where its aberrant activation amplifies inflammatory responses through nuclear factor kappa B (NF-κB) and mitogen-activated protein kinase (MAPK) pathways, leading to excessive release of pro-inflammatory cytokines, disruption of the epithelial barrier, and mucosal damage. Although biological agents targeting IL-1, such as Anakinra and the neutralizing antibody Canakinumab, have demonstrated anti-inflammatory effects in animal studies and certain clinical trials, challenges including low bioavailability, short half-life, and insufficient targeting specificity remain unresolved. In recent years, the emergence of nanomaterial technology has provided novel insights for the precise modulation of IL-1 signaling through two principal strategies. By loading IL-1 blockers or regulatory molecules into targeted and environmentally responsive nanoplatforms, it is possible to achieve site-specific drug delivery and sustained release at inflammatory loci, significantly reducing local inflammation and promoting mucosal repair. Specifically, we highlight advanced nanotechnology platforms-including lipid-based nanocarriers, polymeric nanosystems, inorganic nanomaterials, and bio-derived vesicles-that enable stimuli-responsive drug release, active mucosal targeting, and intrinsic immunomodulation to overcome biological barriers in the gut. Notably, certain active nanomaterials can directly eliminate reactive oxygen species (ROS) and block NLRP3 inflammasome activation to suppress IL-1 production. This review summarizes the role of the IL-1 family in the pathogenesis of IBD and advances in nanomaterial-based targeting strategies. Furthermore, by exploring Quality-by-Design (QbD) approaches and personalized nanocarriers, we aim to provide a new theoretical foundation and research direction for the evolution of IBD therapy toward stratified precision medicine.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Wang K, Chen S, Zhang J, Du J, Liu Y, Li D, Sun X, Song Y</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.2147/JIR.S596248" target="_blank">DOI: 10.2147/JIR.S596248</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42730335/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
 Self-expandable metal stents versus endoscopic balloon dilatation for the treatment of strictures in Crohn’s disease: a retrospective long-term follow-up of the ProtDilat study, an open label, multicenter, randomized trial.<span style="background:#2e7d32;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">RCT</span><span style="color:#b8860b;font-size:0.8em;margin-left:4px;" title="High-impact IBD/GI journal">★</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of Crohn’s &amp; colitis &nbsp;|&nbsp; 2026-09</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
@@ -704,8 +685,40 @@ Pouchitis is the most common long-term complication following restorative procto
 <hr>
 <details>
 <summary>
-<strong>Biomarkers &amp; Precision Medicine</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(12 papers)</span>
+<strong>Biomarkers &amp; Precision Medicine</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(14 papers)</span>
 </summary>
+<details>
+<summary>
+In Silico Single-Cell Frame work for Modeling Intestinal Stem and Transit-Amplifying Progenitor Cells Dynamics. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Methods in molecular biology (Clifton, N.J.) &nbsp;|&nbsp; 2027</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Single-cell RNA sequencing (scRNA-seq) has revolutionized the ability to resolve cellular heterogeneity within complex tissues, enabling the identification of discrete cell states. Here, we present an in silico analytical pipeline designed to characterize intestinal stem cells (ISC), transit-amplifying (TA) progenitors, and BEST4⁺ enterocyte precursors from human scRNA-seq datasets, with a focus on inflammatory contexts such as inflammatory bowel disease (IBD). The pipeline integrates dataset acquisition, quality control, normalization, dimensionality reduction, unsupervised clustering, and cell type annotation using a reference cell atlas. We implemented iterative subsetting and re-clustering of ISC and TA compartments to identify inflammation-associated subpopulations and epithelial biomarkers. While demonstrated in the context of IBD, this computational framework is broadly applicable to other tissues and pathological conditions where stem/progenitor dynamics underpin disease progression and tissue repair.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Balasubramanian B</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1007/978-1-0716-5412-5_2" target="_blank">DOI: 10.1007/978-1-0716-5412-5_2</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42763848/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Using In Silico Pseudobulk Differential Expression and Trajectory Analysis of Single Cell RNA Sequencing to Reveal Stem Cell State Transitions in Colonic Inflammation. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Methods in molecular biology (Clifton, N.J.) &nbsp;|&nbsp; 2027</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Colonic inflammation induces profound alterations in the intestinal mucosa that are evident at both macroscopic and microscopic levels, including disruption of epithelial barrier integrity, crypt fission, and immune cell infiltration. Recent advances in single-cell and spatial RNA sequencing have greatly expanded our understanding of the cellular diversity of the colonic mucosa, enabling pathological features to be directly linked to underlying cellular and molecular mechanisms. This chapter demonstrates the application of single-cell RNA sequencing (scRNA-seq) analysis techniques to interrogate stem cell dynamics in the context of inflammatory bowel disease. Using publicly available datasets, the chapter provides a step-by-step workflow implemented in Python, covering data access, loading, integration of multiple datasets, and initial preprocessing. Cells are mapped to large single-cell atlas references to infer cell identities, followed by a pseudobulk analysis strategy to assess inflammation-associated changes in cell phenotypes. Finally, trajectory inference approaches are applied to explore potential mechanisms governing the specification and modulation of key cell types during inflammation. Accompanied by an online resource containing fully annotated scripts, this chapter offers guided instruction in contemporary scRNA-seq analysis workflows. It is intended as an accessible introduction for researchers seeking to develop practical skills in single-cell data analysis that can be readily applied to their own biological questions.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Dalleywater W</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1007/978-1-0716-5412-5_3" target="_blank">DOI: 10.1007/978-1-0716-5412-5_3</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42763849/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
 <details>
 <summary>
 Phenotypic switching of gastrointestinal smooth muscle cells and the regulatory role of macrophages: a literature review.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Inflammation research : official journal of the European Histamine Research Society … [et al.] &nbsp;|&nbsp; 2026-09-19</span>
@@ -902,8 +915,40 @@ The treatment of inflammatory bowel disease faces a persistent efficacy ceiling,
 <hr>
 <details>
 <summary>
-<strong>Microbiome &amp; Immunology</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(11 papers)</span>
+<strong>Microbiome &amp; Immunology</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(13 papers)</span>
 </summary>
+<details>
+<summary>
+Modulating innate immune responses to curli fibers through protein engineering. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Infection and immunity &nbsp;|&nbsp; 2026-09-21</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Curli fibers produced by Escherichia coli are functional amyloids that activate Toll-like receptor 2 (TLR2), initiating innate immune responses at mucosal surfaces. While microbiome-derived curli contribute to host-microbe interactions, their intrinsic immunostimulatory activity limits their utility as programmable scaffolds for engineered probiotic systems, and dysregulated TLR2 activation has been associated with inflammatory bowel disease, systemic lupus erythematosus, neurodegeneration, and sepsis. Here, we engineered E. coli Nissle 1917 to produce modified curli fibers designed to reduce TLR2 signaling through two mechanistically distinct strategies: steric shielding via silk-elastin-like protein sequences and direct receptor antagonism via a known TLR2 antagonist, staphylococcal superantigen-like protein 3 (SSL3). Both engineered variants assembled into structurally intact amyloid fibers and exhibited significantly reduced intrinsic TLR2-dependent NF-κB activation in reporter cells. In competitive inhibition assays against structurally diverse TLR2 agonists, the SSL3 fusion achieved near-complete attenuation of TLR2-dependent signaling, maintained under rising agonist load, while steric shielding provided moderate, agonist class-dependent inhibition. In primary human monocyte-derived dendritic cells, the SSL3 fusion robustly attenuated IL-8 secretion and transcriptional induction of IL-8, IL-6, and IL-1β, whereas steric shielding produced only partial attenuation that did not translate to broad inflammatory suppression. These results establish engineered curli as a tunable platform for receptor-specific modulation of innate immune signaling and highlight the broader potential of modular microbial amyloids as programmable interfaces for engineering host-microbe interactions at mucosal surfaces.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Bonanno S, Sheta R, Ramu T, Verenkar S, Kim D, Bessette E, Pierre P, Joshi NS</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1128/iai.00394-26" target="_blank">DOI: 10.1128/iai.00394-26</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765877/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Mechanism of soluble dietary fiber from foxtail millet alleviating chronic colitis by reshaping intestinal fungi. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of the science of food and agriculture &nbsp;|&nbsp; 2026-09-20</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Inflammatory bowel disease (IBD) is a type of persistent chronic inflammation in the colon and can cause malignant transformation of colonic mucosa through various mechanisms. The dysbiosis of gut microbiota is closely related to the development and maintenance of IBD. Studies have shown that a proper intake of dietary fiber serves to maintain intestinal homeostasis by modulating commensal microbiomes. The present study aims to reveal the effect of soluble dietary fiber from foxtail millet bran (FMB-SDF) on chronic colitis and gut fungal community. C57BL/6J mice were orally given dextran sulfate sodium (DSS) water to construct a chronic colitis model and FMB-SDF was gavage administered to investigate its ameliorative effects on colitis. Our findings demonstrated that FMB-SDF alleviated chronic colitis symptoms including weight loss, colonic shortening and inflammatory infiltration as well as reshaping the fungal community diversity and overall structure. At the phylum level, FMB-SDF significantly modulates the relative abundances of Ascomycota, Basidiomycota and Malassezia. Furthermore, fecal microbiota transplantation (FMT) confirmed that the relieved effects of FMB-SDF on colitis were microbiota-mediated, resulting in suppression of the expression of Ki-67 and enhanced intestinal barrier tight junction proteins ZO-1. Our results proved that FMB-SDF alleviated chronic colitis by regulating the commensal fungal community. The present study highlights that FMB-SDF may be a promising functional food and therapeutic candidate for colitis. © 2026 Society of Chemical Industry.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Yang R, Yang J, Su Z, Su R, Wu L, Zhao W, Ren R, Xu J</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1002/jsfa.71097" target="_blank">DOI: 10.1002/jsfa.71097</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42764262/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
 <details>
 <summary>
 ILC3s as central regulators of mucosal homeostasis and disease pathogenesis (Review).<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of molecular medicine &nbsp;|&nbsp; 2026-09-18</span>
@@ -1086,174 +1131,24 @@ Microbiota-Dependent Alleviation of Ulcerative Colitis by Liubao Tea: Integrated
 <hr>
 <details>
 <summary>
-<strong>Pathogenesis &amp; Basic Science</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(10 papers)</span>
+<strong>Pediatric IBD</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(11 papers)</span>
 </summary>
 <details>
 <summary>
-[Corrigendum] Integrative transcriptomic analysis unveils FXR as a key regulator of intestinal stemness and inflammation in ulcerative colitis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of molecular medicine &nbsp;|&nbsp; 2026-09-18</span>
+Appropriate screening strategy and timely referral in suspected pediatric inflammatory bowel disease: Impact on diagnostic delay and severity at presentation. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of pediatric gastroenterology and nutrition &nbsp;|&nbsp; 2026-09-21</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
 <p style="margin:0 0 0.5em 0;color:#444;">
-Following the publication of the above article, an interested reader raised several comments on the study that required clarification on the part of the authors in order to confirm the reporting of certain of the results, and to make the paper fully comprehensible. First, in the Materials and methods section, the single‑cell RNA sequencing (RNA‑seq) source did not appear to match the presented groups for the scRNA‑seq data that were obtained from the GSE116222 dataset, specifically using ‘three human UC samples’, where three distinct groups, namely the ‘Normal’, ‘Non‑inflamed’ and ‘Inflamed’ groups, were shown in various of the figures (for example, Fig. 1D and Fig. 6K). Secondly, the description of the Weighted Gene Co‑expression Network Analysis (WGCNA) in the Materials and methods section did not tally with the findings reported in the Results section. It was stated in the ‘Construction of co‑expression network’ subsection of the Methods that WGCNA was performed ‘based on the GSE116222 dataset, specifically exploring the association between FXR and CD133 in intestinal cells’; however, all the WGCNA results shown (in Figs. 4D and 5A) were based on the bulk transcriptome dataset GSE87466, not on single‑cell data; no WGCNA output from GSE116222 was presented in the paper. Thirdly, some confusion between human and mouse data appeared in the reporting of the experiments in Fig. 1E. The figure part showed macroscopic photographs of whole large intestines and spleens labeled ‘Control’ and ‘UC groups’, and these images must have been derived from the DSS‑treated mouse model. The figure legend did not specify that these are mouse data, and the labeling of the ‘UC group’ was misleading. Finally, a typographical error in the reporting of the human control group sex distribution was contained in the ‘Human sample collection and processing’ subsection: ‘the control group consisted of 8 men and 2 men’ was presumably intended to have read as ‘8 men and 2 women’. The authors have considered these points, and acknowledge that clarifications of all of them are necessary in the published paper; therefore, the following changes and edits to the text are required (all highlighted in bold). First, in the ‘Materials and methods’ section, in the ‘Single‑cell RNA sequencing (scRNA‑seq)’ subsection, the text which read as ‘scRNA‑seq data from three human UC samples were downloaded from the Gene Expression Omnibus (GEO) database…’ has now been changed to ‘scRNA‑seq data from 9 samples (3 healthy, 3 non‑inflamed, and 3 UC) were downloaded from the Gene Expression Omnibus (GEO) database…’ In response to the second of the reader’s queries, in the ‘Construction of co‑expression network’ subsection of the Methods, the text which read: ‘In the present study, the ’WGCNA’ package in R was employed to construct a co‑expression network based on the GSE116222 dataset, specifically exploring the association between FXR and CD133 in intestinal cells.’, should be changed to: ‘In the present study, the ’WGCNA’ package in R was employed to construct a co‑expression network based on the GSE87466 dataset to identify key gene modules associated with UC.’ In response to the third query, and to properly clarify the descriptions of the experiments in the figure legend for Fig. 1, the text for Fig. 1E should be changed from what was written to the following: ‘(E) Representative macroscopic images of the large intestines and spleens from the Control and DSS groups.’ (i.e., ‘UC groups’ has been corrected to ‘DSS groups’). Finally, the authors acknowledged that a typographical error was present in the reporting of the human control group sex distribution in the ‘Human sample collection and processing’ subsection, and the text here should have read as ‘the control group consisted of 8 men and 2 women (mean age, 46.2±7.5 years).’ The authors thank the reader for drawing these matters to their attention. They are grateful to the Editor of International Journal of Molecular Medicine for granting them the opportunity to publish this corrigendum. Note that the proposed changes to the text only correct errors in what was written, or clarify the meaning of the text; the results and conclusions of the paper are not affected by these changes. Finally, the authors apologize to the readership for any inconvenience caused. [International Journal of Molecular Medicine 58: 200, 2026; DOI: 10.3892/ijmm.2026.5871].
+Pediatric-onset inflammatory bowel disease (pIBD) often presents with nonspecific symptoms, contributing to diagnostic delay (DD) and increased morbidity. Despite the importance of referral quality, diagnostic pathways in pIBD have rarely been evaluated. This study aimed to assess the appropriateness of diagnostic pathways in pIBD; to evaluate their impact on DD and early disease severity; and to identify predictors of pathway appropriateness and prolonged delay. This retrospective, single-center study included 128 patients diagnosed with pIBD (January 2015 to June 2025, regional tertiary center, Italy). Diagnostic pathways were classified as appropriate, partially appropriate, or inappropriate according to predefined criteria reflecting referral trajectory and completeness of pre-referral screening (fecal calprotectin [FC] and/or abdominal ultrasound [AUS]). DD was defined as the time from symptoms onset to endoscopy. Pathways were inappropriate in 60.9%, partially appropriate in 21.9%, and appropriate in 17.2%. The median DD was 3.9 months, with no significant differences among groups. Acute severe colitis (ASC) (odds ratio [OR] = 32.2) and tenesmus (OR = 5.8) were associated with appropriate pathways, fever (OR = 0.10) and oral aphthosis (OR = 0.05) with inappropriate ones (p &lt; 0.05). Shorter DD was independently associated with ASC (B = -6.13 months), hematochezia (B = -3.48), fever (B = -4.25), and weight loss (B = -3.42) (p &lt; 0.05). FC and AUS were performed before referral in 60.2% and 42.2% of patients, respectively, and together in 32.8%. Inappropriate pathways and lack of pre-referral screening are highly prevalent. Severe intestinal presentations favor appropriate investigations. Systemic or extraintestinal manifestations are more frequently associated with inappropriate pathways. Standardized screening and referral protocols may optimize pIBD management.
 </p>
 <p style="margin:0;font-size:0.85em;color:#666;">
-<em>Lin H, Cheng X, Ren Y, Zhang Y, Chen W, Lu Q, Tian Y</em>
+<em>Borgiani F, Brusco M, Franceschini E, Lionetti ME, Gatti S</em>
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.3892/ijmm.2026.5985" target="_blank">DOI: 10.3892/ijmm.2026.5985</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42757475/" target="_blank">View on PubMed →</a>
+<a href="https://doi.org/10.1002/jpn3.70588" target="_blank">DOI: 10.1002/jpn3.70588</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765431/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
-<details>
-<summary>
-IRF5 promotes the progression of ulcerative colitis by regulating macrophage polarization and Toll-like receptor signaling pathway. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Biochemical and biophysical research communications &nbsp;|&nbsp; 2026-09-17</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Interferon regulatory factor 5 (IRF5) is genetically linked to ulcerative colitis (UC) susceptibility, yet its role in intestinal inflammation remains poorly understood. Here, we detected IRF5 expression in intestinal tissues from 29 UC patients and 10 healthy controls via immunohistochemistry and immunofluorescence. We constructed DSS-induced acute colitis models in IRF5-knockout (IRF5-/-) and wild-type (IRF5+/+) mice and analyzed the transcriptome of IRF5-knockdown macrophages. IRF5 was highly upregulated in inflamed intestinal tissues of UC patients and DSS-treated mice, primarily in CD68+ macrophages. Compared with wild-type mice, IRF5-/- mice exhibited attenuated colitis, with reduced weight loss, lower disease activity index scores and milder colon shortening. Moreover, IRF5 deletion increased anti-inflammatory cytokines (IL-1rn, IL-10, IL-13, IL-17) and decreased pro-inflammatory cytokines (IL-1β, TNF). Transcriptome analysis revealed that IRF5 knockdown suppressed M1 pro-inflammatory genes (Ido1, Il12b) and upregulated the M2 marker MRC2. It also markedly inhibited TLR signaling and actin cytoskeleton regulation. Additionally, IRF5 downregulation reduced Tlr2 expression, indicating a positive feedback loop between IRF5 and TLR signaling. In summary, IRF5 exacerbates intestinal inflammation by promoting M1 macrophage polarization and activating TLR signaling, making it a promising therapeutic target for UC.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Shao L, Chen Y, Wu L, Zhong J</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.bbrc.2026.154597" target="_blank">DOI: 10.1016/j.bbrc.2026.154597</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42759276/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-sFgl2‑enriched MSC-EVs attenuate colitis by enhancing immunoregulatory capacity. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Colloids and surfaces. B, Biointerfaces &nbsp;|&nbsp; 2026-09-17</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Dendritic cell (DC) hyperactivation drives pathogenic Th1/Th17 immune responses and contributes to the progression of inflammatory bowel disease (IBD). Although mesenchymal stem cell-derived extracellular vesicles (MSC-EVs) represent promising cell-free immunomodulatory agents, strategies to enhance their tolerogenic DC-reprogramming capacity remain limited. Here, we investigated whether soluble fibrinogen-like protein 2 (sFgl2), an immunoregulatory protein, could function as a therapeutic cargo of MSC-EVs and explored its receptor-associated signaling mechanism in experimental colitis. sFgl2-enriched MSC-EVs were generated by lentiviral engineering of MSCs and characterized by morphological, physicochemical, molecular, and quality-control analyses. EV particle concentration and sFgl2 abundance were quantified by nanoparticle tracking analysis and ELISA, respectively, allowing estimation of sFgl2 copies per EV. The surface accessibility of EV-associated sFgl2 was evaluated by proteinase K protection assays. Therapeutic efficacy was assessed in DSS-induced colitis. Co-immunoprecipitation was performed to investigate the association between sFgl2 and CD32b, and CD32b blockade was used to evaluate pathway involvement in vitro and in vivo. BMDC-based studies further assessed DC maturation, cytokine production, and CD4⁺ T-cell responses. sFgl2-MSC-EVs exhibited increased sFgl2 abundance while retaining characteristic EV properties, with detectable EV-associated markers and no detectable endotoxin contamination or residual lentiviral signals. Proteinase K protection assays supported substantial surface accessibility of EV-associated sFgl2. In DSS-induced colitis, sFgl2-MSC-EVs produced greater therapeutic benefit than NC-MSC-EVs, as evidenced by improved body weight, reduced disease activity, preservation of colon length, attenuation of histopathological injury, and reduced levels of IL-6, TNF-α, and IL-1β together with increased IL-10. sFgl2-MSC-EVs also more effectively suppressed CD11c⁺ DC accumulation and maturation in mesenteric lymph nodes and spleen and promoted a more regulatory CD4⁺ T-cell profile characterized by reduced Th1/Th17 responses and increased Treg frequencies. Co-immunoprecipitation supported an association between sFgl2 and CD32b in BMDCs. Mechanistically, sFgl2-MSC-EVs enhanced ERK1/2-STAT3 activation, whereas CD32b blockade or ERK1/2 inhibition attenuated their immunoregulatory effects. Importantly, in vivo CD32b blockade weakened the therapeutic effects of sFgl2-MSC-EVs and partially reversed their inhibitory effects on DC accumulation and maturation. These findings identify EV-associated sFgl2 as a functional immunoregulatory cargo that enhances the therapeutic activity of MSC-EVs through CD32b-associated ERK1/2-STAT3 signaling and tolerogenic DC reprogramming. sFgl2-engineered MSC-EVs represent a promising cell-free strategy for immunomodulatory therapy in IBD and provide a potential platform for functionalized EV-based therapies.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Chen G, Liu Q, Wang W, Zhang Y, Xiong W, Li D, Zhang J, Qi F</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.colsurfb.2026.116182" target="_blank">DOI: 10.1016/j.colsurfb.2026.116182</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42759329/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Acupoint Catgut Embedding Ameliorates Ulcerative Colitis in Association with Modulation of cGAS-STING Signaling and M1-Like/M2-Like Macrophage Markers. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of inflammation research &nbsp;|&nbsp; 2026-09-15</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Originating from traditional acupuncture, acupoint catgut embedding (ACE) represents an integrated stimulatory therapy effective for numerous disorders. This study aims to elucidate the mechanisms underlying the protective effects of ACE against 2,4,6-trinitrobenzenesulfonic acid (TNBS)-induced ulcerative colitis (UC) in rats, focusing on cGAS-STING signaling and macrophage-associated inflammatory responses. Rats were randomly divided into four groups (n = 8) in Experiment 1 (control, model, SASP, and ACE) and Experiment 2 (control, model, ACE, and ACE + 5,6-dimethylxanthenone-4-acetic acid [DMXAA]). Integrative untargeted metabolomics and RNA sequencing were employed to explore underlying mechanisms. The expression of M1-like/M2-like macrophage markers, cGAS-STING pathway components, and epithelial barrier proteins was investigated using RT-qPCR, Western blotting, and immunofluorescence. Macrophage marker profiles were characterized by flow cytometry, and cytokine secretion was measured by ELISA. ACE significantly ameliorated the DAI, colon shortening, and histological scores in UC rats. Metabolomics and RNA sequencing revealed that ACE regulated arginine metabolism and the cytosolic DNA-sensing pathway. ACE treatment was associated with decreased expression of M1-like macrophage markers and increased expression of M2-like macrophage markers, accompanied by altered inflammatory cytokine profiles in colonic tissues. Furthermore, ACE markedly suppressed the cGAS-STING pathway, as evidenced by decreased mRNA expression and protein phosphorylation of downstream molecules. Administration of the STING agonist DMXAA partially reversed ACE-associated changes in macrophage marker expression and intestinal mucosal integrity. ACE ameliorated TNBS-induced colitis, which was associated with reduced activation of cGAS-STING signaling and altered macrophage-associated inflammatory marker expression. This study provides a potential adjunctive therapeutic strategy for UC.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Long D, Chen S, Yang F, Tang X, Mao C, Zhu Y, Yu L, Xu Y</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.2147/JIR.S637068" target="_blank">DOI: 10.2147/JIR.S637068</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42763713/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Statement of Retraction: Protective effect of Sarsasapogenin in TNBS induced ulcerative colitis in rats associated with downregulation of pro-inflammatory mediators and oxidative stress. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Immunopharmacology and immunotoxicology &nbsp;|&nbsp; 2026-09-14</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Abstract not available.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em></em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1080/08923973.2026.2732397" target="_blank">DOI: 10.1080/08923973.2026.2732397</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42740376/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Persistent non-toxic megacolon in ulcerative colitis: a case report of broad disruption and scar replacement of the muscularis propria. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Clinical journal of gastroenterology &nbsp;|&nbsp; 2026-09-14</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Ulcerative colitis-associated colonic dilatation is clinically important because it may progress to perforation or toxic megacolon. However, surgical decision-making is difficult when systemic toxicity is absent. An 83-year-old woman with long-standing pancolitis-type ulcerative colitis was admitted with worsening bloody diarrhea and abdominal pain. Despite high-dose corticosteroids and infliximab, computed tomography revealed marked colonic dilatation predominantly involving the transverse colon. Although she had anemia, she did not meet the Jalan criteria for toxic megacolon because she lacked high fever, marked tachycardia, leukocytosis, and additional signs of systemic deterioration. Serial abdominal radiographs showed progressive dilatation from approximately 70 mm to 95 mm despite intensive medical therapy. Surgery was selected after multidisciplinary reassessment. Histopathological examination revealed deep ulceration with erosion, broad disruption of the muscularis propria, and scar replacement in the dilated segment, indicating severe structural bowel-wall injury. No major postoperative complications occurred, although rehabilitation transfer was required because of decreased activities of daily living. This case suggests that persistent or progressive colonic dilatation in ulcerative colitis, even without systemic toxicity, may reflect advanced mural injury and should prompt repeated surgical assessment based on serial radiological findings.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Uchino M, Maruyama T, Tanaka C, Ozawa Y, Nozaki R, Oda T, Takasu M, Tomita A, Kashimura H, Ohtani H</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1007/s12328-026-02450-w" target="_blank">DOI: 10.1007/s12328-026-02450-w</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42734771/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Nucleotide-binding oligomerization domain 2-independent colonization by Turicimonas muris induced by high-fat diet protects against dextran sodium sulfate-induced colitis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Clinical and experimental immunology &nbsp;|&nbsp; 2026-09-12</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-The development of inflammatory bowel diseases is postulated to be driven by the interaction between genetic susceptibility and environmental factors, resulting in proinflammatory cytokine responses to intestinal dysbiosis. Loss-of-function mutations in the nucleotide-binding oligomerization domain 2 gene (NOD2) are the strongest risk factor for Crohn’s disease (CD); however, environmental factors affecting CD development have been poorly defined in patients with NOD2 mutations. In this study, we investigated whether high-fat diet (HFD), one of the possible environmental risk factors for CD, acts synergistically with NOD2 deficiency to promote dextran sodium sulfate (DSS)-induced colitis in mice. NOD2-intact (NOD2+/+) and NOD2-deficient (NOD2-/-) mice were challenged with DSS after exposure to normal diet (ND) or HFD. Fecal microbiota composition was determined using next-generation sequencing analyses targeting 16S ribosomal RNA. Fecal microbiota transplantation (FMT) was conducted using microbiota from ND- or HFD-fed NOD2+/+ and NOD2-/- mice as donors. The development of DSS-induced colitis was markedly inhibited by HFD in both NOD2+/+ and NOD2-/- mice, which was accompanied by reduced C-C motif chemokine ligand 2 (CCL2) and tumor necrosis factor (TNF)-α expression levels. The FMT data showed that NOD2-independent colonization by Turicimonas muris induced by HFD suppressed DSS-induced colitis via the downregulation of colonic CCL2 and TNF-α responses. These data suggest that HFD protected against DSS-induced colitis in mice with or without intact NOD2 by promoting colonization by T. muris. Although avoidance of HFD is encouraged in patients with CD, HFD might be useful in the maintenance of intestinal immune homeostasis in experimental colitis.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Honjo H, Watanabe T, Otsuka Y, Masuta Y, Masaki S, Kamata K, Minaga K, Omura S, Park AM, Kudo M</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1093/cei/uxag057" target="_blank">DOI: 10.1093/cei/uxag057</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42728835/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Trichostatin A ameliorates ulcerative colitis via the SERPINB5-mediated MMP9/RLN2 signaling pathway. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Pathology, research and practice &nbsp;|&nbsp; 2026-09-09</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-To identify the key molecular target and elucidate the underlying mechanism by which the histone deacetylase inhibitor trichostatin A (TSA) treats ulcerative colitis (UC). Murine UC models were established via chronic cyclic dextran sulfate sodium (DSS) administration (2.5% DSS for 5 days, followed by 14 days of recovery; repeated for 3 rounds), alongside Caco-2 cell injury models. Histological scoring, molecular biology techniques (Western blot, qPCR, co-immunoprecipitation), cellular functional assays (cell viability, inflammatory cytokines, oxidative stress, apoptosis, intestinal barrier integrity), bioinformatics analysis, and molecular docking were employed to dissect TSA’s mechanisms both in vivo and in vitro. SERPINB5-Knockdown mice and SERPINB5-knockdown cell lines were further used to validate the critical role of this target. TSA significantly ameliorated DSS-induced colonic shortening, histopathological damage, release of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β, IL-17, CRP), and oxidative stress (elevated ROS; reduced SOD/GSH-Px activity). It also suppressed intestinal epithelial cell apoptosis and restored expression of tight junction proteins (ZO-1, Occludin, E-cadherin), thereby improving intestinal barrier function. Mechanistically, TSA markedly downregulated SERPINB5 expression and reduced its protein stability. SERPINB5 was found to directly bind MMP9 and stabilize it by shielding it from ubiquitin-proteasome-mediated degradation, thereby sustaining MMP9 protein levels, promoting MMP9 activity, and suppressing the protective factor RLN2. Genetic ablation of SERPINB5 or pharmacological inhibition of MMP9 recapitulated the therapeutic effects of TSA, whereas MMP9 overexpression or RLN2 silencing partially reversed TSA-mediated protection in Caco-2 cells. TSA improves ulcerative colitis by targeting the SERPINB5-MMP9-RLN2 signaling axis, thereby suppressing inflammation, oxidative stress, and apoptosis while preserving intestinal barrier integrity.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Gao J, Lai X, He M, Shi R</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.prp.2026.156684" target="_blank">DOI: 10.1016/j.prp.2026.156684</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42735487/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Dietary Reactive Oxygen Species and Oxidative Stress: Pathogenic Mechanisms Linking Food and Feed Exposure to Disease in Humans and Companion Animals.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Biology &nbsp;|&nbsp; 2026-09-03</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Oxidative stress, arising from an imbalance between reactive oxygen species (ROS) and antioxidant defenses, is a shared pathogenic mechanism underlying numerous chronic diseases in humans and, increasingly, in companion animals that consume structurally similar processed diets. This narrative review synthesizes current evidence on dietary and feed-derived sources of ROS, spanning intrinsic pro-oxidant systems in unprocessed foods (lipid hydroperoxides, heme iron, and polyphenol autoxidation) and heat processing-generated toxicants (advanced glycation end products, acrylamide, heterocyclic aromatic amines, and lipid oxidation products), and examines the molecular mechanisms that link these compounds to organ-specific and systemic disease, including receptor-mediated signaling, cytochrome P450 activation, mitochondrial dysfunction, and antioxidant depletion. Comparative analysis across humans, dogs, and cats reveals parallel disease burdens in metabolic syndrome, chronic kidney disease, inflammatory bowel disease, and cancer, alongside instructive species-specific divergences in atherosclerosis and neurodegenerative disease driven by differences in lipoprotein metabolism and toxicokinetics. The review further reassesses canonical dietary antioxidants, including polyphenols and omega-3 polyunsaturated fatty acids, as context-dependent redox modulators capable of both cytoprotective and pro-oxidant activity. Collectively, these findings position dietary and feed processing as an under-recognized, modifiable contributor to chronic disease across species. In this context, companion animals emerge as valuable naturalistic translational models for studying diet-induced oxidative pathology. Priority research needs include standardized dose-response and biomarker frameworks, characterization of gut microbiome-mediated effects, and assessment of combinatorial pro-oxidant exposures.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Park HJ, Kim HM</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.3390/biology15171519" target="_blank">DOI: 10.3390/biology15171519</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42737951/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Unraveling the pleiotropic roles of the mTOR-glycolytic axis in ulcerative colitis: from immunometabolic dysregulation to mucosal barrier remodeling.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in immunology &nbsp;|&nbsp; 2026-09-02</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Ulcerative colitis (UC) is a chronic, relapsing inflammatory disorder of the colonic mucosa, whose pathogenesis is intricately linked to metabolic reprogramming within both immune and epithelial compartments. The mechanistic target of rapamycin (mTOR) signaling pathway serves as a central immunometabolic hub that integrates nutrient availability, microbial cues, and inflammatory signals to orchestrate glycolytic flux, thereby profoundly shaping the functional plasticity of diverse intestinal cell populations. This review systematically delineates, from a cell-type-specific perspective, the divergent regulatory roles of the mTOR-glycolysis axis in intestinal immunity and mucosal barrier homeostasis. We first outline the core molecular architecture of mTORC1/mTORC2-driven glycolytic reprogramming, highlighting key regulatory nodes including GLUT1/3-mediated glucose uptake, HK2-dependent rate-limiting phosphorylation, and PKM2-governed metabolic-transcriptional switching. Subsequently, we examine how aberrant mTOR-glycolysis axis activation in neutrophils, macrophages, type 3 innate lymphoid cells, and CD4+ T effector subsets propagates a feed-forward inflammatory loop-exacerbating oxidative burst, NETosis, M1 polarization, and Th17 pathogenicity-while simultaneously undermining the metabolic fitness and suppressive integrity of regulatory T cells. Moreover, we discuss the metabolic rewiring of intestinal epithelial cells via the mTOR-glycolysis axis, which compromises barrier integrity, disrupts epithelial regeneration, and initiates a “metabolic-secretory” crosstalk that perpetuates mucosal inflammation. Collectively, this review positions the mTOR-glycolysis axis as a rheostat governing the transition from homeostatic immunosurveillance to pathogenic inflammation in UC, and proposes that cell-selective metabolic checkpoint targeting-rather than broad systemic inhibition-represents a promising precision strategy for future therapeutic intervention.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Chen Y, Xiao J, Xiao L, Chen A, He L, Wang Z</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.3389/fimmu.2026.1889686" target="_blank">DOI: 10.3389/fimmu.2026.1889686</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42750747/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-</details>
-<hr>
-<details>
-<summary>
-<strong>Pediatric IBD</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(10 papers)</span>
-</summary>
 <details>
 <summary>
 Entering the era of disease modification in Crohn’s disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Expert review of clinical pharmacology &nbsp;|&nbsp; 2026-09-18</span>
@@ -1418,7 +1313,157 @@ The use of advanced therapies in pediatric-onset inflammatory bowel disease (PIB
 <hr>
 <details>
 <summary>
-<strong>Therapeutics &amp; Mechanisms</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(10 papers)</span>
+<strong>Pathogenesis &amp; Basic Science</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(9 papers)</span>
+</summary>
+<details>
+<summary>
+[Corrigendum] Integrative transcriptomic analysis unveils FXR as a key regulator of intestinal stemness and inflammation in ulcerative colitis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of molecular medicine &nbsp;|&nbsp; 2026-09-18</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Following the publication of the above article, an interested reader raised several comments on the study that required clarification on the part of the authors in order to confirm the reporting of certain of the results, and to make the paper fully comprehensible. First, in the Materials and methods section, the single‑cell RNA sequencing (RNA‑seq) source did not appear to match the presented groups for the scRNA‑seq data that were obtained from the GSE116222 dataset, specifically using ‘three human UC samples’, where three distinct groups, namely the ‘Normal’, ‘Non‑inflamed’ and ‘Inflamed’ groups, were shown in various of the figures (for example, Fig. 1D and Fig. 6K). Secondly, the description of the Weighted Gene Co‑expression Network Analysis (WGCNA) in the Materials and methods section did not tally with the findings reported in the Results section. It was stated in the ‘Construction of co‑expression network’ subsection of the Methods that WGCNA was performed ‘based on the GSE116222 dataset, specifically exploring the association between FXR and CD133 in intestinal cells’; however, all the WGCNA results shown (in Figs. 4D and 5A) were based on the bulk transcriptome dataset GSE87466, not on single‑cell data; no WGCNA output from GSE116222 was presented in the paper. Thirdly, some confusion between human and mouse data appeared in the reporting of the experiments in Fig. 1E. The figure part showed macroscopic photographs of whole large intestines and spleens labeled ‘Control’ and ‘UC groups’, and these images must have been derived from the DSS‑treated mouse model. The figure legend did not specify that these are mouse data, and the labeling of the ‘UC group’ was misleading. Finally, a typographical error in the reporting of the human control group sex distribution was contained in the ‘Human sample collection and processing’ subsection: ‘the control group consisted of 8 men and 2 men’ was presumably intended to have read as ‘8 men and 2 women’. The authors have considered these points, and acknowledge that clarifications of all of them are necessary in the published paper; therefore, the following changes and edits to the text are required (all highlighted in bold). First, in the ‘Materials and methods’ section, in the ‘Single‑cell RNA sequencing (scRNA‑seq)’ subsection, the text which read as ‘scRNA‑seq data from three human UC samples were downloaded from the Gene Expression Omnibus (GEO) database…’ has now been changed to ‘scRNA‑seq data from 9 samples (3 healthy, 3 non‑inflamed, and 3 UC) were downloaded from the Gene Expression Omnibus (GEO) database…’ In response to the second of the reader’s queries, in the ‘Construction of co‑expression network’ subsection of the Methods, the text which read: ‘In the present study, the ’WGCNA’ package in R was employed to construct a co‑expression network based on the GSE116222 dataset, specifically exploring the association between FXR and CD133 in intestinal cells.’, should be changed to: ‘In the present study, the ’WGCNA’ package in R was employed to construct a co‑expression network based on the GSE87466 dataset to identify key gene modules associated with UC.’ In response to the third query, and to properly clarify the descriptions of the experiments in the figure legend for Fig. 1, the text for Fig. 1E should be changed from what was written to the following: ‘(E) Representative macroscopic images of the large intestines and spleens from the Control and DSS groups.’ (i.e., ‘UC groups’ has been corrected to ‘DSS groups’). Finally, the authors acknowledged that a typographical error was present in the reporting of the human control group sex distribution in the ‘Human sample collection and processing’ subsection, and the text here should have read as ‘the control group consisted of 8 men and 2 women (mean age, 46.2±7.5 years).’ The authors thank the reader for drawing these matters to their attention. They are grateful to the Editor of International Journal of Molecular Medicine for granting them the opportunity to publish this corrigendum. Note that the proposed changes to the text only correct errors in what was written, or clarify the meaning of the text; the results and conclusions of the paper are not affected by these changes. Finally, the authors apologize to the readership for any inconvenience caused. [International Journal of Molecular Medicine 58: 200, 2026; DOI: 10.3892/ijmm.2026.5871].
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Lin H, Cheng X, Ren Y, Zhang Y, Chen W, Lu Q, Tian Y</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.3892/ijmm.2026.5985" target="_blank">DOI: 10.3892/ijmm.2026.5985</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42757475/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+IRF5 promotes the progression of ulcerative colitis by regulating macrophage polarization and Toll-like receptor signaling pathway. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Biochemical and biophysical research communications &nbsp;|&nbsp; 2026-09-17</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Interferon regulatory factor 5 (IRF5) is genetically linked to ulcerative colitis (UC) susceptibility, yet its role in intestinal inflammation remains poorly understood. Here, we detected IRF5 expression in intestinal tissues from 29 UC patients and 10 healthy controls via immunohistochemistry and immunofluorescence. We constructed DSS-induced acute colitis models in IRF5-knockout (IRF5-/-) and wild-type (IRF5+/+) mice and analyzed the transcriptome of IRF5-knockdown macrophages. IRF5 was highly upregulated in inflamed intestinal tissues of UC patients and DSS-treated mice, primarily in CD68+ macrophages. Compared with wild-type mice, IRF5-/- mice exhibited attenuated colitis, with reduced weight loss, lower disease activity index scores and milder colon shortening. Moreover, IRF5 deletion increased anti-inflammatory cytokines (IL-1rn, IL-10, IL-13, IL-17) and decreased pro-inflammatory cytokines (IL-1β, TNF). Transcriptome analysis revealed that IRF5 knockdown suppressed M1 pro-inflammatory genes (Ido1, Il12b) and upregulated the M2 marker MRC2. It also markedly inhibited TLR signaling and actin cytoskeleton regulation. Additionally, IRF5 downregulation reduced Tlr2 expression, indicating a positive feedback loop between IRF5 and TLR signaling. In summary, IRF5 exacerbates intestinal inflammation by promoting M1 macrophage polarization and activating TLR signaling, making it a promising therapeutic target for UC.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Shao L, Chen Y, Wu L, Zhong J</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1016/j.bbrc.2026.154597" target="_blank">DOI: 10.1016/j.bbrc.2026.154597</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42759276/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+sFgl2‑enriched MSC-EVs attenuate colitis by enhancing immunoregulatory capacity. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Colloids and surfaces. B, Biointerfaces &nbsp;|&nbsp; 2026-09-17</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Dendritic cell (DC) hyperactivation drives pathogenic Th1/Th17 immune responses and contributes to the progression of inflammatory bowel disease (IBD). Although mesenchymal stem cell-derived extracellular vesicles (MSC-EVs) represent promising cell-free immunomodulatory agents, strategies to enhance their tolerogenic DC-reprogramming capacity remain limited. Here, we investigated whether soluble fibrinogen-like protein 2 (sFgl2), an immunoregulatory protein, could function as a therapeutic cargo of MSC-EVs and explored its receptor-associated signaling mechanism in experimental colitis. sFgl2-enriched MSC-EVs were generated by lentiviral engineering of MSCs and characterized by morphological, physicochemical, molecular, and quality-control analyses. EV particle concentration and sFgl2 abundance were quantified by nanoparticle tracking analysis and ELISA, respectively, allowing estimation of sFgl2 copies per EV. The surface accessibility of EV-associated sFgl2 was evaluated by proteinase K protection assays. Therapeutic efficacy was assessed in DSS-induced colitis. Co-immunoprecipitation was performed to investigate the association between sFgl2 and CD32b, and CD32b blockade was used to evaluate pathway involvement in vitro and in vivo. BMDC-based studies further assessed DC maturation, cytokine production, and CD4⁺ T-cell responses. sFgl2-MSC-EVs exhibited increased sFgl2 abundance while retaining characteristic EV properties, with detectable EV-associated markers and no detectable endotoxin contamination or residual lentiviral signals. Proteinase K protection assays supported substantial surface accessibility of EV-associated sFgl2. In DSS-induced colitis, sFgl2-MSC-EVs produced greater therapeutic benefit than NC-MSC-EVs, as evidenced by improved body weight, reduced disease activity, preservation of colon length, attenuation of histopathological injury, and reduced levels of IL-6, TNF-α, and IL-1β together with increased IL-10. sFgl2-MSC-EVs also more effectively suppressed CD11c⁺ DC accumulation and maturation in mesenteric lymph nodes and spleen and promoted a more regulatory CD4⁺ T-cell profile characterized by reduced Th1/Th17 responses and increased Treg frequencies. Co-immunoprecipitation supported an association between sFgl2 and CD32b in BMDCs. Mechanistically, sFgl2-MSC-EVs enhanced ERK1/2-STAT3 activation, whereas CD32b blockade or ERK1/2 inhibition attenuated their immunoregulatory effects. Importantly, in vivo CD32b blockade weakened the therapeutic effects of sFgl2-MSC-EVs and partially reversed their inhibitory effects on DC accumulation and maturation. These findings identify EV-associated sFgl2 as a functional immunoregulatory cargo that enhances the therapeutic activity of MSC-EVs through CD32b-associated ERK1/2-STAT3 signaling and tolerogenic DC reprogramming. sFgl2-engineered MSC-EVs represent a promising cell-free strategy for immunomodulatory therapy in IBD and provide a potential platform for functionalized EV-based therapies.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Chen G, Liu Q, Wang W, Zhang Y, Xiong W, Li D, Zhang J, Qi F</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1016/j.colsurfb.2026.116182" target="_blank">DOI: 10.1016/j.colsurfb.2026.116182</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42759329/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Acupoint Catgut Embedding Ameliorates Ulcerative Colitis in Association with Modulation of cGAS-STING Signaling and M1-Like/M2-Like Macrophage Markers. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of inflammation research &nbsp;|&nbsp; 2026-09-15</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Originating from traditional acupuncture, acupoint catgut embedding (ACE) represents an integrated stimulatory therapy effective for numerous disorders. This study aims to elucidate the mechanisms underlying the protective effects of ACE against 2,4,6-trinitrobenzenesulfonic acid (TNBS)-induced ulcerative colitis (UC) in rats, focusing on cGAS-STING signaling and macrophage-associated inflammatory responses. Rats were randomly divided into four groups (n = 8) in Experiment 1 (control, model, SASP, and ACE) and Experiment 2 (control, model, ACE, and ACE + 5,6-dimethylxanthenone-4-acetic acid [DMXAA]). Integrative untargeted metabolomics and RNA sequencing were employed to explore underlying mechanisms. The expression of M1-like/M2-like macrophage markers, cGAS-STING pathway components, and epithelial barrier proteins was investigated using RT-qPCR, Western blotting, and immunofluorescence. Macrophage marker profiles were characterized by flow cytometry, and cytokine secretion was measured by ELISA. ACE significantly ameliorated the DAI, colon shortening, and histological scores in UC rats. Metabolomics and RNA sequencing revealed that ACE regulated arginine metabolism and the cytosolic DNA-sensing pathway. ACE treatment was associated with decreased expression of M1-like macrophage markers and increased expression of M2-like macrophage markers, accompanied by altered inflammatory cytokine profiles in colonic tissues. Furthermore, ACE markedly suppressed the cGAS-STING pathway, as evidenced by decreased mRNA expression and protein phosphorylation of downstream molecules. Administration of the STING agonist DMXAA partially reversed ACE-associated changes in macrophage marker expression and intestinal mucosal integrity. ACE ameliorated TNBS-induced colitis, which was associated with reduced activation of cGAS-STING signaling and altered macrophage-associated inflammatory marker expression. This study provides a potential adjunctive therapeutic strategy for UC.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Long D, Chen S, Yang F, Tang X, Mao C, Zhu Y, Yu L, Xu Y</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.2147/JIR.S637068" target="_blank">DOI: 10.2147/JIR.S637068</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42763713/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Statement of Retraction: Protective effect of Sarsasapogenin in TNBS induced ulcerative colitis in rats associated with downregulation of pro-inflammatory mediators and oxidative stress. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Immunopharmacology and immunotoxicology &nbsp;|&nbsp; 2026-09-14</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Abstract not available.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em></em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1080/08923973.2026.2732397" target="_blank">DOI: 10.1080/08923973.2026.2732397</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42740376/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Persistent non-toxic megacolon in ulcerative colitis: a case report of broad disruption and scar replacement of the muscularis propria. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Clinical journal of gastroenterology &nbsp;|&nbsp; 2026-09-14</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Ulcerative colitis-associated colonic dilatation is clinically important because it may progress to perforation or toxic megacolon. However, surgical decision-making is difficult when systemic toxicity is absent. An 83-year-old woman with long-standing pancolitis-type ulcerative colitis was admitted with worsening bloody diarrhea and abdominal pain. Despite high-dose corticosteroids and infliximab, computed tomography revealed marked colonic dilatation predominantly involving the transverse colon. Although she had anemia, she did not meet the Jalan criteria for toxic megacolon because she lacked high fever, marked tachycardia, leukocytosis, and additional signs of systemic deterioration. Serial abdominal radiographs showed progressive dilatation from approximately 70 mm to 95 mm despite intensive medical therapy. Surgery was selected after multidisciplinary reassessment. Histopathological examination revealed deep ulceration with erosion, broad disruption of the muscularis propria, and scar replacement in the dilated segment, indicating severe structural bowel-wall injury. No major postoperative complications occurred, although rehabilitation transfer was required because of decreased activities of daily living. This case suggests that persistent or progressive colonic dilatation in ulcerative colitis, even without systemic toxicity, may reflect advanced mural injury and should prompt repeated surgical assessment based on serial radiological findings.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Uchino M, Maruyama T, Tanaka C, Ozawa Y, Nozaki R, Oda T, Takasu M, Tomita A, Kashimura H, Ohtani H</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1007/s12328-026-02450-w" target="_blank">DOI: 10.1007/s12328-026-02450-w</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42734771/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Trichostatin A ameliorates ulcerative colitis via the SERPINB5-mediated MMP9/RLN2 signaling pathway. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Pathology, research and practice &nbsp;|&nbsp; 2026-09-09</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+To identify the key molecular target and elucidate the underlying mechanism by which the histone deacetylase inhibitor trichostatin A (TSA) treats ulcerative colitis (UC). Murine UC models were established via chronic cyclic dextran sulfate sodium (DSS) administration (2.5% DSS for 5 days, followed by 14 days of recovery; repeated for 3 rounds), alongside Caco-2 cell injury models. Histological scoring, molecular biology techniques (Western blot, qPCR, co-immunoprecipitation), cellular functional assays (cell viability, inflammatory cytokines, oxidative stress, apoptosis, intestinal barrier integrity), bioinformatics analysis, and molecular docking were employed to dissect TSA’s mechanisms both in vivo and in vitro. SERPINB5-Knockdown mice and SERPINB5-knockdown cell lines were further used to validate the critical role of this target. TSA significantly ameliorated DSS-induced colonic shortening, histopathological damage, release of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β, IL-17, CRP), and oxidative stress (elevated ROS; reduced SOD/GSH-Px activity). It also suppressed intestinal epithelial cell apoptosis and restored expression of tight junction proteins (ZO-1, Occludin, E-cadherin), thereby improving intestinal barrier function. Mechanistically, TSA markedly downregulated SERPINB5 expression and reduced its protein stability. SERPINB5 was found to directly bind MMP9 and stabilize it by shielding it from ubiquitin-proteasome-mediated degradation, thereby sustaining MMP9 protein levels, promoting MMP9 activity, and suppressing the protective factor RLN2. Genetic ablation of SERPINB5 or pharmacological inhibition of MMP9 recapitulated the therapeutic effects of TSA, whereas MMP9 overexpression or RLN2 silencing partially reversed TSA-mediated protection in Caco-2 cells. TSA improves ulcerative colitis by targeting the SERPINB5-MMP9-RLN2 signaling axis, thereby suppressing inflammation, oxidative stress, and apoptosis while preserving intestinal barrier integrity.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Gao J, Lai X, He M, Shi R</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1016/j.prp.2026.156684" target="_blank">DOI: 10.1016/j.prp.2026.156684</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42735487/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Dietary Reactive Oxygen Species and Oxidative Stress: Pathogenic Mechanisms Linking Food and Feed Exposure to Disease in Humans and Companion Animals.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Biology &nbsp;|&nbsp; 2026-09-03</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Oxidative stress, arising from an imbalance between reactive oxygen species (ROS) and antioxidant defenses, is a shared pathogenic mechanism underlying numerous chronic diseases in humans and, increasingly, in companion animals that consume structurally similar processed diets. This narrative review synthesizes current evidence on dietary and feed-derived sources of ROS, spanning intrinsic pro-oxidant systems in unprocessed foods (lipid hydroperoxides, heme iron, and polyphenol autoxidation) and heat processing-generated toxicants (advanced glycation end products, acrylamide, heterocyclic aromatic amines, and lipid oxidation products), and examines the molecular mechanisms that link these compounds to organ-specific and systemic disease, including receptor-mediated signaling, cytochrome P450 activation, mitochondrial dysfunction, and antioxidant depletion. Comparative analysis across humans, dogs, and cats reveals parallel disease burdens in metabolic syndrome, chronic kidney disease, inflammatory bowel disease, and cancer, alongside instructive species-specific divergences in atherosclerosis and neurodegenerative disease driven by differences in lipoprotein metabolism and toxicokinetics. The review further reassesses canonical dietary antioxidants, including polyphenols and omega-3 polyunsaturated fatty acids, as context-dependent redox modulators capable of both cytoprotective and pro-oxidant activity. Collectively, these findings position dietary and feed processing as an under-recognized, modifiable contributor to chronic disease across species. In this context, companion animals emerge as valuable naturalistic translational models for studying diet-induced oxidative pathology. Priority research needs include standardized dose-response and biomarker frameworks, characterization of gut microbiome-mediated effects, and assessment of combinatorial pro-oxidant exposures.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Park HJ, Kim HM</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.3390/biology15171519" target="_blank">DOI: 10.3390/biology15171519</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42737951/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Unraveling the pleiotropic roles of the mTOR-glycolytic axis in ulcerative colitis: from immunometabolic dysregulation to mucosal barrier remodeling.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in immunology &nbsp;|&nbsp; 2026-09-02</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Ulcerative colitis (UC) is a chronic, relapsing inflammatory disorder of the colonic mucosa, whose pathogenesis is intricately linked to metabolic reprogramming within both immune and epithelial compartments. The mechanistic target of rapamycin (mTOR) signaling pathway serves as a central immunometabolic hub that integrates nutrient availability, microbial cues, and inflammatory signals to orchestrate glycolytic flux, thereby profoundly shaping the functional plasticity of diverse intestinal cell populations. This review systematically delineates, from a cell-type-specific perspective, the divergent regulatory roles of the mTOR-glycolysis axis in intestinal immunity and mucosal barrier homeostasis. We first outline the core molecular architecture of mTORC1/mTORC2-driven glycolytic reprogramming, highlighting key regulatory nodes including GLUT1/3-mediated glucose uptake, HK2-dependent rate-limiting phosphorylation, and PKM2-governed metabolic-transcriptional switching. Subsequently, we examine how aberrant mTOR-glycolysis axis activation in neutrophils, macrophages, type 3 innate lymphoid cells, and CD4+ T effector subsets propagates a feed-forward inflammatory loop-exacerbating oxidative burst, NETosis, M1 polarization, and Th17 pathogenicity-while simultaneously undermining the metabolic fitness and suppressive integrity of regulatory T cells. Moreover, we discuss the metabolic rewiring of intestinal epithelial cells via the mTOR-glycolysis axis, which compromises barrier integrity, disrupts epithelial regeneration, and initiates a “metabolic-secretory” crosstalk that perpetuates mucosal inflammation. Collectively, this review positions the mTOR-glycolysis axis as a rheostat governing the transition from homeostatic immunosurveillance to pathogenic inflammation in UC, and proposes that cell-selective metabolic checkpoint targeting-rather than broad systemic inhibition-represents a promising precision strategy for future therapeutic intervention.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Chen Y, Xiao J, Xiao L, Chen A, He L, Wang Z</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.3389/fimmu.2026.1889686" target="_blank">DOI: 10.3389/fimmu.2026.1889686</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42750747/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+</details>
+<hr>
+<details>
+<summary>
+<strong>Therapeutics &amp; Mechanisms</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(9 papers)</span>
 </summary>
 <details>
 <summary>
@@ -1502,22 +1547,6 @@ Abstract not available.
 </details>
 <details>
 <summary>
-Acceptability and tolerability of risankizumab maintenance therapy administered via on-body injector in patients with Crohn’s disease: Results of the ACCEPT-OBI study. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Therapeutic advances in gastroenterology &nbsp;|&nbsp; 2026-09-10</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Risankizumab is administered via a new modality, so-called on-body injector (OBI). To assess the acceptability and the tolerability of OBI-risankizumab therapy, and compare its acceptability with other available modalities in Crohn’s disease (CD). Longitudinal multicenter prospective study. All CD patients from an early access cohort treated with OBI-risankizumab were assessed from the first OBI use (week 0 = W0), W8, W16, and W24. The primary endpoint was acceptability (acceptability numerical scale = ANS). Patients were asked to grade the acceptability of OBI-risankizumab and other modalities of therapeutic maintenance regimen. Among 58 CD patients (79.4% with at least four prior advanced therapies), OBI-risankizumab acceptability was 9.5±1.2 at W0 and remained stable until W24 (p=0.97). OBI-risankizumab acceptability showed a higher acceptability than intravenous infusions (p&lt;0.0001), pen injectors (p&lt;0.001), and syringes (p&lt;0.001), and ranked as the preferred route in 64% of patients. OBI-risankizumab Q8 was the most accepted maintenance regimen (ANS = 9.2 ± 2.0), compared to long interval subcutaneous injections (Q12, Q8 or Q4), more frequent injections (weekly or eow), or intravenous infusions every 4-8 weeks (p &lt; 0.05 for all comparisons). While 57.4% of patients did not experience any adverse event within 24 weeks, the two most frequent adverse events were mild application-site pain (19.0%) and localized erythema (20.7%) with no need for risankizumab discontinuation. OBI-risankizumab therapy is highly accepted and could be the most preferred maintenance regimen in patients with CD. In the ACCEPT-OBI study, we showed that risankizumab therapy administered with an innovative device, so-called on-body injector, is well accepted by the patients and its use every 8 weeks is the best accepted therapeutic maintenance regimen in our cohort of patients with Crohn’s disease previously exposed to numerous other drugs.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Buisson A, Gebara K, Caron B, Boschetti G, Gilletta de Saint Joseph C, Nachury M, Brixi H, Juillerat P, Serrero M, Vuitton L</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1177/17562848261489118" target="_blank">DOI: 10.1177/17562848261489118</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42729518/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
 Uninflamed colonic tissue harbors humoral activity linked to anti-TNF therapy non-response in ulcerative colitis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> iScience &nbsp;|&nbsp; 2026-09-08</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
@@ -1534,17 +1563,17 @@ Anti-TNF therapy is central for treating ulcerative colitis, yet ∼40% are prim
 </details>
 <details>
 <summary>
-Gradient Boosting Machine-Based Prognostic Model with SurvSHAP Analysis for Predicting Secondary Loss of Response to Infliximab Therapy in Crohn’s Disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Drug design, development and therapy &nbsp;|&nbsp; 2026-09-08</span>
+Early but not serial ustekinumab concentration measurements are associated with clinical outcomes in Crohn’s disease and ulcerative colitis: the Stockholm Ustekinumab study (STOCUSTE). <span style="color:#666;font-size:0.85em;font-weight:normal;"> European journal of gastroenterology &amp; hepatology &nbsp;|&nbsp; 2026-09-01</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
 <p style="margin:0 0 0.5em 0;color:#444;">
-Infliximab (IFX), a cornerstone anti-TNF-α therapy for moderate-to-severe Crohn’s disease (CD), is limited by secondary loss of response (SLOR), yet existing prognostic tools lack sufficient accuracy and interpretability. We developed and internally validated an interpretable machine learning (ML) framework for time-dependent SLOR prediction in IFX-treated CD patients. We retrospectively enrolled 637 consecutive CD patients initiating IFX at a tertiary center. Multimodal predictors spanning demographic, pharmacokinetic (IFX trough concentrations and antibodies to infliximab [ATI] during induction and maintenance), hematological, biochemical, nutritional and coagulation domains were collected. Patients were randomly allocated to training (70%) and testing (30%) sets, stratified by SLOR status, and variables were screened via univariable and multivariable Cox regression. Nine ML algorithms were benchmarked at 12, 24 and 36 months using time-dependent AUC, concordance index, calibration and decision curve analysis. The top-performing model was further evaluated through risk-stratified Kaplan-Meier analysis and time-dependent SHapley Additive exPlanations (SurvSHAP). Seven independent determinants of SLOR were identified: maintenance-phase IFX trough concentration, disease duration, induction-phase ATI, platelet count, sex, concomitant immunosuppressant use and white blood cell count. The gradient boosting machine (GBM) demonstrated the strongest overall performance in the testing set, with time-dependent AUCs of 0.696, 0.825 and 0.854 at 12, 24 and 36 months, respectively, although discrimination at 12 months remained modest. GBM-based risk stratification yielded significantly divergent SLOR-free survival curves (HR = 6.462, 95% CI: 3.870-10.788, P &lt; 0.001). SurvSHAP analysis ranked maintenance-phase IFX trough concentration as the predominant contributor with the widest effect range, followed by disease duration, induction-phase ATI and platelet count as adverse factors, while concomitant immunosuppressant use exhibited a protective signal. This internally validated ML framework showed improving discrimination over longer horizons, with maintenance-phase IFX trough concentration emerging as the dominant predictor, supporting proactive therapeutic drug monitoring pending external multicenter validation.
+Ustekinumab (UST), an anti-interleukin-12/23 antibody, is used to treat moderate-to-severe inflammatory bowel disease (IBD). The STOCUSTE study includes IBD patients treated with UST at four teaching hospitals in Stockholm to provide long-term follow-up data. The utility of therapeutic drug monitoring to optimize treatment and correlate the serum concentration of UST with clinical outcomes was investigated in a real-world setting. This retrospective study includes patients diagnosed with Crohn’s disease and ulcerative colitis treated with UST and followed until withdrawal of treatment for any reason or until the end of the study. Concentration data and dosing interval were collected at each follow-up (3, 6, 9, 12, 24, 36, and 48 months) in relation to the presence of remission defined as Physician Global Assessment = 0. A total of 418 patients were included, 322 with Crohn’s disease (48% female) and 96 with ulcerative colitis (46% female). UST concentrations were obtained in 229 (55%) patients, while 189 had no measurements. The mean serum concentrations for all were above 1 μg/ml. At 3 months, patients in remission had significantly higher concentrations than nonremitters (P &lt; 0.001). No significant differences were observed at 6 months or later. Within 12 months of concentration result, approximately one-third of patients underwent treatment adjustments, including interval shortening, intravenous reinduction, or discontinuation/switch. In this study, an early (≤3 months) UST concentration was associated with remission, whereas concentrations measured at later time points did not differ between remission and nonremission. In this real-world cohort serial monitoring beyond 3 months showed poor correlation with clinical outcomes.
 </p>
 <p style="margin:0;font-size:0.85em;color:#666;">
-<em>Guo YQ, Wang YT, Gao M, Liu T, Huang LH, Deng S, Li XY, Xu MD</em>
+<em>Sabhan H, Bello F, Muhsen S, Johansson F, Borin A, Höög C, Forsberg O, Wennerström C, Almer S, Lördal M</em>
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.2147/DDDT.S623182" target="_blank">DOI: 10.2147/DDDT.S623182</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42732405/" target="_blank">View on PubMed →</a>
+<a href="https://doi.org/10.1097/MEG.0000000000003274" target="_blank">DOI: 10.1097/MEG.0000000000003274</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765296/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
@@ -1586,6 +1615,22 @@ Type I interferons (IFN-Is) are central regulators of intestinal epithelial home
 <summary>
 <strong>Epidemiology &amp; Outcomes</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(7 papers)</span>
 </summary>
+<details>
+<summary>
+Medication Use and Risk of Microscopic Colitis: A Propensity-Matched Analysis of US Adults ≥ 50 Years (2014-2024).<span style="color:#b8860b;font-size:0.8em;margin-left:4px;" title="High-impact IBD/GI journal">★</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Alimentary pharmacology &amp; therapeutics &nbsp;|&nbsp; 2026-09-21</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+The association between medications-including non-steroidal anti-inflammatory drugs (NSAIDs), proton pump inhibitors (PPIs) and selective serotonin reuptake inhibitors (SSRIs)-and microscopic colitis (MC) remains controversial. While earlier studies suggested increased risk, more recent analyses have challenged these findings, citing methodological limitations. We evaluated the risk of MC among commonly implicated medications using a large national U.S. Using the TriNetX database (2014-2024), we conducted a retrospective cohort study including adults ≥ 50 years with at least one documented healthcare encounter and no prior MC or inflammatory bowel disease. Exposure was defined as ≥ 3 prescriptions within a drug class. Treatment groups (NSAIDs, PPIs, SSRIs, ACE inhibitors [ACEIs], angiotensin receptor blockers [ARBs], statins) were 1:1 propensity score-matched (PSM) to untreated controls on age, sex, race, comorbidities and previous colonoscopy. The primary outcome was incident MC, identified by new diagnostic codes. Cox proportional hazards models estimated hazard ratios (HRs) and 95% confidence intervals (CIs). After PSM, cohorts included 907,266 NSAID, 750,009 PPI, 308,310 SSRI, 393,952 ACEI, 298,480 ARB users and 548,339 statin users. Over 2 years, MC risk was increased with NSAIDs (HR 1.15; 95% CI, 1.02-1.30), PPIs (HR 1.36; 95% CI, 1.19-1.54) and SSRIs (HR 1.52; 95% CI, 1.27-1.83). ACEIs, ARBs and statins were not associated with MC. In this large cohort, NSAIDs, PPIs and SSRIs were associated with an increased risk of MC, whereas no significant association was observed for ACEIs, ARBs or statins. Medication review should be considered in patients with new-onset chronic diarrhoea.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Kilani Y, Heis F, Dugaesescu A, Hafez Y, Hamdeh S, Kiwan W, Madi MY</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1111/apt.70985" target="_blank">DOI: 10.1111/apt.70985</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765157/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
 <details>
 <summary>
 Septic arthritis mimic unmasked: inflammatory bowel disease-associated arthritis in a patient with a learning disability.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Case report</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> BMJ case reports &nbsp;|&nbsp; 2026-09-18</span>
@@ -1663,22 +1708,6 @@ Identifying predictors of clinical remission in pediatric ulcerative colitis (UC
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
 <a href="https://doi.org/10.1002/jpr3.70234" target="_blank">DOI: 10.1002/jpr3.70234</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42745752/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Divergent trends in Crohn’s disease surgery rates: Is Austria truly an exception in the biologic era?<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Letter</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver &nbsp;|&nbsp; 2026-09-12</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Abstract not available.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Feng J, Feng Y, Liu L, Gao H</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.dld.2026.09.001" target="_blank">DOI: 10.1016/j.dld.2026.09.001</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42731959/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
@@ -1840,33 +1869,17 @@ Patients with inflammatory bowel disease (IBD) undergo regular colonoscopic surv
 </details>
 <details>
 <summary>
-Identification of COPZ1 as a Shared Candidate Ferroptosis-Related Hub Gene in Periodontitis and Inflammatory Bowel Disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Human mutation &nbsp;|&nbsp; 2026-09-12</span>
+Development and validation of a machine learning scoring system based on multi-dimensional metabolic signatures for invasive examination triage in intestinal diseases. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in genetics &nbsp;|&nbsp; 2026-09-07</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
 <p style="margin:0 0 0.5em 0;color:#444;">
-Clinical and epidemiological evidence demonstrates a robust bidirectional link between inflammatory bowel disease (IBD) and periodontitis, with IBD patients having a significantly elevated risk of periodontitis. Although this association is well established, the shared molecular mechanisms remain unclear. Both IBD, including Crohn’s disease (CD) and ulcerative colitis (UC), and periodontitis feature aberrant ferroptosis activation, which drives oxidative damage and tissue breakdown. We therefore hypothesized that ferroptosis is a core pathogenic mechanism common to all three conditions. Using GEO transcriptomic data, we identified 116, 134, and 255 exploratory candidate ferroptosis-related differentially expressed genes in CD, UC, and periodontitis, respectively, with 55 candidate genes overlapping across all three conditions. Four machine learning-based feature selection algorithms consistently ranked COPZ1 as the top hub gene. In animal models of colitis and periodontitis, COPZ1 showed markedly elevated protein levels in inflamed intestinal and gingival tissues. In vitro experiments demonstrated that COPZ1 knockdown upregulated the expression of ferroptosis-inhibitory genes (Gpx4, Slc7a11, and Fth1) in RAW264.7-ASC macrophages under both basal and LPS-induced inflammatory conditions, and reversed LPS-mediated downregulation of Gpx4, suggesting that COPZ1 is involved in the regulation of ferroptosis in macrophages. Immune infiltration analysis revealed correlations between COPZ1 expression and the abundance of macrophages, neutrophils, B cell subsets, and T cell subsets, suggesting its association with differences in estimated immune cell composition. Single-cell RNA sequencing from CD patient biopsies further demonstrated heterogeneous COPZ1 expression across diverse intestinal immune cell types (including neutrophils, CD8+ T cells, CD4+ T cells, and macrophages) and linked to ferroptosis-associated intercellular signaling. In silico drug prediction identified nine small-molecule compounds that stably bound to COPZ1 through hydrogen bonds. Molecular dynamics simulations subsequently ranked BRD-K66453893 as the compound exhibiting the greatest structural stability among the tested candidates. Collectively, our findings identify COPZ1 as a shared candidate ferroptosis-related hub gene for CD, UC, and periodontitis, and highlight its association with the inflammatory immune microenvironment, thereby providing a promising therapeutic target for these interrelated chronic inflammatory disorders.
+Inflammatory bowel disease (IBD) and irritable bowel syndrome (IBS) often present with overlapping gastrointestinal symptoms despite distinct pathophysiological mechanisms. Colonoscopy remains the diagnostic gold standard but is invasive, costly and frequently overutilized. Single biomarkers have limited diagnostic value because they do not fully reflect the complex metabolic and inflammatory alterations underlying intestinal diseases. We aimed to develop and validate an interpretable machine learning-based scoring system integrating multidimensional metabolism-related biomarkers for invasive examination triage. This retrospective single-center study included 729 participants (313 healthy controls, 210 IBS, 100 ulcerative colitis and 106 Crohn’s disease patients) enrolled between July 2021 and November 2025. Demographic, clinical, and metabolism-related laboratory biomarkers reflecting inflammatory metabolism, nutritional metabolism, hepatic metabolic function, and renal metabolic homeostasis were collected. Correlation network analysis, least absolute shrinkage and selection operator (LASSO) regression, extreme gradient boosting (XGBoost), and a simplified nomogram-based scoring system were applied to differentiate IBD from non-IBD conditions. Significant differences were observed across all clinical and metabolism-related variables (P &lt; 0.001). IBD patients exhibited elevated inflammatory-metabolic-related biomarkers and dense inflammation-driven metabolic correlation networks, whereas IBS patients showed metabolic profiles similar to healthy controls. XGBoost achieved the best diagnostic performance (AUC = 0.992), followed by LASSO (AUC = 0.978). A simplified scoring system incorporating sex, age, log-transformed fecal calprotectin (LogFC), log-transformed C-reactive protein (LogCRP), hemoglobin (HB), albumin (ALB), white blood cell count (WBC) and platelet count (PLT) achieved an AUC of 0.910, outperforming fecal calprotectin (FC) alone (AUC = 0.844) and the FC-CRP combination (AUC = 0.855). The scoring system demonstrated substantial clinical net benefit and correlated with colonoscopic inflammation severity (AUC = 0.761). Inflammatory and metabolism-related biomarkers were the strongest predictors of IBD. IBD is characterized by distinct multidimensional metabolism-related biomarker signatures. The proposed machine learning-based scoring system integrates these metabolism-related biomarkers into a reliable, non-invasive tool for invasive examination triage, potentially reducing unnecessary colonoscopies and improving clinical resource utilization.
 </p>
 <p style="margin:0;font-size:0.85em;color:#666;">
-<em>Yu X, Ruan Y, Zhang Z, Shi J, Gu X, Chen Y, Sang M, Zhou X, Zhou Y, Mao L</em>
+<em>He J, Chen J, Zhang Y, Rao Y, He M, Zhu M</em>
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1155/humu/6316527" target="_blank">DOI: 10.1155/humu/6316527</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42732255/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Engineering Small Extracellular Vesicles for Colon-Targeted Delivery: Microenvironment-Responsive Design, Therapeutic Mechanisms, and Clinical Translation.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of nanomedicine &nbsp;|&nbsp; 2026-09-08</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Small extracellular vesicles (sEVs) are endogenous lipid-bilayer nanovesicles that combine cargo protection, biological membrane compatibility, and modifiable surface recognition. For colon-targeted delivery, their value depends on engineering them to withstand gastric acidity and proteolysis, negotiate the mucus barrier, and respond to colon-specific cues, including the distal gastrointestinal pH profile, microbiota-derived enzymes, inflammatory reactive oxygen species, and lesion-associated receptors such as integrins, CD44, and folate receptors. This review critically compares sEVs with conventional colon-targeted drug delivery systems and summarizes sEV biogenesis, cargo sorting, isolation, characterization, exogenous and endogenous loading, surface engineering, and passive, active, and stimuli-responsive targeting strategies. Therapeutic applications are evaluated in inflammatory bowel disease and colorectal cancer, with attention to epithelial barrier restoration, immune regulation, macrophage polarization, apoptosis, tumor-microenvironment remodeling, and emerging intestinal indications such as irritable bowel syndrome. Recent clinical trials, Good Manufacturing Practice requirements, potency and release specifications, safety assessment, and regulatory uncertainties are also discussed. A disease- and route-oriented decision framework is proposed to connect cargo properties, administration route, target-cell biology, manufacturing feasibility, and clinically meaningful endpoints. Although engineered sEVs remain investigational and no therapeutic product has achieved full regulatory approval, integration of microfluidic manufacturing, organ-on-chip validation, artificial intelligence-assisted design, and image-guided precision delivery may improve reproducibility and translational readiness.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Liu G, Li M, Liu J, Li YP, Huang X, Guo X, Zhai Q, Zhang F, Yan W, Sun J</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.2147/IJN.S635349" target="_blank">DOI: 10.2147/IJN.S635349</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42732298/" target="_blank">View on PubMed →</a>
+<a href="https://doi.org/10.3389/fgene.2026.1905165" target="_blank">DOI: 10.3389/fgene.2026.1905165</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765072/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
@@ -1904,6 +1917,22 @@ This study aimed to integrate clinical indicators with peripheral blood T-cell s
 </details>
 <details>
 <summary>
+Mesenchymal Stem Cells Alleviate Crohn’s Disease by Regulating CBS-Mediated Ferroptosis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Immunity, inflammation and disease &nbsp;|&nbsp; 2026-09</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Mesenchymal stem cells (MSCs) possess immunoregulatory properties and have been shown to alleviate symptoms of Crohn’s disease (CD). While ferroptosis has been implicated in the onset of CD, the precise connection between MSCs, CD, and ferroptosis remains unclear. This study sought to explore whether MSCs could alleviate CD by inhibiting ferroptosis. We screened the hub genes involved in both ferroptosis and CD and validated them in clinical colon biopsies by immunohistochemistry (IHC). MSCs were administered intraperitoneally to mice with colitis induced by trinitrobenzene sulfonic acid (TNBS) enema to evaluate the therapeutic effect. Additionally, a rescue experiment was conducted by co-treating colitis mice with a cystathionine-β-synthase (CBS) inhibitor (aminooxyacetic acid, AOAA) and MSCs to further explore the mechanism of the MSCs-CBS-ferroptosis axis. The expression levels of CBS and ferroptosis-related markers in colonic tissues were assessed by real-time quantitative polymerase chain reaction (RT-qPCR), western blot, and IHC. Bioinformatics and machine learning identified CBS as a hub gene in both CD and ferroptosis. IHC revealed that CBS expression was downregulated in colon tissues from CD patients. MSCs treatment significantly reduced pathological symptoms and intestinal inflammation in colitis mice. MSCs increased CBS expression, which had been diminished in colitis mice. Additionally, MSCs increased glutathione (GSH) and glutathione peroxidase 4 (GPX4) expression, thereby inhibiting ferroptosis activation. In a rescue experiment, co-treatment with AOAA and MSCs exacerbated intestinal inflammation and reversed the elevation of CBS and ferroptosis-related markers. This study demonstrates that MSCs alleviate the symptoms of CD by regulating CBS-mediated ferroptosis.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Huang Z, Xu X, Huang Z, Han B, Jiang D, Lv X, Huang Z, Lin G, Huang F, Li Y</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1002/iid3.70506" target="_blank">DOI: 10.1002/iid3.70506</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765439/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
 Potential hazard assessment of 6PPD-quinone in the context of ulcerative colitis: network toxicology, machine learning, transcriptomic analysis, and preliminary In vivo validation. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in immunology &nbsp;|&nbsp; 2026-08-31</span>
 </summary>
 <div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
@@ -1922,93 +1951,7 @@ The ubiquitous tire-derived pollutant 6PPD-quinone (6PPD-Q) poses potential syst
 <hr>
 <details>
 <summary>
-<strong>Endoscopy &amp; Imaging (non-IUS)</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(5 papers)</span>
-</summary>
-<details>
-<summary>
-Bridging the Gap Between Endoscopy and Histology Indices: A Multi-Index Comparison in 146 Ulcerative Colitis Patients. <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of surgical pathology &nbsp;|&nbsp; 2026-09-19</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-BackgroundUlcerative Colitis (UC) is a chronic inflammatory bowel disease affecting the colonic mucosa, with a relapsing-remitting course. Disease activity is assessed using clinical, serologic, endoscopic, and histological parameters, among which the latter two remain the cornerstone for assessing disease severity and therapeutic response. However, limited studies have evaluated the correlation between endoscopic and histological activity. This study evaluates the correlation between the Mayo endoscopic score (MES) and validated histological indices, namely the Geboes score (GS), Nancy index (NI), and Robarts histological index (RHI), to determine the most practical and reliable histological scoring system.MethodsThis cross-sectional study was conducted over a period of two and a half years at a tertiary care hospital in North India and included 146 established UC patients. Colonoscopic evaluation was performed by a single gastroenterologist, and biopsies were obtained from areas showing the highest possible MES. Subsequent histopathological examination and scoring using the histological indices (GS, NI, and RHI) were performed independently by pathologists masked to the endoscopic findings. Correlations were assessed using the Chi-Square test and Spearman’s rho to evaluate relationships between endoscopic and histopathological scores.ResultsA total of 146 biopsies were analyzed, with a median patient age of 34 years; male patients constituted 56% of patients, and the recto-sigmoid region was the most commonly affected site (62%). Moderate (50%) and severe (32%) endoscopic aspects suggestive of UC activity were predominant. Correlation coefficients between MES and GS/RHI/NI were moderate (rho = .617/.622/.599, respectively; P &lt; .001 for all three correlations). The NI was the fastest to evaluate and demonstrated a similar correlation with the MES compared to the GS and RHI.ConclusionA moderate yet consistent correlation was observed between the MES and all three histopathological indices, highlighting their reliability in reflecting disease severity and supporting their interchangeable use in routine practice. Among them, the NI emerged as the most practical and user-friendly scoring system due to its simplicity and rapid applicability, while maintaining diagnostic performance comparable to the GS and RHI.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Qamer ZA, Durgapal P, Kumar A, Singh A, Patnaik I, Kishore S, Phulware RH</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1177/10668969261470847" target="_blank">DOI: 10.1177/10668969261470847</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42762188/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Assessing the effectiveness of biologics in biologic-naïve patients with isolated small bowel Crohn’s disease by double-balloon endoscopy. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Expert opinion on biological therapy &nbsp;|&nbsp; 2026-09-17</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Data on the effectiveness of biologics in achieving endoscopic remission (ER) in biologic-naïve patients with isolated small bowel Crohn’s disease (SB-CD) remain limited. To assess the effectiveness of biologics in achieving ER in these patients. This single‑center retrospective study included biologic‑naïve isolated SB‑CD patients who initiated infliximab (IFX) or ustekinumab (UST) between 2020 and 2025. All underwent follow‑up double‑balloon enteroscopy. ER was defined as Simple Endoscopic Score for Crohn’s Disease (SES‑CD) &lt;3. Multivariate regression identified predictors of ER. Propensity score matching (1:3) compared UST and IFX. A total of 169 patients (122 receiving IFX and 47 receiving UST) were included. The overall ER rate was 35.5% (32.8% for IFX and 42.6% for UST). Multivariate analysis identified stricturing/penetrating disease (OR =0.297, 95% CI: 0.131-0.673, p = 0.004) and moderate-to-severe endoscopic disease (OR =0.307, 95% CI: 0.112-0.839, p = 0.021) as negative predictors of ER. After matching, no significant differences were observed between the groups in the rates of endoscopic response, ER, mucosal healing, clinical remission, or biochemical remission. Among biologic-naïve patients with isolated SB-CD, the overall ER rate after biologic treatment was 35.5%. IFX and UST showed comparable effectiveness in achieving ER.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Zhou L, Wu Y, Fang Y, Hu J, Liu Q, Wu J, Zhang P, Mei Q, Han W</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1080/14712598.2026.2736535" target="_blank">DOI: 10.1080/14712598.2026.2736535</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42754371/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Baseline Magnetic Resonance Enterography Stratifies Persistence Risk of Crohn’s Disease Strictures.<span style="color:#b8860b;font-size:0.8em;margin-left:4px;" title="High-impact IBD/GI journal">★</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association &nbsp;|&nbsp; 2026-09-15</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Crohn’s disease (CD) strictures are clinically important, but persistence after advanced therapy remains difficult to assess. We developed and temporally validated a magnetic resonance enterography (MRE)-based framework integrating activity-related and structural imaging severity to stratify stricture non-improvement. This two-stage study included patients with CD who initiated advanced therapy and underwent baseline and follow-up MRE. An activity-related score (A-score) and a persistence-associated structural score (P-score) were derived in a development cohort (2012-2020) and applied to a temporally separated validation cohort (2021-2024). The primary endpoint was stricture-level non-improvement on follow-up MRE; intestinal surgery was also evaluated. The development cohort included 115 patients with 161 strictures, and the validation cohort included 72 patients with 104 strictures. The A-score comprised bowel wall thickness &gt;6 mm, ulceration, and comb sign; the P-score comprised stricture length &gt;3 cm, prestenotic bowel diameter &gt;3 cm, and lack of intramural edema. A-score and P-score positivity were each associated with stricture non-improvement after multivariable adjustment (adjusted odds ratios, 18.68 and 19.75, respectively; P&lt;.01 for both). The summed A+P score showed an area under the curve of 0.90 and higher discrimination than either score, segmental MaRIA, or segmental sMaRIA alone. Improvement rates decreased with increasing A-scores and remained low at higher P-scores. Baseline A/P strata also differed in surgery-free survival (P&lt;.01). Baseline MRE integrating activity-related and structural imaging severity stratified stricture persistence and was associated with subsequent surgery. This framework should be interpreted as a baseline imaging severity and risk-stratification tool rather than an inflammatory-fibrotic phenotype classifier.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Takenaka K, Tsuchiya J, Kawamoto A, Wakui M, Hibiya S, Tamura A, Kobayashi S, Shimizu H, Fujii T, Ohtsuka K</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1016/j.cgh.2026.09.007" target="_blank">DOI: 10.1016/j.cgh.2026.09.007</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42744068/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Proactive Tight Monitoring of Patients with Inflammatory Bowel Disease in Biological Therapy: A Controlled Clinical Study (TIME IT). <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of clinical medicine &nbsp;|&nbsp; 2026-09-06</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Background/Objectives: The combined goal of achieving both clinical and endoscopic remission has highlighted the need for strategies that support a treat-to-target approach in inflammatory bowel disease (IBD). A proactive monitoring strategy involves scheduled assessments regardless of symptoms to detect subclinical disease activity and enable timely treatment adjustments, whereas a reactive approach initiates evaluation only in response to clinical deterioration or objective signs of active disease. This study investigated whether proactive monitoring improves the achievement of treatment goals compared with a reactive strategy. Methods: In this prospective cohort study carried out between September 2020 and July 2022, patients with IBD receiving biologic therapy were managed according to a predefined proactive monitoring schedule and prospectively followed for one year. A control group, matched for age, sex, diagnosis, and treatment, was enrolled from another tertiary IBD center using a reactive monitoring strategy; their clinical course over one year was reconstructed retrospectively from medical records. All patients underwent colonoscopy assessment at one year. The primary outcome was treatment failure, defined as inadequate mucosal healing or symptom control, the need for intestinal surgery, or discontinuation of biologic therapy due to insufficient efficacy. Results: A total of 162 patients were included (91 managed proactively and 71 managed reactively). In the intention-to-treat population, treatment failure occurred in 67 patients (74%, 95% confidence interval (CI) 63-84%) in the intervention group and 60 patients (85%, 95% CI 75% to 94%) in the control group (difference 11%, CI -3% to 25%, p = 0.13). In the per-protocol analysis, 44 of 69 patients (64%, CI 50% to 78%) in the intervention group experienced treatment failure compared with 43 of 53 patients (81%, CI 60% to 93%) in the control group (difference 17%, CI -1% to 36%, p = 0.06). Patients in the proactive monitoring group underwent significantly more disease-monitoring assessments than those managed reactively. Conclusions: Proactive monitoring numerically improved combined clinical and endoscopic outcomes compared with reactive management, but this did not reach statistical significance and resulted in substantially greater healthcare resource utilization.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Christensen KR, Al-Obaidi OSA, Buhl S, Ilvemark JF, Steenholdt C, Brynskov J, Ainsworth MA</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.3390/jcm15176900" target="_blank">DOI: 10.3390/jcm15176900</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42739904/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-From blood to bowel: correlating serological markers with mucosal healing and inflammation in patients with inflammatory bowel disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in immunology &nbsp;|&nbsp; 2026-09-03</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Inflammatory bowel disease (IBD) is a systemic disease characterized by chronic inflammation of the gastrointestinal tract. Serological testing has the advantages of wide sources and easy detection. To explore the correlation between the serological markers and endoscopic mucosal healing and histological healing. We also explored the predictive value of individual and combined detection on the disease activity of ulcerative colitis (UC) and Crohn’s disease (CD) and provide reference for clinical non-invasive evaluation. We retrospectively analyzed 267 IBD patients treated at our hospital from May 2020 to June 2024. Patients were classified based on endoscopic, pathological, or imaging results into UC (141 patients) and CD (126 patients). UC patients were further divided into mucosal healing (32 cases, IMES ≤ 1), mild (41 cases, 3 ≤ IMES ≤ 5), moderate (49 cases, 6 ≤ IMES ≤ 10), and severe (19 cases, 11 ≤ IMES ≤ 12) phases by the Improved Mayo Endoscopic Score (IMES). CD patients were categorized by the Crohn’s Disease Activity Index (CDAI). According to the Geboes score, patients were divided into a histological healing group (n=63) and a histological activity group (n=204). Pearson analysis examined correlations and ROC analysis assessed their predictive value. In severe cases, ALB and PA were lower, and CRP, ESR, NLR, and PLR were higher than in moderate cases (P&lt;0.05). The serum ALB and PA levels in the histological activity group were lower, but CRP, ESR, NLR, and PLR were higher than the histological healing group (all P&lt;0.05). Pearson analysis revealed negative correlations between IMES/CDAI scores and ALB/PA levels, and positive correlations with CRP, ESR, NLR, and PLR levels (P&lt;0.05). The combined detection of serological indicators for predicting UC inflammatory activity had an AUC of 0.930, with 88.89% sensitivity and 89.47% specificity, outperforming individual indicators (Z-values all P&lt;0.05). For CD, the combined AUC was 0.906, with 86.75% sensitivity and 85.71% specificity, again surpassing single indicators (Z-values all P&lt;0.05). Differences in serum ALB, PA, CRP, ESR, NLR, PLR were correlated with mucosal healing and inflammation in IBD patients. Combined detection offers clinical value in predicting disease activity.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Zhang Y, Zhang Z, Sun H, Diao B, Ma D, Wang D, Jia J, Jin W, Huang H</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.3389/fimmu.2026.1903539" target="_blank">DOI: 10.3389/fimmu.2026.1903539</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42756092/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-</details>
-<hr>
-<details>
-<summary>
-<strong>Drug Safety &amp; Pharmacovigilance</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(4 papers)</span>
+<strong>Drug Safety &amp; Pharmacovigilance</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(5 papers)</span>
 </summary>
 <details>
 <summary>
@@ -2071,6 +2014,178 @@ Remission in patients with inflammatory bowel disease appears to plateau at 30-5
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
 <a href="https://doi.org/10.2147/CEG.S632373" target="_blank">DOI: 10.2147/CEG.S632373</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42746558/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Use of clinical findings to distinguish between intestinal lymphoma or inflammatory bowel disease in horses. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of veterinary internal medicine &nbsp;|&nbsp; 2026-09</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Identifying clinical findings that are distinct between inflammatory bowel disease (IBD) and intestinal lymphoma could be helpful for providing preliminary guidance for clients regarding their horse’s prognosis while awaiting histopathologic results. To describe and compare the clinical findings of horses with a final histopathologic diagnosis of IBD vs intestinal lymphoma. Forty-six adult (≥1-year-old) horses with a final histopathologic diagnosis of IBD or intestinal lymphoma on endoscopic duodenal biopsy, surgical biopsy, or necropsy. Retrospective single-center case series via electronic medical record review of histopathology. Eighteen horses had a final diagnosis of lymphoma (11 intestinal only, 7 multicentric including the intestinal tract) and 28 had IBD (22 lymphoplasmacytic IBD, 5 eosinophilic IBD, 1 mixed lymphoplasmacytic and eosinophilic IBD). Acute colic (54%) and recurrent colic (39%) were more common in horses with IBD than in horses with lymphoma (11% and 5%; P = .004 and P = .01, respectively). Ultrasonographic evidence of abdominal mesenteric lymphadenopathy was more commonly identified in horses with lymphoma than horses with IBD (60% vs 0%; P &lt; .001). Clinicopathologic values were largely indistinguishable between groups. Clinical findings of IBD and intestinal lymphoma were largely indistinguishable in this cohort, although recurrent or acute colic might be more commonly seen in horses with IBD than those with lymphoma.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Demchur J, Long AE, Stewart HL, Stefanovski D, Luethy D</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1093/jvimsj/aalag225" target="_blank">DOI: 10.1093/jvimsj/aalag225</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765738/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+</details>
+<hr>
+<details>
+<summary>
+<strong>Endoscopy &amp; Imaging (non-IUS)</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(5 papers)</span>
+</summary>
+<details>
+<summary>
+Assessing the effectiveness of biologics in biologic-naïve patients with isolated small bowel Crohn’s disease by double-balloon endoscopy. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Expert opinion on biological therapy &nbsp;|&nbsp; 2026-09-21</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Data on the effectiveness of biologics in achieving endoscopic remission (ER) in biologic-naïve patients with isolated small bowel Crohn’s disease (SB-CD) remain limited. To assess the effectiveness of biologics in achieving ER in these patients. This single‑center retrospective study included biologic‑naïve isolated SB‑CD patients who initiated infliximab (IFX) or ustekinumab (UST) between 2020 and 2025. All underwent follow‑up double‑balloon enteroscopy. ER was defined as Simple Endoscopic Score for Crohn’s Disease (SES‑CD) &lt;3. Multivariate regression identified predictors of ER. Propensity score matching (1:3) compared UST and IFX. A total of 169 patients (122 receiving IFX and 47 receiving UST) were included. The overall ER rate was 35.5% (32.8% for IFX and 42.6% for UST). Multivariate analysis identified stricturing/penetrating disease (OR = 0.297, 95% CI: 0.131-0.673, p = 0.004) and moderate-to-severe endoscopic disease (OR = 0.307, 95% CI: 0.112-0.839, p = 0.021) as negative predictors of ER. After matching, no significant differences were observed between the groups in the rates of endoscopic response, ER, mucosal healing, clinical remission, or biochemical remission. Among biologic-naïve patients with isolated SB-CD, the overall ER rate after biologic treatment was 35.5%. IFX and UST showed comparable effectiveness in achieving ER.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Zhou L, Wu Y, Fang Y, Hu J, Liu Q, Wu J, Zhang P, Mei Q, Han W</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1080/14712598.2026.2736535" target="_blank">DOI: 10.1080/14712598.2026.2736535</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42754371/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Bridging the Gap Between Endoscopy and Histology Indices: A Multi-Index Comparison in 146 Ulcerative Colitis Patients. <span style="color:#666;font-size:0.85em;font-weight:normal;"> International journal of surgical pathology &nbsp;|&nbsp; 2026-09-19</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+BackgroundUlcerative Colitis (UC) is a chronic inflammatory bowel disease affecting the colonic mucosa, with a relapsing-remitting course. Disease activity is assessed using clinical, serologic, endoscopic, and histological parameters, among which the latter two remain the cornerstone for assessing disease severity and therapeutic response. However, limited studies have evaluated the correlation between endoscopic and histological activity. This study evaluates the correlation between the Mayo endoscopic score (MES) and validated histological indices, namely the Geboes score (GS), Nancy index (NI), and Robarts histological index (RHI), to determine the most practical and reliable histological scoring system.MethodsThis cross-sectional study was conducted over a period of two and a half years at a tertiary care hospital in North India and included 146 established UC patients. Colonoscopic evaluation was performed by a single gastroenterologist, and biopsies were obtained from areas showing the highest possible MES. Subsequent histopathological examination and scoring using the histological indices (GS, NI, and RHI) were performed independently by pathologists masked to the endoscopic findings. Correlations were assessed using the Chi-Square test and Spearman’s rho to evaluate relationships between endoscopic and histopathological scores.ResultsA total of 146 biopsies were analyzed, with a median patient age of 34 years; male patients constituted 56% of patients, and the recto-sigmoid region was the most commonly affected site (62%). Moderate (50%) and severe (32%) endoscopic aspects suggestive of UC activity were predominant. Correlation coefficients between MES and GS/RHI/NI were moderate (rho = .617/.622/.599, respectively; P &lt; .001 for all three correlations). The NI was the fastest to evaluate and demonstrated a similar correlation with the MES compared to the GS and RHI.ConclusionA moderate yet consistent correlation was observed between the MES and all three histopathological indices, highlighting their reliability in reflecting disease severity and supporting their interchangeable use in routine practice. Among them, the NI emerged as the most practical and user-friendly scoring system due to its simplicity and rapid applicability, while maintaining diagnostic performance comparable to the GS and RHI.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Qamer ZA, Durgapal P, Kumar A, Singh A, Patnaik I, Kishore S, Phulware RH</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1177/10668969261470847" target="_blank">DOI: 10.1177/10668969261470847</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42762188/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Baseline Magnetic Resonance Enterography Stratifies Persistence Risk of Crohn’s Disease Strictures.<span style="color:#b8860b;font-size:0.8em;margin-left:4px;" title="High-impact IBD/GI journal">★</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association &nbsp;|&nbsp; 2026-09-15</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Crohn’s disease (CD) strictures are clinically important, but persistence after advanced therapy remains difficult to assess. We developed and temporally validated a magnetic resonance enterography (MRE)-based framework integrating activity-related and structural imaging severity to stratify stricture non-improvement. This two-stage study included patients with CD who initiated advanced therapy and underwent baseline and follow-up MRE. An activity-related score (A-score) and a persistence-associated structural score (P-score) were derived in a development cohort (2012-2020) and applied to a temporally separated validation cohort (2021-2024). The primary endpoint was stricture-level non-improvement on follow-up MRE; intestinal surgery was also evaluated. The development cohort included 115 patients with 161 strictures, and the validation cohort included 72 patients with 104 strictures. The A-score comprised bowel wall thickness &gt;6 mm, ulceration, and comb sign; the P-score comprised stricture length &gt;3 cm, prestenotic bowel diameter &gt;3 cm, and lack of intramural edema. A-score and P-score positivity were each associated with stricture non-improvement after multivariable adjustment (adjusted odds ratios, 18.68 and 19.75, respectively; P&lt;.01 for both). The summed A+P score showed an area under the curve of 0.90 and higher discrimination than either score, segmental MaRIA, or segmental sMaRIA alone. Improvement rates decreased with increasing A-scores and remained low at higher P-scores. Baseline A/P strata also differed in surgery-free survival (P&lt;.01). Baseline MRE integrating activity-related and structural imaging severity stratified stricture persistence and was associated with subsequent surgery. This framework should be interpreted as a baseline imaging severity and risk-stratification tool rather than an inflammatory-fibrotic phenotype classifier.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Takenaka K, Tsuchiya J, Kawamoto A, Wakui M, Hibiya S, Tamura A, Kobayashi S, Shimizu H, Fujii T, Ohtsuka K</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1016/j.cgh.2026.09.007" target="_blank">DOI: 10.1016/j.cgh.2026.09.007</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42744068/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Proactive Tight Monitoring of Patients with Inflammatory Bowel Disease in Biological Therapy: A Controlled Clinical Study (TIME IT). <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of clinical medicine &nbsp;|&nbsp; 2026-09-06</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Background/Objectives: The combined goal of achieving both clinical and endoscopic remission has highlighted the need for strategies that support a treat-to-target approach in inflammatory bowel disease (IBD). A proactive monitoring strategy involves scheduled assessments regardless of symptoms to detect subclinical disease activity and enable timely treatment adjustments, whereas a reactive approach initiates evaluation only in response to clinical deterioration or objective signs of active disease. This study investigated whether proactive monitoring improves the achievement of treatment goals compared with a reactive strategy. Methods: In this prospective cohort study carried out between September 2020 and July 2022, patients with IBD receiving biologic therapy were managed according to a predefined proactive monitoring schedule and prospectively followed for one year. A control group, matched for age, sex, diagnosis, and treatment, was enrolled from another tertiary IBD center using a reactive monitoring strategy; their clinical course over one year was reconstructed retrospectively from medical records. All patients underwent colonoscopy assessment at one year. The primary outcome was treatment failure, defined as inadequate mucosal healing or symptom control, the need for intestinal surgery, or discontinuation of biologic therapy due to insufficient efficacy. Results: A total of 162 patients were included (91 managed proactively and 71 managed reactively). In the intention-to-treat population, treatment failure occurred in 67 patients (74%, 95% confidence interval (CI) 63-84%) in the intervention group and 60 patients (85%, 95% CI 75% to 94%) in the control group (difference 11%, CI -3% to 25%, p = 0.13). In the per-protocol analysis, 44 of 69 patients (64%, CI 50% to 78%) in the intervention group experienced treatment failure compared with 43 of 53 patients (81%, CI 60% to 93%) in the control group (difference 17%, CI -1% to 36%, p = 0.06). Patients in the proactive monitoring group underwent significantly more disease-monitoring assessments than those managed reactively. Conclusions: Proactive monitoring numerically improved combined clinical and endoscopic outcomes compared with reactive management, but this did not reach statistical significance and resulted in substantially greater healthcare resource utilization.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Christensen KR, Al-Obaidi OSA, Buhl S, Ilvemark JF, Steenholdt C, Brynskov J, Ainsworth MA</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.3390/jcm15176900" target="_blank">DOI: 10.3390/jcm15176900</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42739904/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+From blood to bowel: correlating serological markers with mucosal healing and inflammation in patients with inflammatory bowel disease. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Frontiers in immunology &nbsp;|&nbsp; 2026-09-03</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Inflammatory bowel disease (IBD) is a systemic disease characterized by chronic inflammation of the gastrointestinal tract. Serological testing has the advantages of wide sources and easy detection. To explore the correlation between the serological markers and endoscopic mucosal healing and histological healing. We also explored the predictive value of individual and combined detection on the disease activity of ulcerative colitis (UC) and Crohn’s disease (CD) and provide reference for clinical non-invasive evaluation. We retrospectively analyzed 267 IBD patients treated at our hospital from May 2020 to June 2024. Patients were classified based on endoscopic, pathological, or imaging results into UC (141 patients) and CD (126 patients). UC patients were further divided into mucosal healing (32 cases, IMES ≤ 1), mild (41 cases, 3 ≤ IMES ≤ 5), moderate (49 cases, 6 ≤ IMES ≤ 10), and severe (19 cases, 11 ≤ IMES ≤ 12) phases by the Improved Mayo Endoscopic Score (IMES). CD patients were categorized by the Crohn’s Disease Activity Index (CDAI). According to the Geboes score, patients were divided into a histological healing group (n=63) and a histological activity group (n=204). Pearson analysis examined correlations and ROC analysis assessed their predictive value. In severe cases, ALB and PA were lower, and CRP, ESR, NLR, and PLR were higher than in moderate cases (P&lt;0.05). The serum ALB and PA levels in the histological activity group were lower, but CRP, ESR, NLR, and PLR were higher than the histological healing group (all P&lt;0.05). Pearson analysis revealed negative correlations between IMES/CDAI scores and ALB/PA levels, and positive correlations with CRP, ESR, NLR, and PLR levels (P&lt;0.05). The combined detection of serological indicators for predicting UC inflammatory activity had an AUC of 0.930, with 88.89% sensitivity and 89.47% specificity, outperforming individual indicators (Z-values all P&lt;0.05). For CD, the combined AUC was 0.906, with 86.75% sensitivity and 85.71% specificity, again surpassing single indicators (Z-values all P&lt;0.05). Differences in serum ALB, PA, CRP, ESR, NLR, PLR were correlated with mucosal healing and inflammation in IBD patients. Combined detection offers clinical value in predicting disease activity.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Zhang Y, Zhang Z, Sun H, Diao B, Ma D, Wang D, Jia J, Jin W, Huang H</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.3389/fimmu.2026.1903539" target="_blank">DOI: 10.3389/fimmu.2026.1903539</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42756092/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+</details>
+<hr>
+<details>
+<summary>
+<strong>Genetics &amp; Genomics</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(4 papers)</span>
+</summary>
+<details>
+<summary>
+Genetic and microbial regulation of NOD2 signaling in homeostasis and disease.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> MedScience &nbsp;|&nbsp; 2026-09-19</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Nucleotide-binding oligomerization domain-containing protein 2 (NOD2) is a key intracellular pattern recognition receptor that senses bacterial peptidoglycan-conserved motifs, and has long been implicated in initiating immune responses. Loss-of-function mutations in NOD2 have been identified as the strongest genetic risk factor for Crohn’s disease (CD), a primary subtype of inflammatory bowel disease (IBD), underscoring its significance in the gut homeostasis. Recent advancements extend our understanding of NOD2, revealing how gut microbiota variation impacts NOD2 signaling and broadening its pathological significance far beyond CD. This review highlights the transition from focusing on genetic mutations in NOD2 to examining its dynamic regulation by the gut microbiome. This new perspective not only deepens our understanding of NOD2 in diverse health contexts, but also paves the way for innovative therapeutic strategies targeting the gut microbiota-NOD2 axis.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Wang Y, Nie J, Lin G, He X, Zhou H</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1007/s11684-026-1239-6" target="_blank">DOI: 10.1007/s11684-026-1239-6</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760420/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Novel TRAC variant causing autosomal recessive TCR-alpha/beta deficient immunodeficiency 7.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Case report</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> BMJ case reports &nbsp;|&nbsp; 2026-09-18</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+We report monozygotic twin brothers presenting in early infancy with severe, recurrent diarrhoea and profound T-cell lymphopenia. Immunological evaluation showed markedly reduced immunoglobulins and very low CD3+, CD4+and CD8+ T cell subsets. Rapid progression of symptoms prompted genetic testing, which identified a novel homozygous TRAC frameshift mutation (c.315del p.Thr106GlnfsTer5) causing complete loss of protein expression. This mutation produced a more severe phenotype than previously described TRAC variants which typically retain partial gene function and present later with mixed infections or immune dysregulation. The clinical picture of the twins mimicked very-early-onset inflammatory bowel disease, highlighting the expanding phenotypic spectrum of TRAC deficiency. Early recognition of T-cell defects and timely genetic testing are essential, particularly in regions with high consanguinity and limited access to curative haematopoietic stem cell transplantation. This case underscores the urgent need for improved diagnostic capacity, international collaboration and awareness of rare primary immunodeficiency disorders.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Mehmood S, Siddiqui S, Kazmi M, Rohlfs M, Klein C, Cheema H, Kotlarz D, Qureshi S</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1136/bcr-2025-271170" target="_blank">DOI: 10.1136/bcr-2025-271170</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760027/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Suggestive causal associations between 17 autoimmune diseases and pancreatitis: A two-sample Mendelian randomization study. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Medicine &nbsp;|&nbsp; 2026-09</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+The relationship between different autoimmune diseases (ADs) and pancreatitis has been reported in epidemiological studies. This study systematically investigated the causal effects of ADs factors on pancreatitis using Mendelian randomization (MR). We selected 17 common ADs as exposures from the largest genome-wide association study dataset in Europe. The outcome variables included acute pancreatitis (AP), chronic pancreatitis (CP), alcohol-induced acute pancreatitis, and alcohol-induced chronic pancreatitis. A variety of analytical methods were used to comprehensively evaluate the causal relationship between ADs and various types of pancreatitis, with sensitivity analyses, including Cochran’s Q test and MR-Egger intercept test performed to verify the reliability of the results. Finally, a reverse MR analysis was performed to evaluate the possibility of reverse causation. Genetically predicted type 1 diabetes (OR = 1.032, 95% CI = 1.008-1.056, P = .0086) and ulcerative colitis (OR = 1.065, 95% CI = 1.012-1.121, P = .0151) were associated with an increased risk of AP. primary sclerosing cholangitis (OR = 1.080, 95% CI = 1.013-1.153, P = .0194) increased the risk of CP. Reverse MR analysis suggested a potential protective causal association between alcohol-induced acute pancreatitis and hashimoto’s thyroiditis (OR = 0.962, 95% CI = 0.936-0.989, P = .0056), although this finding should be regarded as suggestive because it did not remain statistically significant after Bonferroni correction. Sensitivity analysis did not detect horizontal pleiotropy or heterogeneity. Genetic evidence supports a causal link between type 1 diabetes, ulcerative colitis , and AP, as well as between primary sclerosing cholangitis and CP. This analysis provides new insights into ADs as risk factors for pancreatitis, but further experimental research is needed to explore the potential causal relationships between these factors.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Huang D, Li Y, Li Z, Chen C, Wang H, You H, Zhang J, Dai S, Wang G, Lu C</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1097/MD.0000000000050766" target="_blank">DOI: 10.1097/MD.0000000000050766</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760723/" target="_blank">View on PubMed →</a>
+</p>
+</div>
+</details>
+<details>
+<summary>
+Differential analysis of microbial interaction networks. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Briefings in bioinformatics &nbsp;|&nbsp; 2026-09</span>
+</summary>
+<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
+<p style="margin:0 0 0.5em 0;color:#444;">
+Microbiome studies increasingly indicate that disease-associated shifts cannot be understood from compositional changes alone. The functional architecture of microbial communities-encoded in patterns of association among microbial gene families-may reveal how these systems reorganize across biological conditions. Here, we present a network-based framework for characterizing microbiome rewiring across conditions. The approach combines condition-specific network inference, differential network analysis, and pathway-level network analysis to identify associations that are gained, lost, or altered between groups, with a specific focus on sex-dependent differences. We apply the framework to inflammatory bowel disease, type 2 diabetes, and atherosclerotic cardiovascular disease (ACVD), comparing male and female-specific microbial gene family networks within each disease context. Across these settings, differential networks flag large numbers of candidate rewired associations; however, permutation testing (sex labels shuffled, group sizes preserved, 500 permutations for gene-family networks, and 1000 for pathway networks) shows that the global amount of apparent rewiring is not greater than expected under the null at the global or edge level in any cohort, and that most edges exclusive to one group are induced by group-specific feature filtering rather than by a genuine change in association ($$80%-83% in ACVD). We therefore present the method as a rigorously validated framework and a cautionary case study: the differential-network machinery is sound, but the headline biological signal in a naive analysis is largely a property of correlation thresholding and, for the longitudinal inflammatory bowel disease (IBD) cohort, of pseudoreplication. The only non-null result across all validations is a SOHPIE-DNA per-taxon test in the IBD disease arm (15 taxa at FDR <span class="math inline">\(&lt; 0.05\)</span>), which we report as a single nominal finding requiring independent replication. Code, data, and supplementary information are available at https://github.com/mmilano87/NetMicrobiome.
+</p>
+<p style="margin:0;font-size:0.85em;color:#666;">
+<em>Milano M, Hiram Guzzi P</em>
+</p>
+<p style="margin:0.5em 0 0 0;font-size:0.9em;">
+<a href="https://doi.org/10.1093/bib/bbag522" target="_blank">DOI: 10.1093/bib/bbag522</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42765490/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
@@ -2148,61 +2263,7 @@ Objective: To investigate the differences in clinical characteristics between te
 <hr>
 <details>
 <summary>
-<strong>Genetics &amp; Genomics</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(3 papers)</span>
-</summary>
-<details>
-<summary>
-Genetic and microbial regulation of NOD2 signaling in homeostasis and disease.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> MedScience &nbsp;|&nbsp; 2026-09-19</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Nucleotide-binding oligomerization domain-containing protein 2 (NOD2) is a key intracellular pattern recognition receptor that senses bacterial peptidoglycan-conserved motifs, and has long been implicated in initiating immune responses. Loss-of-function mutations in NOD2 have been identified as the strongest genetic risk factor for Crohn’s disease (CD), a primary subtype of inflammatory bowel disease (IBD), underscoring its significance in the gut homeostasis. Recent advancements extend our understanding of NOD2, revealing how gut microbiota variation impacts NOD2 signaling and broadening its pathological significance far beyond CD. This review highlights the transition from focusing on genetic mutations in NOD2 to examining its dynamic regulation by the gut microbiome. This new perspective not only deepens our understanding of NOD2 in diverse health contexts, but also paves the way for innovative therapeutic strategies targeting the gut microbiota-NOD2 axis.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Wang Y, Nie J, Lin G, He X, Zhou H</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1007/s11684-026-1239-6" target="_blank">DOI: 10.1007/s11684-026-1239-6</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760420/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Novel TRAC variant causing autosomal recessive TCR-alpha/beta deficient immunodeficiency 7.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Case report</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> BMJ case reports &nbsp;|&nbsp; 2026-09-18</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-We report monozygotic twin brothers presenting in early infancy with severe, recurrent diarrhoea and profound T-cell lymphopenia. Immunological evaluation showed markedly reduced immunoglobulins and very low CD3+, CD4+and CD8+ T cell subsets. Rapid progression of symptoms prompted genetic testing, which identified a novel homozygous TRAC frameshift mutation (c.315del p.Thr106GlnfsTer5) causing complete loss of protein expression. This mutation produced a more severe phenotype than previously described TRAC variants which typically retain partial gene function and present later with mixed infections or immune dysregulation. The clinical picture of the twins mimicked very-early-onset inflammatory bowel disease, highlighting the expanding phenotypic spectrum of TRAC deficiency. Early recognition of T-cell defects and timely genetic testing are essential, particularly in regions with high consanguinity and limited access to curative haematopoietic stem cell transplantation. This case underscores the urgent need for improved diagnostic capacity, international collaboration and awareness of rare primary immunodeficiency disorders.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Mehmood S, Siddiqui S, Kazmi M, Rohlfs M, Klein C, Cheema H, Kotlarz D, Qureshi S</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1136/bcr-2025-271170" target="_blank">DOI: 10.1136/bcr-2025-271170</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760027/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Suggestive causal associations between 17 autoimmune diseases and pancreatitis: A two-sample Mendelian randomization study. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Medicine &nbsp;|&nbsp; 2026-09</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-The relationship between different autoimmune diseases (ADs) and pancreatitis has been reported in epidemiological studies. This study systematically investigated the causal effects of ADs factors on pancreatitis using Mendelian randomization (MR). We selected 17 common ADs as exposures from the largest genome-wide association study dataset in Europe. The outcome variables included acute pancreatitis (AP), chronic pancreatitis (CP), alcohol-induced acute pancreatitis, and alcohol-induced chronic pancreatitis. A variety of analytical methods were used to comprehensively evaluate the causal relationship between ADs and various types of pancreatitis, with sensitivity analyses, including Cochran’s Q test and MR-Egger intercept test performed to verify the reliability of the results. Finally, a reverse MR analysis was performed to evaluate the possibility of reverse causation. Genetically predicted type 1 diabetes (OR = 1.032, 95% CI = 1.008-1.056, P = .0086) and ulcerative colitis (OR = 1.065, 95% CI = 1.012-1.121, P = .0151) were associated with an increased risk of AP. primary sclerosing cholangitis (OR = 1.080, 95% CI = 1.013-1.153, P = .0194) increased the risk of CP. Reverse MR analysis suggested a potential protective causal association between alcohol-induced acute pancreatitis and hashimoto’s thyroiditis (OR = 0.962, 95% CI = 0.936-0.989, P = .0056), although this finding should be regarded as suggestive because it did not remain statistically significant after Bonferroni correction. Sensitivity analysis did not detect horizontal pleiotropy or heterogeneity. Genetic evidence supports a causal link between type 1 diabetes, ulcerative colitis , and AP, as well as between primary sclerosing cholangitis and CP. This analysis provides new insights into ADs as risk factors for pancreatitis, but further experimental research is needed to explore the potential causal relationships between these factors.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Huang D, Li Y, Li Z, Chen C, Wang H, You H, Zhang J, Dai S, Wang G, Lu C</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1097/MD.0000000000050766" target="_blank">DOI: 10.1097/MD.0000000000050766</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42760723/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-</details>
-<hr>
-<details>
-<summary>
-<strong>Nutrition &amp; Lifestyle</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(3 papers)</span>
+<strong>Nutrition &amp; Lifestyle</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(2 papers)</span>
 </summary>
 <details>
 <summary>
@@ -2236,27 +2297,11 @@ Dietary behavior is associated with the course of several somatic and mental dis
 </p>
 </div>
 </details>
-<details>
-<summary>
-A therapeutic atlas of monogenic inflammatory bowel disease.<span style="background:#1565c0;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Systematic review</span><span style="color:#b8860b;font-size:0.8em;margin-left:4px;" title="High-impact IBD/GI journal">★</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of Crohn’s &amp; colitis &nbsp;|&nbsp; 2026-09</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Evidence-based, mechanism-guided therapies are urgently needed for treating monogenic inflammatory bowel disease (mIBD). For such rare diseases, mechanistic insight is essential to guide treatment when conventional clinical trials are often not feasible. We aimed to summarize literature-based evidence and to identify knowledge gaps. We conducted a systematic review of published manuscripts evaluating the therapeutic efficacy in mIBD. We quantified and compared the global therapeutic response score across treatments and conditions. In a subset of conditions, biomarkers of longitudinal therapeutic response were evaluated in comparison to non-monogenic pediatric IBD cohorts. Responses to 35 therapeutics across the 102 known genetic causes of mIBD were evaluated in 241 articles and 669 patients, summarizing 302 gene-drug responses. The efficacy of at least one pharmacological intervention was identified in 61% (n = 62/102) of the mIBD conditions, highlighting a major unmet need for effective medications in many others. Gene- and pathway-specific responses were demonstrated for several therapies, including allogeneic hematopoietic stem cell transplantation, gene therapy, and advanced therapies such as anti-TNF agents, IL-1 inhibitors, mTOR inhibitors, as well as eculizumab in CD55 deficiency, abatacept in CTLA4 deficiency, and the immunometabolic agent empagliflozin in glycogen storage disease type 1b. This study highlights the potential of precision medicine approaches tailored to genetic and pathway-specific mechanisms, while underscoring the urgent need for effective therapies in many monogenic conditions that remain without established treatment options.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Yeh PJ, Charlesworth JEG, Taylor H, Ashton JJ, Nash K, Lam KH, de Ridder L, Vuijk SA, Ye Z, Huang Y</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1093/ecco-jcc/jjag124" target="_blank">DOI: 10.1093/ecco-jcc/jjag124</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42731022/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
 </details>
 <hr>
 <details>
 <summary>
-<strong>Quality of Life &amp; PROs</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(3 papers)</span>
+<strong>Quality of Life &amp; PROs</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(2 papers)</span>
 </summary>
 <details>
 <summary>
@@ -2290,27 +2335,11 @@ Adherent-invasive Escherichia coli (AIEC) are strongly implicated in the pathoge
 </p>
 </div>
 </details>
-<details>
-<summary>
-Optimizing Endoscopic Assessment of Postoperative Crohn’s Disease: A Scoping Review.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society &nbsp;|&nbsp; 2026-09</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Postoperative endoscopic recurrence after ileocecal resection in Crohn’s disease (CD) occurs frequently and typically precedes clinical and surgical relapse. Endoscopic scoring systems are central to postoperative management, yet their optimal use remains debated. The aim was to provide a summary and critical appraisal of established and novel endoscopic scoring systems used for recurrence in adult CD. A scoping review was conducted based on a systematic search in PubMed, EMBASE, and the Cochrane Library databases. Following qualitative synthesis, narrative reviews and studies involving pediatric or animal populations were excluded. Remaining evidence was integrated and critically appraised. The interpretation of findings was further refined through expert discussion within the IMPACT consortium. The Rutgeerts score (RS) remains the most widely used index in clinical studies, but shows important limitations, including moderate interobserver reproducibility, limited differentiation between anastomotic and ileal lesions, and reduced applicability to modern anastomotic configurations. Modified and updated RS variants, as well as newer indices, emphasize lesion location and postoperative anatomy, and may improve prognostic stratification in selected cohorts. The choice of postoperative endoscopic index and the threshold used to define recurrence has major clinical implications. Heterogeneity in anatomic lesions considered, cutoffs for adapting treatments, and reproducibility limit the universal adoption of any single index. Endoscopic indices remain essential for classification and standardization for postoperative disease recurrence in CD but should be interpreted together with their current level of validation. These findings highlight the need for further validation, harmonization of definitions, and refinement of postoperative endoscopic evaluation.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Bosch SG, Bak MTJ, Lee SH, Van Ruler O, Maggiori L, Burisch J, Seidelin JB, Ye BD, Park SH, Silverberg MS</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1111/den.70286" target="_blank">DOI: 10.1111/den.70286</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42732919/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
 </details>
 <hr>
 <details>
 <summary>
-<strong>Guidelines &amp; Consensus</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(2 papers)</span>
+<strong>Guidelines &amp; Consensus</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(1 papers)</span>
 </summary>
 <details>
 <summary>
@@ -2325,22 +2354,6 @@ Malnutrition is common in inflammatory bowel disease (IBD) and worsens the clini
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
 <a href="https://doi.org/10.1016/j.gastrohep.2026.502854" target="_blank">DOI: 10.1016/j.gastrohep.2026.502854</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42759649/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-<details>
-<summary>
-Disease progression in hidradenitis suppurativa: A multidimensional framework.<span style="background:#666;color:#fff;font-size:0.72em;font-weight:600;padding:1px 6px;border-radius:3px;margin-left:4px;">Review</span> <span style="color:#666;font-size:0.85em;font-weight:normal;"> Journal of the European Academy of Dermatology and Venereology : JEADV &nbsp;|&nbsp; 2026-09-13</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Hidradenitis suppurativa (HS) is increasingly recognized as a progressive inflammatory disease in which recurrent follicular inflammation, tunnel formation and systemic inflammation drive cumulative, largely irreversible tissue damage, quality-of-life impairment and cardiometabolic comorbidity. Despite this, no consensus definition of disease progression exists. This review synthesizes current evidence to propose a working, multidimensional framework for progression in HS and to map its determinants, detection tools and consequences. We frame progression along six complementary dimensions grouped in three blocks-objective severity (Hurley transition, International Hidradenitis Suppurativa Severity Score System [IHS4] category shift), anatomical extension (extra- and intraregional spread) and cumulative disease burden (secondary complications and patient-reported impact)-aligned with current European guidelines for therapeutic escalation. Available longitudinal data show that incidence and speed of progression depend strongly on care setting and assessment method, with tertiary cohorts assessed clinically and by ultrasound reporting incidences of approximately 37% over ~2 years and self-reported community cohorts substantially lower. Independent risk factors cluster into demographic-familial, phenotypic-anatomical, lifestyle-metabolic, laboratory and comorbidity domains, with early-onset disease, smoking, inflammatory bowel disease, Down syndrome and pilonidal sinus as the most consistent signals. Phenotype frameworks converge on a higher-risk profile of male, smoker patients with severe acne and lower-body involvement. Genotype shapes phenotype, with γ-secretase/Notch variants driving an occlusion-dominant course and inflammasome variants (PASH, PAPASH, PAPA, SAPHO) a more systemic one; heritability approaches 77%. Ultrasound refines staging, detects subclinical microtunnels and identifies the inflamed non-draining tunnel that defines a within-lesion window of opportunity. Progression has tangible cutaneous, psychosocial, systemic, metabolic and cardiovascular consequences, making early recognition a clinical imperative; disease modification within a limited therapeutic window remains a plausible and testable paradigm rather than a demonstrated fact. WHAT IS THE PROBLEM?: Hidradenitis suppurativa (HS) is a chronic skin disease characterized by recurrent painful nodules, abscesses and draining tunnels in skin folds. Many patients become progressively worse over time, accumulating scars, complications and a substantial impact on quality of life. WHAT DID WE WANT TO KNOW?: How disease progression in HS can be defined and measured, how often it occurs, which patients are at higher risk, and how it can be detected early so that treatment can begin within a ‘window of opportunity’. HOW WAS THE QUESTION ANSWERED?: We reviewed the current published evidence on the natural history, risk factors, phenotypes, genotypes, imaging findings and consequences of HS progression. WHAT DID THE AUTHORS FIND?: HS progression can be tracked across six dimensions covering objective severity, spread to new body areas and the cumulative disease burden it leaves behind. About one in three patients treated in specialist clinics progresses within 2 years; early‐onset disease, smoking, inflammatory bowel disease, Down syndrome and particular genetic variants identify higher‐risk patients. Ultrasound complements clinical examination and can detect early tunnels. WHAT DOES THIS MEAN?: Patients with HS should be reviewed regularly, including ultrasound when feasible, so that progression—and patients at risk of progression—can be detected early, and effective therapies started before irreversible damage occurs. WHY IS THIS IMPORTANT?: Acting within the therapeutic window of opportunity may modify the long‐term course of HS and reduce its physical, psychological and social impact.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Molina-Leyva A, Benhadou F, Sali E, George A, Kurokawa I, van der Zee HH, Bettoli V</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1111/jdv.70717" target="_blank">DOI: 10.1111/jdv.70717</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42732549/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
@@ -2363,28 +2376,6 @@ Over the past two decades, the small bowel, once considered a diagnostic “blin
 </p>
 <p style="margin:0.5em 0 0 0;font-size:0.9em;">
 <a href="https://doi.org/10.3904/kjim.2025.402" target="_blank">DOI: 10.3904/kjim.2025.402</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42754516/" target="_blank">View on PubMed →</a>
-</p>
-</div>
-</details>
-</details>
-<hr>
-<details>
-<summary>
-<strong>Pregnancy &amp; Reproductive Health</strong> &nbsp;<span style="color:#8C1515;font-weight:600;">(1 papers)</span>
-</summary>
-<details>
-<summary>
-Combination interleukin-23p19 inhibitor and Janus kinase inhibitor rescue for steroid-refractory acute severe ulcerative colitis in pregnancy complicated by primary sclerosing cholangitis. <span style="color:#666;font-size:0.85em;font-weight:normal;"> Gastroenterology report &nbsp;|&nbsp; 2026-09-11</span>
-</summary>
-<div style="padding:0.6em 0.8em;background:#fdf8f8;border-left:3px solid #8C1515;margin:0.4em 0;">
-<p style="margin:0 0 0.5em 0;color:#444;">
-Abstract not available.
-</p>
-<p style="margin:0;font-size:0.85em;color:#666;">
-<em>Quraishi MN, Omar N, Taha H, AlShamshi S, Fadda M, Koutoubi Z</em>
-</p>
-<p style="margin:0.5em 0 0 0;font-size:0.9em;">
-<a href="https://doi.org/10.1093/gastro/goag095" target="_blank">DOI: 10.1093/gastro/goag095</a> &nbsp;|&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/42730189/" target="_blank">View on PubMed →</a>
 </p>
 </div>
 </details>
