@@ -5,41 +5,55 @@
     <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
     <description>IBD literature monitoring: AI &amp; Machine Learning</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 07:00:00 GMT</lastBuildDate>
 
+<item>
+  <title><![CDATA[Compliance-by-Design in an AI-Enabled Platform for Early Crohn Disease Interception: A Viewpoint.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/43002734/</link>
+  <description><![CDATA[Journal of medical Internet research - AI-enabled digital medicine platforms in Europe are developed within overlapping rules for personal data, medical devices, AI, clinical research, health data access, and health technology assessmen...]]></description>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
+<item>
+  <title><![CDATA[Interpretable machine learning applied to high-dimensional salivary proteomics in pediatric inflammatory bowel diseases.]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/43002066/</link>
+  <description><![CDATA[Inflammatory bowel diseases - Inflammatory bowel diseases (IBDs), including Crohn's disease (CD), ulcerative colitis (UC), and inflammatory bowel disease unclassified (IBD-U), are chronic inflammatory disorders of the gastroint...]]></description>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
+  <category>AI &amp; Machine Learning</category>
+</item>
 <item>
   <title><![CDATA[The application of an artificial intelligence-enhanced virtual reality cognitive behavioral therapy tool is feasible and acceptable in patients with inflammatory bowel disease: A multicenter mixed methods pilot study.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42987399/</link>
   <description><![CDATA[Inflammatory bowel diseases - Patients with inflammatory bowel disease (IBD) frequently experience anxiety, pain, and reduced quality of life. Cognitive behavioral therapy (CBT) is effective for anxiety, but access may be limit...]]></description>
-  <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[A mucosal barrier injury related six gene transcriptomic signature associated with ulcerative colitis using machine learning and public transcriptomic data.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42970534/</link>
   <description><![CDATA[PloS one - Ulcerative colitis (UC) is characterized by epithelial barrier disruption, mucosal immune activation, and sustained intestinal inflammation. We developed a biologically interpretable public-transcr...]]></description>
-  <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Authentic Sources, Potentially Unsafe Conclusions: Evidence Traceability Does Not Ensure Clinical Reliability in Retrieval-Augmented Generation for Perioperative IBD.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42992190/</link>
   <description><![CDATA[Journal of multidisciplinary healthcare - Retrieval-augmented generation (RAG) is increasingly used to reduce hallucination in medical large language models (LLMs), but authentic retrieval does not necessarily ensure clinically correct out...]]></description>
-  <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Targeting the IL-23-IL-23R Interface with Small Molecules: Challenges, Opportunities, and Emerging Strategies.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42983938/</link>
   <description><![CDATA[Mini reviews in medicinal chemistry - Interleukin-23 (IL-23) is a validated therapeutic driver in psoriasis and inflammatory bowel disease, and selective IL-23p19 antibodies have established a high efficacy benchmark for pathway inhibi...]]></description>
-  <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 <item>
   <title><![CDATA[Dual context attentive feature network: an interpretable dual-pathway deep learning framework for accurate gastrointestinal endoscopic image classification.]]></title>
   <link>https://pubmed.ncbi.nlm.nih.gov/42997936/</link>
   <description><![CDATA[Quantitative imaging in medicine and surgery - Gastrointestinal (GI) diseases such as colorectal cancer and inflammatory bowel disease (IBD) contribute substantially to global morbidity, with colorectal cancer accounting for nearly 10% of all c...]]></description>
-  <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
   <category>AI &amp; Machine Learning</category>
 </item>
 
