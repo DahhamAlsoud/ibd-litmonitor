@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>IBD LitMonitor - Intestinal Ultrasound (IUS)</title>
+    <link>https://dahhamalsoud.github.io/ibd-litmonitor</link>
+    <description>IBD literature monitoring: Intestinal Ultrasound (IUS)</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Nov 2026 07:00:00 GMT</lastBuildDate>
+
+<item>
+  <title><![CDATA[The role of Akkermansia muciniphila in human disease: a friend or a foe?]]></title>
+  <link>https://pubmed.ncbi.nlm.nih.gov/43031890/</link>
+  <description><![CDATA[Frontiers in microbiology - Review - Akkermansia muciniphila (A. muciniphila) was isolated and identified about two decades ago. It has drawn great attention due to its close association with diseases, such as obesity, diabetes, infla...]]></description>
+  <pubDate>Sun, 15 Nov 2026 07:00:00 GMT</pubDate>
+  <category>Intestinal Ultrasound (IUS)</category>
+</item>
+
+  </channel>
+</rss>
